@@ -1,0 +1,15 @@
+<nav class="navbar navbar-light bg-faded">
+  <ul class="nav navbar-nav">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+        <li class="nav-item dropdown">
+        </li>
+      {{ else }}
+        <li class="nav-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{end}}">
+          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>

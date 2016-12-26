@@ -1,3 +1,8 @@
++++
+title = "Accueil"
+menu = "main"
++++
+
 L'*Association des Étudiants du Département d'Informatique et de Recherche Opérationnelle de l'Université de Montréal* (**AÉDIROUM**) a été formée par la fusion de deux anciennes associations étudiantes, en 2009:
 
 * L'*Association des Étudiants en Informatique et Recherche Opérationnelle de l'Université de Montréal* (**AÉIROUM**), qui représentait le premier cycle.
