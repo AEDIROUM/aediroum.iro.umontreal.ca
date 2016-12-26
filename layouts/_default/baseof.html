@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
-    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
   </head>
   <body>
     {{ partial "header.html" . }}
@@ -11,5 +11,8 @@
     {{ block "main" . }}{{ end }}
 
     {{ partial "footer.html" . }}
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
