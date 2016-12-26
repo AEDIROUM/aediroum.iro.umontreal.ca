@@ -1,7 +1,9 @@
+{{ define "title" }}
+  {{ .Title }} d'administration - {{ .Site.Title }}
+{{ end }}
+
 {{ define "main" }}
   <main class="container">
-    <h2>Membres du conseil d'administration de l'AÉDIROUM</h2>
-
     <ul class="nav nav-tabs" role="tablist">
       {{ range $index, $element := first 5 .Data.Pages.ByTitle.Reverse }}
         <li class="nav-item">

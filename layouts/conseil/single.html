@@ -1,3 +1,7 @@
+{{ define "title" }}
+  {{ humanize .Type }} d'administration : {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+
 {{ define "main" }}
   <main class="container">
     <h2>Membres du conseil d'administration de l'AÉDIROUM ({{ .Title }})</h2>

@@ -2,5 +2,5 @@ title = "AÉDIROUM"
 baseurl = "http://aediroum.iro.umontreal.ca"
 
 [[menu.main]]
-    name = "Conseil d'administration"
+    name = "Conseils d'administration"
     url = "/conseil/"
