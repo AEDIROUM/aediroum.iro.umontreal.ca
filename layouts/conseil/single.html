@@ -3,14 +3,9 @@
 {{ end }}
 
 {{ define "main" }}
-  <main class="container">
-    <h2>Membres du conseil d'administration de l'AÉDIROUM ({{ .Title }})</h2>
+  <h2>Membres du conseil d'administration de l'AÉDIROUM ({{ .Title }})</h2>
 
-    <div class="table-responsive">
-      {{ .Content }}
-    </div>
-  </main>
-
-  <script src="/js/jquery.js"></script>
-  <script src="/js/conseil.js"></script>
+  <div class="table-responsive">
+    {{ .Content }}
+  </div>
 {{ end }}

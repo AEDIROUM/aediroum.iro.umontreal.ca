@@ -2,15 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
     <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+
     <link rel="icon" href="/img/logo.svg" />
     <link rel="stylesheet" href="/css/bootstrap.css" />
   </head>
   <body>
-    {{ partial "header.html" . }}
+    <header class="container">
+      {{ partial "header.html" . }}
+    </header>
 
-    {{ block "main" . }}{{ end }}
+    <main class="container">
+      {{ block "main" . }}{{ end }}
+    </main>
 
-    {{ partial "footer.html" . }}
+    <footer class="container">
+      {{ partial "footer.html" . }}
+    </footer>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>

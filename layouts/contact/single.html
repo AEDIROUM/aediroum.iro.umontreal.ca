@@ -1,121 +1,119 @@
 {{ define "main" }}
-  <main class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <h3>Formulaire de contact</h3>
-        <form action="https://formspree.io/aediroum@iro.umontreal.ca" method="POST">
-          <div class="form-group row">
-            <label for="first-name" class="col-xs-2 col-form-label">Prénom</label>
-            <div class="col-xs-4">
-              <input class="form-control" type="text" id="first-name" name="first-name" />
-            </div>
-
-            <label for="last-name" class="col-xs-2 col-form-label">Nom</label>
-            <div class="col-xs-4">
-              <input class="form-control" type="text" id="last-name" name="last-name" />
-            </div>
+  <div class="row">
+    <div class="col-md-8">
+      <h3>Formulaire de contact</h3>
+      <form action="https://formspree.io/aediroum@iro.umontreal.ca" method="POST">
+        <div class="form-group row">
+          <label for="first-name" class="col-xs-2 col-form-label">Prénom</label>
+          <div class="col-xs-4">
+            <input class="form-control" type="text" id="first-name" name="first-name" />
           </div>
 
-          <div class="form-group row">
-            <label for="email" class="col-xs-2 col-form-label">Courriel</label>
-            <div class="col-xs-6">
-              <input class="form-control" type="email" id="email" name="email" />
-            </div>
+          <label for="last-name" class="col-xs-2 col-form-label">Nom</label>
+          <div class="col-xs-4">
+            <input class="form-control" type="text" id="last-name" name="last-name" />
           </div>
+        </div>
 
-          <div class="form-group row">
-            <label for="subject" class="col-xs-2 col-form-label">Sujet</label>
-            <div class="col-xs-6">
-              <input class="form-control" type="text" id="subject" name="_subject" />
-            </div>
+        <div class="form-group row">
+          <label for="email" class="col-xs-2 col-form-label">Courriel</label>
+          <div class="col-xs-6">
+            <input class="form-control" type="email" id="email" name="email" />
           </div>
+        </div>
 
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+        <div class="form-group row">
+          <label for="subject" class="col-xs-2 col-form-label">Sujet</label>
+          <div class="col-xs-6">
+            <input class="form-control" type="text" id="subject" name="_subject" />
           </div>
+        </div>
 
-          <button type="submit" class="btn btn-primary">Envoyer</button>
-        </form>
-      </div>
-      <div class="col-md-4">
-        <h3 class="card-title">Autres façons</h3>
-        <p>Il est possible de nous contacter de plusieurs autres façon:</p>
-        <button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#modalPerson">En personne</button>
-        <button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#modalEmail">Par courriel</button>
-        <button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#modalFacebook">Sur Facebook</button>
-      </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
     </div>
-    <div class="modal" id="modalPerson" tabindex="-1" role="dialog" aria-labelledby="modalPersonLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <h4 class="modal-title" id="modalPersonLabel">Nous contacter en personne</h4>
-          </div>
-          <div class="modal-body">
-            <p>Vous pouvez vous rendre directement au local <b>3190</b> du pavillon André-Ainsenstadt.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2796.424005277161!2d-73.61872824736022!3d45.50154260368517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc919f308df50f9%3A0x1c5cdca60001c62e!2sUniversit%C3%A9+de+Montr%C3%A9al+-+Pavillon+Andr%C3%A9-Aisenstadt!5e0!3m2!1sen!2sus!4v1482804954194" width="100%" height="480px" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-          </div>
+
+    <div class="col-md-4">
+      <h3 class="card-title">Autres façons</h3>
+      <p>Il est possible de nous contacter de plusieurs autres façon:</p>
+      <button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#modalPerson">En personne</button>
+      <button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#modalEmail">Par courriel</button>
+      <button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#modalFacebook">Sur Facebook</button>
+    </div>
+  </div>
+
+  <div class="modal" id="modalPerson" tabindex="-1" role="dialog" aria-labelledby="modalPersonLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="modalPersonLabel">Nous contacter en personne</h4>
+        </div>
+        <div class="modal-body">
+          <p>Vous pouvez vous rendre directement au local <b>3190</b> du pavillon André-Ainsenstadt.</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2796.424005277161!2d-73.61872824736022!3d45.50154260368517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc919f308df50f9%3A0x1c5cdca60001c62e!2sUniversit%C3%A9+de+Montr%C3%A9al+-+Pavillon+Andr%C3%A9-Aisenstadt!5e0!3m2!1sen!2sus!4v1482804954194" width="100%" height="480px" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
-    <div class="modal" id="modalEmail" tabindex="-1" role="dialog" aria-labelledby="modalEmailLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <h4 class="modal-title" id="modalEmailLabel">Nous contacter par courriel</h4>
-          </div>
-          <div class="modal-body">
-            <p>Vous pouvez directement écrire au conseil exécutif par courriel à l'adresse suivante:</p>
-            <div class="text-xs-center">
-              <a href="mailto:aediroum@iro.umontreal.ca" class="btn btn-link btn-lg" role="button">aediroum@iro.umontreal.ca</a>
-            </div>
-            <p>Si vous nous écrivez, s'il vous plaît:</p>
-            <ul>
-              <li>N'envoyez pas de <a href="https://www.rfc1149.net/documents/pourquoi-pas-word.html">pièces jointes au format Word</a>, nous préférons fortement les formats dont la spécification est accessible à tous, tels que PDF et ODF</li>
-              <li>Dans la mesure du possible, écrivez le corps de votre message en «texte simple» (<i>plain text</i>), plutôt qu'en HTML</li>
-            </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal" id="modalFacebook" tabindex="-1" role="dialog" aria-labelledby="modalFacebookLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <h4 class="modal-title" id="modalFacebookLabel">Nous contacter sur Facebook</h4>
-          </div>
-          <div class="modal-body">
-            <p>Pour discuter avec les membres et obtenir plus de détails sur les différents événements de l'AÉDIROUM:</p>
-            <div class="text-xs-center">
-              <a href="https://fb.com/groups/2354091571" class="btn btn-link btn-lg" role="button">Groupe</a>
-              <a href="https://fb.com/aediroum" class="btn btn-link btn-lg" role="button">Page</a>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+  </div>
 
-  <script src="/js/jquery.js"></script>
-  <script src="/js/tether.js"></script>
-  <script src="/js/bootstrap.js"></script>
+  <div class="modal" id="modalEmail" tabindex="-1" role="dialog" aria-labelledby="modalEmailLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="modalEmailLabel">Nous contacter par courriel</h4>
+        </div>
+        <div class="modal-body">
+          <p>Vous pouvez directement écrire au conseil exécutif par courriel à l'adresse suivante:</p>
+          <div class="text-xs-center">
+            <a href="mailto:aediroum@iro.umontreal.ca" class="btn btn-link btn-lg" role="button">aediroum@iro.umontreal.ca</a>
+          </div>
+          <p>Si vous nous écrivez, s'il vous plaît:</p>
+          <ul>
+            <li>N'envoyez pas de <a href="https://www.rfc1149.net/documents/pourquoi-pas-word.html">pièces jointes au format Word</a>, nous préférons fortement les formats dont la spécification est accessible à tous, tels que PDF et ODF</li>
+            <li>Dans la mesure du possible, écrivez le corps de votre message en «texte simple» (<i>plain text</i>), plutôt qu'en HTML</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modalFacebook" tabindex="-1" role="dialog" aria-labelledby="modalFacebookLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="modalFacebookLabel">Nous contacter sur Facebook</h4>
+        </div>
+        <div class="modal-body">
+          <p>Pour discuter avec les membres et obtenir plus de détails sur les différents événements de l'AÉDIROUM:</p>
+          <div class="text-xs-center">
+            <a href="https://fb.com/groups/2354091571" class="btn btn-link btn-lg" role="button">Groupe</a>
+            <a href="https://fb.com/aediroum" class="btn btn-link btn-lg" role="button">Page</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
 {{ end }}
