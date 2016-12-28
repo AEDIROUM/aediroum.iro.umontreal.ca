@@ -1,6 +1,3 @@
 title = "AÉDIROUM"
 baseurl = "http://aediroum.iro.umontreal.ca"
-
-[[menu.main]]
-    name = "Conseils d'administration"
-    url = "/conseil/"
+DefaultContentLanguage = "fr"
