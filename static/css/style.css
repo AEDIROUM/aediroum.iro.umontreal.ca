@@ -1,0 +1,9 @@
+header img {
+    max-height: 200px;
+    padding: 1em 0;
+}
+
+footer img {
+    max-width: 256px !important;
+    padding: 0 1em;
+}
