@@ -1,0 +1,32 @@
+{{ define "title" }}
+  {{ .Title }} d'administration - {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+  <ul class="nav nav-tabs" role="tablist">
+    {{ range $index, $conseil := sort .Site.Data.conseils "année" "desc" }}
+      <li class="nav-item">
+        <a class="nav-link{{ if eq $index 0 }} active{{ end }}" data-toggle="tab" href="#{{ .année }}" role="tab">{{ .année }}</a>
+      </li>
+    {{ end }}
+  </ul>
+
+  <div class="tab-content">
+    {{ range $index, $conseil := sort .Site.Data.conseils "année" "desc" }}
+      <div class="tab-pane fade{{ if eq $index 0 }} in active{{ end }}" id="{{ .année }}" role="tabpanel">
+        <div class="table-responsive">
+          <table class="table table-stripped">
+            <tbody>
+              {{ range $poste, $membre := .membres }}
+                <tr>
+                  <th scope="row">{{ $poste }}</th>
+                  <td>{{ .nom }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

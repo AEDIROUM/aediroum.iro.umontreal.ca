@@ -3,13 +3,11 @@
 {{ end }}
 
 {{ define "main" }}
-  <main class="container">
-    <div class="col-xs-8">
-      {{ range where .Pages "Title" "Accueil" }}
-        {{ .Content }}
-      {{ end }}
-    </div>
-    <div class="col-xs-4">
-    </div>
-  </main>
+  <div class="col-xs-8">
+    {{ range where .Pages "Title" "Accueil" }}
+      {{ .Content }}
+    {{ end }}
+  </div>
+  <div class="col-xs-4">
+  </div>
 {{ end }}
