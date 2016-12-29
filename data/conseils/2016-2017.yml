@@ -43,3 +43,20 @@ membres:
   Représentant doctorat:
     id: miloszro
     nom: Robin Milosz
+  Responsables soirées et party:
+    - id: kkk
+      nom: André Lalonde
+    - id: kkk
+      nom: Yan Coutu
+  Responsable sport:
+    id: kkk
+    nom: Pierre El Mqirmi
+  Responsable compétition:
+    id: kkk
+    nom: David Boivin
+  Null pointer exception:
+    id: kkk
+    nom: Étienne Boucher
+  Responsable MiDiro:
+    id:
+    nom:
