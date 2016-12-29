@@ -2,36 +2,46 @@
   <div class="row">
     <div class="col-md-8">
       <h3>Formulaire de contact</h3>
-      <form action="https://formspree.io/aediroum@iro.umontreal.ca" method="POST">
+      <div class="alert alert-info" role="alert" style="display: none;">
+        <p>Votre message est en cours d'être envoyé.</p>
+      </div>
+      <div class="alert alert-success" role="alert" style="display: none;">
+        <p>Votre message a été envoyé avec succès.</p>
+      </div>
+      <div class="alert alert-danger" role="alert" style="display: none;">
+        <p>Votre message n'a pas pu être envoyé.</p>
+      </div>
+
+      <form id="contact-form">
         <div class="form-group row">
           <label for="first-name" class="col-xs-2 col-form-label">Prénom</label>
           <div class="col-xs-4">
-            <input class="form-control" type="text" id="first-name" name="first-name" />
+            <input class="form-control" type="text" id="first-name" name="first-name" required placeholder="Prénom" />
           </div>
 
           <label for="last-name" class="col-xs-2 col-form-label">Nom</label>
           <div class="col-xs-4">
-            <input class="form-control" type="text" id="last-name" name="last-name" />
+            <input class="form-control" type="text" id="last-name" name="last-name" required placeholder="Nom" />
           </div>
         </div>
 
         <div class="form-group row">
           <label for="email" class="col-xs-2 col-form-label">Courriel</label>
           <div class="col-xs-6">
-            <input class="form-control" type="email" id="email" name="email" />
+            <input class="form-control" type="email" id="email" name="email" required placeholder="Courriel" />
           </div>
         </div>
 
         <div class="form-group row">
           <label for="subject" class="col-xs-2 col-form-label">Sujet</label>
           <div class="col-xs-6">
-            <input class="form-control" type="text" id="subject" name="_subject" />
+            <input class="form-control" type="text" id="subject" name="_subject" required placeholder="Sujet" />
           </div>
         </div>
 
         <div class="form-group">
           <label for="message">Message</label>
-          <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+          <textarea class="form-control" id="message" name="message" required rows="5" placeholder="Message"></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary">Envoyer</button>
