@@ -1,0 +1,42 @@
+---
+année: 2011-2012
+membres:
+  Président:
+    id: lamontph
+    nom: Philippe Lamontagne
+  Vice-président interne:
+    id: blondimi
+    nom: Michael Blondin
+  Vice-président externe:
+    id: lavoiecs
+    nom: Sébastien Lavoie-Courchesne
+  Secrétaire:
+    id: barilrop
+    nom: Patrick Baril-Robichaud
+  Trésorière:
+    id: vandongp
+    nom: Dong Pivoine Van
+  Coordonateur à la vie étudiante:
+    id: blaislp
+    nom: Louis-Philippe Blais
+  Responsable du café Math-Info:
+    id: duryjean
+    nom: Jean-Cristoph Dury
+  Représentante première année:
+    id: drapeach
+    nom: Chantal Hélène Drapeau
+  Représentante deuxième année:
+    id: lykimsan
+    nom: Kim-Sang Ly
+  Représentante troisième année:
+    id: beauchcy
+    nom: Cynthia Beauchemin
+  Représentant maîtrise:
+    id: desjardm
+    nom: Marc-Antoine Desjardins
+  Représentant doctorat:
+    id: cadilhac
+    nom: Michaël Cadilhac
+  Représentant DESS:
+    id:
+    nom:
