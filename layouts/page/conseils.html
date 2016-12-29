@@ -16,7 +16,13 @@
               {{ range $poste, $membre := .membres }}
                 <tr>
                   <th scope="row">{{ $poste }}</th>
-                  <td>{{ .nom }}</td>
+                  <td>
+                    {{ if .id }}
+                      <a href="http://www-etud.iro.umontreal.ca/~{{ .id }}" target="_blank">{{ .nom }}</a>
+                    {{ else }}
+                      {{ .nom }}
+                    {{ end }}
+                  </td>
                 </tr>
               {{ end }}
             </tbody>

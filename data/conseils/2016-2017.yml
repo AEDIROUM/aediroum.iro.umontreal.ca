@@ -44,19 +44,19 @@ membres:
     id: miloszro
     nom: Robin Milosz
   Responsables soirées et party:
-    - id: kkk
-      nom: André Lalonde
-    - id: kkk
-      nom: Yan Coutu
+    id: lalondan
+    nom: André Lalonde
+    # id: coutuyan
+    # nom: Yan Coutu
   Responsable sport:
-    id: kkk
+    id: elmqirmp
     nom: Pierre El Mqirmi
   Responsable compétition:
-    id: kkk
+    id: boivinda
     nom: David Boivin
-  Null pointer exception:
-    id: kkk
-    nom: Étienne Boucher
   Responsable MiDiro:
     id:
     nom:
+  Null pointer exception:
+    id: boucheet
+    nom: Étienne Boucher
