@@ -2,4 +2,5 @@
 title: AÉDIROUM
 baseurl: http://aediroum.iro.umontreal.ca/
 defaultContentLanguage: fr
+theme: aediroum
 disableHugoGeneratorInject: true
