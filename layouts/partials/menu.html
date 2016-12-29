@@ -1,10 +1,13 @@
 <nav class="navbar navbar-light bg-faded">
-  <ul class="nav navbar-nav">
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-      <li class="nav-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{end}}">
-        <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-    {{ end }}
-  </ul>
+  <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Basculer la navigation"></button>
+  <div class="collapse navbar-toggleable-sm" id="mainMenu">
+    <ul class="nav navbar-nav">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+        <li class="nav-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{end}}">
+          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
 </nav>
