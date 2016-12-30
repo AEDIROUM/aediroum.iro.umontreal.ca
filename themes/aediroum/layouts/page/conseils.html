@@ -13,17 +13,19 @@
         <div class="table-responsive">
           <table class="table table-hover">
             <tbody>
-              {{ range $poste, $membre := .membres }}
-                <tr>
-                  <th scope="row">{{ $poste }}</th>
-                  <td>
-                    {{ if .id }}
-                      <a href="http://www-etud.iro.umontreal.ca/~{{ .id }}" target="_blank">{{ .nom }}</a>
-                    {{ else }}
-                      {{ .nom }}
-                    {{ end }}
-                  </td>
-                </tr>
+              {{ range $index, $membre := .membres }}
+                {{ range $poste, $infos := $membre }}
+                  <tr>
+                    <th scope="row">
+                      {{ $poste }}
+                    </th>
+                    <td>
+                      <a href="http://www-etud.iro.umontreal.ca/~{{ .id }}">
+                        {{ .nom }}
+                      </a>
+                    </td>
+                  </tr>
+                {{ end }}
               {{ end }}
             </tbody>
           </table>

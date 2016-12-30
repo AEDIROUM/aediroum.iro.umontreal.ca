@@ -1,48 +1,48 @@
 ---
 année: 2013-2014
 membres:
-  Président:
-    id: robichap
-    nom: Patrick Baril-Robichaud
-  Vice-président interne:
-    id: thibaulf
-    nom: François Thibault
-  Vice-président externe:
-    id: jacquesy
-    nom: Yannick Jacques
-  Secrétaire:
-    id: mironfre
-    nom: Frédéric Miron
-  Trésorier:
-    id: leonardn
-    nom: Nicholas Léonard
-  Coordonateur à la vie étudiante:
-    id: miloszro
-    nom: Robin Milosz
-  Responsable du café Math-Info:
-    id: olteanue
-    nom: Eduard Olteanu
-  Représentante première année:
-    id: prejesmo
-    nom: Olga Prejesmytskaia
-  Représentant deuxième année:
-    id: lavierth
-    nom: Thierry Lavier
-  Représentant troisième année:
-    id: bengioe
-    nom: Emmanuel Bengio
-  Représentant majeure:
-    id: lavierth
-    nom: Thierry Lavier
-  Représentant mathématiques et informatique:
-    id: gauthif
-    nom: Francis Gauthier
-  Représentant maîtrise:
-    id: milaened
-    nom: David Milaenen
-  Représentant doctorat:
-    id: jakubinl
-    nom: Laurent Jakubina
-  Représentant DESS:
-    id:
-    nom:
+  - Président:
+      id: robichap
+      nom: Patrick Baril-Robichaud
+  - Vice-président interne:
+      id: thibaulf
+      nom: François Thibault
+  - Vice-président externe:
+      id: jacquesy
+      nom: Yannick Jacques
+  - Secrétaire:
+      id: mironfre
+      nom: Frédéric Miron
+  - Trésorier:
+      id: leonardn
+      nom: Nicholas Léonard
+  - Coordonateur à la vie étudiante:
+      id: miloszro
+      nom: Robin Milosz
+  - Responsable du café Math-Info:
+      id: olteanue
+      nom: Eduard Olteanu
+  - Représentante première année:
+      id: prejesmo
+      nom: Olga Prejesmytskaia
+  - Représentant deuxième année:
+      id: lavierth
+      nom: Thierry Lavier
+  - Représentant troisième année:
+      id: bengioe
+      nom: Emmanuel Bengio
+  - Représentant majeure:
+      id: lavierth
+      nom: Thierry Lavier
+  - Représentant mathématiques et informatique:
+      id: gauthif
+      nom: Francis Gauthier
+  - Représentant maîtrise:
+      id: milaened
+      nom: David Milaenen
+  - Représentant doctorat:
+      id: jakubinl
+      nom: Laurent Jakubina
+  - Représentant DESS:
+      id:
+      nom:

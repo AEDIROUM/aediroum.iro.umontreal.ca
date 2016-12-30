@@ -1,62 +1,62 @@
 ---
 année: 2016-2017
 membres:
-  Présidente:
-    id: derykari
-    nom: Karine Déry
-  Vice-président interne:
-    id: dufoufra
-    nom: François Dufour
-  Vice-président externe:
-    id: lalondan
-    nom: André Lalonde
-  Secrétaire:
-    id: coutuyan
-    nom: Yan Coutu
-  Trésorier:
-    id: aymongvi
-    nom: Vincent Aymong
-  Coordonateur à la vie étudiante:
-    id: gauthif
-    nom: Francis Gauthier
-  Responsable du café Math-Info:
-    id:
-    nom: Vincent Dessales
-  Représentant première année:
-    id: qbaichab
-    nom: Abdelhakim Qbaich
-  Représentant deuxième année:
-    id: boivinda
-    nom: David Boivin
-  Représentante troisième année:
-    id: larocste
-    nom: Stéphanie Larocque
-  Représentant majeure:
-    id: dufoufra
-    nom: François Dufour
-  Représentante mathématiques et informatique:
-    id: gagnoali
-    nom: Alizée Gagnon
-  Représentant maîtrise:
-    id: desharnc
-    nom: Charles Desharnais
-  Représentant doctorat:
-    id: miloszro
-    nom: Robin Milosz
-  Responsables soirées et party:
-    id: lalondan
-    nom: André Lalonde
-    # id: coutuyan
-    # nom: Yan Coutu
-  Responsable sport:
-    id: elmqirmp
-    nom: Pierre El Mqirmi
-  Responsable compétition:
-    id: boivinda
-    nom: David Boivin
-  Responsable MiDiro:
-    id:
-    nom:
-  Null pointer exception:
-    id: boucheet
-    nom: Étienne Boucher
+  - Présidente:
+      id: derykari
+      nom: Karine Déry
+  - Vice-président interne:
+      id: dufoufra
+      nom: François Dufour
+  - Vice-président externe:
+      id: lalondan
+      nom: André Lalonde
+  - Secrétaire:
+      id: coutuyan
+      nom: Yan Coutu
+  - Trésorier:
+      id: aymongvi
+      nom: Vincent Aymong
+  - Coordonateur à la vie étudiante:
+      id: gauthif
+      nom: Francis Gauthier
+  - Responsable du café Math-Info:
+      id:
+      nom: Vincent Dessales
+  - Représentant première année:
+      id: qbaichab
+      nom: Abdelhakim Qbaich
+  - Représentant deuxième année:
+      id: boivinda
+      nom: David Boivin
+  - Représentante troisième année:
+      id: larocste
+      nom: Stéphanie Larocque
+  - Représentant majeure:
+      id: dufoufra
+      nom: François Dufour
+  - Représentante mathématiques et informatique:
+      id: gagnoali
+      nom: Alizée Gagnon
+  - Représentant maîtrise:
+      id: desharnc
+      nom: Charles Desharnais
+  - Représentant doctorat:
+      id: miloszro
+      nom: Robin Milosz
+  - Responsables soirées et party:
+      id: lalondan
+      nom: André Lalonde
+      # id: coutuyan
+      # nom: Yan Coutu
+  - Responsable sport:
+      id: elmqirmp
+      nom: Pierre El Mqirmi
+  - Responsable compétition:
+      id: boivinda
+      nom: David Boivin
+  - Responsable MiDiro:
+      id:
+      nom:
+  - Null pointer exception:
+      id: boucheet
+      nom: Étienne Boucher
