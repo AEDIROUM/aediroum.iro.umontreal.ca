@@ -1,5 +1,6 @@
 +++
 title = "Conseils d'administration"
-menu = "main"
 layout = "conseils"
+menu = "main"
+weight = 1
 +++

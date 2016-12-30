@@ -1,5 +1,6 @@
 +++
 title = "Nouvelles"
-menu = "main"
 layout = "nouvelles"
+menu = "main"
+weight = 2
 +++

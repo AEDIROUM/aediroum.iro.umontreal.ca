@@ -1,0 +1,14 @@
+---
+evenements:
+  - nom: 5 à 7
+    description: "Aux 2 ou 3 semaines, party avec alcool et pizza pas cher au Café Math-Info."
+  - nom: Lait et Biscuits des premiers cycles
+    description: "Chaque semaine, le mercredi à 14h15 au local de l'association."
+  - nom: Beignes et café des cycles supérieurs
+    description: "Chaque semaine, le mercredi à 14h au salon Maurice-Labbé (6ème étage)."
+  - nom: Vins et Fromages des cycles supérieurs
+    description: "Une fois par session d'automne et d'hiver, souper vins et fromages de 3 services."
+  - nom: Cabane à sucre
+    description: "Une fois par année, dans les environs du mois d'avril."
+  - nom: Conférences MiDiro
+    description: "Environ une fois par mois, un midi."

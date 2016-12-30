@@ -1,5 +1,6 @@
 +++
 title = "Liens"
-menu = "main"
 layout = "liens"
+menu = "main"
+weight = 5
 +++

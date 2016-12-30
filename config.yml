@@ -5,3 +5,5 @@ defaultContentLanguage: fr
 theme: aediroum
 enableRobotsTXT: true
 disableHugoGeneratorInject: true
+blackfriday:
+  angledQuotes: true
