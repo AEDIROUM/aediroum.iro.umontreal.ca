@@ -3,6 +3,10 @@ header img {
     padding: 1em 0;
 }
 
+.lien img {
+    max-height: 128px;
+}
+
 footer img {
     max-width: 256px !important;
     padding: 0 1em;
