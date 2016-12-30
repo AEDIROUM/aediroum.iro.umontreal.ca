@@ -44,10 +44,10 @@ membres:
       id: miloszro
       nom: Robin Milosz
   - Responsables soirées et party:
-      id: lalondan
-      nom: André Lalonde
-      # id: coutuyan
-      # nom: Yan Coutu
+      - id: lalondan
+        nom: André Lalonde
+      - id: coutuyan
+        nom: Yan Coutu
   - Responsable sport:
       id: elmqirmp
       nom: Pierre El Mqirmi
