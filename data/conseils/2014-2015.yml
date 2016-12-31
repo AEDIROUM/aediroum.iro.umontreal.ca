@@ -1,48 +1,48 @@
 ---
 année: 2014-2015
-membres:
+conseil:
   - Président:
-      - id: jacquesy
-        nom: Yannick Jacques
+      - nom: Yannick Jacques
+        id: jacquesy
   - Vice-présidente interne:
-      - id: prejesmo
-        nom: Olga Prejesmytskaia
+      - nom: Olga Prejesmytskaia
+        id: prejesmo
   - Vice-président externe:
-      - id: lamiranf
-        nom: François Lamirande
+      - nom: François Lamirande
+        id: lamiranf
   - Secrétaire:
-      - id: hamoudan
-        nom: Nedra Hamouda
+      - nom: Nedra Hamouda
+        id: hamoudan
   - Trésorier:
-      - id: girardil
-        nom: Luc-Antoine Girardin
+      - nom: Luc-Antoine Girardin
+        id: girardil
   - Coordonateur à la vie étudiante:
-      - id: jakubinl
-        nom: Laurent Jakubina
+      - nom: Laurent Jakubina
+        id: jakubinl
   - Responsable du café Math-Info:
-      - id: sabydieg
-        nom: Diego Saby
+      - nom: Diego Saby
+        id: sabydieg
   - Représentant première année:
-      - id: fangxiny
-        nom: Xin Yi Fang
+      - nom: Xin Yi Fang
+        id: fangxiny
   - Représentant deuxième année:
-      - id: trottiee
-        nom: Émile Trottier
+      - nom: Émile Trottier
+        id: trottiee
   - Représentant troisième année:
-      - id: stlouial
-        nom: Alexandre St-Louis Fortier
+      - nom: Alexandre St-Louis Fortier
+        id: stlouial
   - Représentant majeure:
-      - id: alaoolat
-        nom: Alao Yazid
+      - nom: Alao Yazid
+        id: alaoolat
   - Représentant mathématiques et informatique:
-      - id: gauthif
-        nom: Francis Gauthier
+      - nom: Francis Gauthier
+        id: gauthif
   - Représentant maîtrise:
-      - id: milaened
-        nom: David Milaenen
+      - nom: David Milaenen
+        id: milaened
   - Représentant doctorat:
-      - id: benrhair
-        nom: Rania Benrhaiem
+      - nom: Rania Benrhaiem
+        id: benrhair
   - Représentant DESS:
-      - id:
-        nom:
+      - nom:
+        id:

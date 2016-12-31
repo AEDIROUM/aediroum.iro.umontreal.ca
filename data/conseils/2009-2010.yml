@@ -1,42 +1,42 @@
 ---
 année: 2009-2010
-membres:
+conseil:
   - Président:
-      - id: blondimi
-        nom: Michael Blondin
+      - nom: Michael Blondin
+        id: blondimi
   - Vice-président interne:
-      - id: lamontph
-        nom: Philippe Lamontagne
+      - nom: Philippe Lamontagne
+        id: lamontph
   - Vice-président externe:
-      - id: lavoiseb
-        nom: Sébastien Lavoie
+      - nom: Sébastien Lavoie
+        id: lavoiseb
   - Secrétaire:
-      - id: lavoiecs
-        nom: Sébastien Lavoie-Courchesne
+      - nom: Sébastien Lavoie-Courchesne
+        id: lavoiecs
   - Trésorier:
-      - id: vandoorj
-        nom: Jeremy van Doorn
+      - nom: Jeremy van Doorn
+        id: vandoorj
   - Coordonateur à la vie étudiante:
-      - id: saintjaf
-        nom: François Saint-Jacques
+      - nom: François Saint-Jacques
+        id: saintjaf
   - Responsable du café Math-Info:
-      - id: duryjean
-        nom: Jean-Cristoph Dury
+      - nom: Jean-Cristoph Dury
+        id: duryjean
   - Représentant première année:
-      - id: blaislp
-        nom: Louis-Philippe Blais
+      - nom: Louis-Philippe Blais
+        id: blaislp
   - Représentant deuxième année:
-      - id: lapomarc
-        nom: Marc-Élie Lapointe
+      - nom: Marc-Élie Lapointe
+        id: lapomarc
   - Représentant troisième année:
-      - id: barilrop
-        nom: Patrick Baril-Robichaud
+      - nom: Patrick Baril-Robichaud
+        id: barilrop
   - Représentant maîtrise:
-      - id: bergearn
-        nom: Arnaud Bergeron
+      - nom: Arnaud Bergeron
+        id: bergearn
   - Représentant doctorat:
-      - id: cadilhac
-        nom: Michaël Cadilhac
+      - nom: Michaël Cadilhac
+        id: cadilhac
   - Représentant DESS:
-      - id:
-        nom:
+      - nom:
+        id:

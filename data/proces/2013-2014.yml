@@ -1,19 +1,15 @@
 ---
 année: 2013-2014
-procès-verbaux:
-  - evenement: Assemblée générale
-    date: vendredi 28 mars 2014
-    adoption: vendredi 19 septembre 2014
-    lien: 
-  - evenement: Assemblée générale
-    date: vendredi 14 février 2014
-    adoption: vendredi 19 septembre 2014
-    lien: 
-  - evenement: Assemblée générale
-    date: mardi 26 novembre 2013
-    adoption: vendredi 14 février 2014
-    lien: 
-  - evenement: Assemblée générale
-    date: vendredi 20 septembre 2013
-    adoption: mardi 26 novembre 2013
-    lien: 
+procès:
+  - évènement: Assemblée générale
+    date: 2013-09-20
+    adoption: 2013-11-26
+  - évènement: Assemblée générale
+    date: 2013-11-26
+    adoption: 2014-02-14
+  - évènement: Assemblée générale
+    date: 2014-02-14
+    adoption: 2014-09-19
+  - évènement: Assemblée générale
+    date: 2014-03-28
+    adoption: 2014-09-19

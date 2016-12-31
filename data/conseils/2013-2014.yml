@@ -1,48 +1,48 @@
 ---
 année: 2013-2014
-membres:
+conseil:
   - Président:
-      - id: robichap
-        nom: Patrick Baril-Robichaud
+      - nom: Patrick Baril-Robichaud
+        id: robichap
   - Vice-président interne:
-      - id: thibaulf
-        nom: François Thibault
+      - nom: François Thibault
+        id: thibaulf
   - Vice-président externe:
-      - id: jacquesy
-        nom: Yannick Jacques
+      - nom: Yannick Jacques
+        id: jacquesy
   - Secrétaire:
-      - id: mironfre
-        nom: Frédéric Miron
+      - nom: Frédéric Miron
+        id: mironfre
   - Trésorier:
-      - id: leonardn
-        nom: Nicholas Léonard
+      - nom: Nicholas Léonard
+        id: leonardn
   - Coordonateur à la vie étudiante:
-      - id: miloszro
-        nom: Robin Milosz
+      - nom: Robin Milosz
+        id: miloszro
   - Responsable du café Math-Info:
-      - id: olteanue
-        nom: Eduard Olteanu
+      - nom: Eduard Olteanu
+        id: olteanue
   - Représentante première année:
-      - id: prejesmo
-        nom: Olga Prejesmytskaia
+      - nom: Olga Prejesmytskaia
+        id: prejesmo
   - Représentant deuxième année:
-      - id: lavierth
-        nom: Thierry Lavier
+      - nom: Thierry Lavier
+        id: lavierth
   - Représentant troisième année:
-      - id: bengioe
-        nom: Emmanuel Bengio
+      - nom: Emmanuel Bengio
+        id: bengioe
   - Représentant majeure:
-      - id: lavierth
-        nom: Thierry Lavier
+      - nom: Thierry Lavier
+        id: lavierth
   - Représentant mathématiques et informatique:
-      - id: gauthif
-        nom: Francis Gauthier
+      - nom: Francis Gauthier
+        id: gauthif
   - Représentant maîtrise:
-      - id: milaened
-        nom: David Milaenen
+      - nom: David Milaenen
+        id: milaened
   - Représentant doctorat:
-      - id: jakubinl
-        nom: Laurent Jakubina
+      - nom: Laurent Jakubina
+        id: jakubinl
   - Représentant DESS:
-      - id:
-        nom:
+      - nom:
+        id:

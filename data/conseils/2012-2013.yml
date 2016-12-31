@@ -1,42 +1,42 @@
 ---
 année: 2012-2013
-membres:
+conseil:
   - Président:
-      - id: lavoiecs
-        nom: Sébastien Lavoie-Courchesne
+      - nom: Sébastien Lavoie-Courchesne
+        id: lavoiecs
   - Vice-président interne:
-      - id: thibaulf
-        nom: François Thibault
+      - nom: François Thibault
+        id: thibaulf
   - Vice-président externe:
-      - id: barilrop
-        nom: Patrick Baril-Robichaud
+      - nom: Patrick Baril-Robichaud
+        id: barilrop
   - Secrétaire:
-      - id: drapeach
-        nom: Chantal Hélène Drapeau
+      - nom: Chantal Hélène Drapeau
+        id: drapeach
   - Trésorier:
-      - id: leonardn
-        nom: Nicholas Léonard
+      - nom: Nicholas Léonard
+        id: leonardn
   - Coordonateur à la vie étudiante:
-      - id: haidaral
-        nom: Ali Haidar
+      - nom: Ali Haidar
+        id: haidaral
   - Responsable du café Math-Info:
-      - id: duryjean
-        nom: Jean-Cristoph Dury
+      - nom: Jean-Cristoph Dury
+        id: duryjean
   - Représentant première année:
-      - id: hengjean
-        nom: Jean-Philippe Heng
+      - nom: Jean-Philippe Heng
+        id: hengjean
   - Représentant deuxième année:
-      - id: bengioe
-        nom: Emmanuel Bengio
+      - nom: Emmanuel Bengio
+        id: bengioe
   - Représentante troisième année:
-      - id: lykimsan
-        nom: Kim-Sang Ly
+      - nom: Kim-Sang Ly
+        id: lykimsan
   - Représentant maîtrise:
-      - id: guertijp
-        nom: Jean-Philippe Guertin
+      - nom: Jean-Philippe Guertin
+        id: guertijp
   - Représentant doctorat:
-      - id: jakubinl
-        nom: Laurent Jakubina
+      - nom: Laurent Jakubina
+        id: jakubinl
   - Représentant DESS:
-      - id:
-        nom:
+      - nom:
+        id:

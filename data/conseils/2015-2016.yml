@@ -1,48 +1,48 @@
 ---
 année: 2015-2016
-membres:
+conseil:
   - Président:
-      - id: stlouial
-        nom: Alexandre St-Louis Fortier
+      - nom: Alexandre St-Louis Fortier
+        id: stlouial
   - Vice-président interne:
-      - id: dufoufra
-        nom: François Dufour
+      - nom: François Dufour
+        id: dufoufra
   - Vice-président externe:
-      - id: poitrafr
-        nom: François Poitras
+      - nom: François Poitras
+        id: poitrafr
   - Secrétaire:
-      - id: coutuyan
-        nom: Yan Coutu
+      - nom: Yan Coutu
+        id: coutuyan
   - Trésorier:
-      - id: joliconi
-        nom: Nicolas Jolicoeur
+      - nom: Nicolas Jolicoeur
+        id: joliconi
   - Coordonateur à la vie étudiante:
-      - id: gauthif
-        nom: Francis Gauthier
+      - nom: Francis Gauthier
+        id: gauthif
   - Responsable du café Math-Info:
-      - id: antakivi
-        nom: Vincent Antaki
+      - nom: Vincent Antaki
+        id: antakivi
   - Représentante première année:
-      - id: pulgarco
-        nom: Corinne Pulgar
+      - nom: Corinne Pulgar
+        id: pulgarco
   - Représentante deuxième année:
-      - id: larocste
-        nom: Stéphanie Larocque
+      - nom: Stéphanie Larocque
+        id: larocste
   - Représentant troisième année:
-      - id: antakivi
-        nom: Vincent Antaki
+      - nom: Vincent Antaki
+        id: antakivi
   - Représentant majeure:
-      - id: dufoufra
-        nom: François Dufour
+      - nom: François Dufour
+        id: dufoufra
   - Représentante mathématiques et informatique:
-      - id: larocste
-        nom: Stéphanie Larocque
+      - nom: Stéphanie Larocque
+        id: larocste
   - Représentant maîtrise:
-      - id: desharnc
-        nom: Charles Desharnais
+      - nom: Charles Desharnais
+        id: desharnc
   - Représentante doctorat:
-      - id: benrhair
-        nom: Rania Benrhaiem
+      - nom: Rania Benrhaiem
+        id: benrhair
   - Représentant DESS:
-      - id:
-        nom:
+      - nom:
+        id:

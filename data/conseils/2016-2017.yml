@@ -1,62 +1,62 @@
 ---
 année: 2016-2017
-membres:
+conseil:
   - Présidente:
-      - id: derykari
-        nom: Karine Déry
+      - nom: Karine Déry
+        id: derykari
   - Vice-président interne:
-      - id: dufoufra
-        nom: François Dufour
+      - nom: François Dufour
+        id: dufoufra
   - Vice-président externe:
-      - id: lalondan
-        nom: André Lalonde
+      - nom: André Lalonde
+        id: lalondan
   - Secrétaire:
-      - id: coutuyan
-        nom: Yan Coutu
+      - nom: Yan Coutu
+        id: coutuyan
   - Trésorier:
-      - id: aymongvi
-        nom: Vincent Aymong
+      - nom: Vincent Aymong
+        id: aymongvi
   - Coordonateur à la vie étudiante:
-      - id: gauthif
-        nom: Francis Gauthier
+      - nom: Francis Gauthier
+        id: gauthif
   - Responsable du café Math-Info:
-      - id:
-        nom: Vincent Dessales
+      - nom: Vincent Dessales
+        id:
   - Représentant première année:
-      - id: qbaichab
-        nom: Abdelhakim Qbaich
+      - nom: Abdelhakim Qbaich
+        id: qbaichab
   - Représentant deuxième année:
-      - id: boivinda
-        nom: David Boivin
+      - nom: David Boivin
+        id: boivinda
   - Représentante troisième année:
-      - id: larocste
-        nom: Stéphanie Larocque
+      - nom: Stéphanie Larocque
+        id: larocste
   - Représentant majeure:
-      - id: dufoufra
-        nom: François Dufour
+      - nom: François Dufour
+        id: dufoufra
   - Représentante mathématiques et informatique:
-      - id: gagnoali
-        nom: Alizée Gagnon
+      - nom: Alizée Gagnon
+        id: gagnoali
   - Représentant maîtrise:
-      - id: desharnc
-        nom: Charles Desharnais
+      - nom: Charles Desharnais
+        id: desharnc
   - Représentant doctorat:
-      - id: miloszro
-        nom: Robin Milosz
+      - nom: Robin Milosz
+        id: miloszro
   - Responsables soirées et party:
-      - id: lalondan
-        nom: André Lalonde
-      - id: coutuyan
-        nom: Yan Coutu
+      - nom: André Lalonde
+        id: lalondan
+      - nom: Yan Coutu
+        id: coutuyan
   - Responsable sport:
-      - id: elmqirmp
-        nom: Pierre El Mqirmi
+      - nom: Pierre El Mqirmi
+        id: elmqirmp
   - Responsable compétition:
-      - id: boivinda
-        nom: David Boivin
+      - nom: David Boivin
+        id: boivinda
   - Responsable MiDiro:
-      - id:
-        nom:
+      - nom:
+        id:
   - Null pointer exception:
-      - id: boucheet
-        nom: Étienne Boucher
+      - nom: Étienne Boucher
+        id: boucheet
