@@ -17,12 +17,21 @@
                 {{ range $poste, $infos := $membre }}
                   <tr>
                     <th scope="row">
-                      {{ $poste }}
+                      {{ if eq $poste "Null pointer exception" }}
+                        <pre>{{ $poste }}</pre>
+                      {{ else }}
+                        {{ $poste }}
+                      {{ end }}
                     </th>
                     <td>
-                      <a href="http://www-etud.iro.umontreal.ca/~{{ .id }}">
-                        {{ .nom }}
-                      </a>
+                      {{ range $index, $info := $infos }}
+                        <a href="http://www-etud.iro.umontreal.ca/~{{ .id }}">
+                          {{ .nom }}
+                        </a>
+                        {{ if gt (len $infos) 1 }}
+                          {{ if eq $index 0 }}, {{ end }}
+                        {{ end }}
+                      {{ end }}
                     </td>
                   </tr>
                 {{ end }}
