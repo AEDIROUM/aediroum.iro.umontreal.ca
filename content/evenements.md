@@ -1,6 +1,6 @@
-+++
-title = "Évènements"
-layout = "evenements"
-menu = "main"
-weight = 3
-+++
+---
+title: "Évènements"
+layout: "evenements"
+menu: "main"
+weight: 3
+---

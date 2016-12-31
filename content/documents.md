@@ -1,6 +1,6 @@
-+++
-title = "Documents"
-layout = "documents"
-menu = "main"
-weight = 4
-+++
+---
+title: "Documents"
+layout: "documents"
+menu: "main"
+weight: 4
+---

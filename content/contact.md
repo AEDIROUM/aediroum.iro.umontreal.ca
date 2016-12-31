@@ -1,6 +1,6 @@
-+++
-title = "Nous Contacter"
-layout = "contact"
-menu = "main"
-weight = 6
-+++
+---
+title: "Nous Contacter"
+layout: "contact"
+menu: "main"
+weight: 6
+---
