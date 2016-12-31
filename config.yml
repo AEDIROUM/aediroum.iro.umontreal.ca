@@ -1,10 +1,21 @@
 ---
 title: AÉDIROUM
 baseurl: http://aediroum.iro.umontreal.ca/
-theme: aediroum
 defaultContentLanguage: fr
+theme: aediroum
+
+menu:
+  main:
+    - Name: Évènements
+      Identifier: evenements
+      Weight: 3
+    - Name: Documents
+      Identifier: documents
+      Weight: 4
+
 metaDataFormat: yaml
 enableRobotsTXT: true
 disableHugoGeneratorInject: true
+
 blackfriday:
   angledQuotes: true
