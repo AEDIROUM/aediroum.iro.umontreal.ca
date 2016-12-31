@@ -1,6 +1,6 @@
 ---
-title: "Accueil"
-menu: "main"
+title: Accueil
+menu: main
 weight: 0
 ---
 

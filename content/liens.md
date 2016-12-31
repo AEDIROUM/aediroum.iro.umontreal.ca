@@ -1,6 +1,6 @@
 ---
-title: "Liens"
-layout: "liens"
-menu: "main"
+title: Liens
+layout: liens
+menu: main
 weight: 5
 ---

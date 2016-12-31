@@ -1,6 +1,6 @@
 ---
-title: "Nouvelles"
-layout: "nouvelles"
-menu: "main"
+title: Nouvelles
+layout: nouvelles
+menu: main
 weight: 2
 ---

@@ -1,8 +1,9 @@
 ---
 title: AÉDIROUM
 baseurl: http://aediroum.iro.umontreal.ca/
-defaultContentLanguage: fr
 theme: aediroum
+defaultContentLanguage: fr
+metaDataFormat: yaml
 enableRobotsTXT: true
 disableHugoGeneratorInject: true
 blackfriday:
