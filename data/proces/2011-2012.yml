@@ -2,137 +2,92 @@
 année: 2011-2012
 procès:
   - evenement: Assemblée générale
-    date: 2012-10-16
-    adoption: 2013-02-19
+    date: 2011-09-14
+    adoption: 2012-02-10
+  - evenement: Conseil administratif
+    date: 2011-09-30
+    adoption: 2011-10-14
+  - evenement: Conseil administratif
+    date: 2011-10-14
+    adoption: 2011-12-20
+  - evenement: Assemblée générale
+    date: 2011-11-02
+    adoption: 2012-01-13
+  - evenement: Conseil administratif
+    date: 2011-11-11
+    adoption: 2012-02-17
+  - evenement: Conseil administratif
+    date: 2011-12-20
+    adoption: 2012-10-15
+  - evenement: Conseil administratif
+    date: 2012-01-06
+    adoption: 2012-01-23
+  - evenement: Conseil administratif
+    date: 2012-01-23
+    adoption: 2012-10-15
+  - evenement: Assemblée générale
+    date: 2012-01-23
+    adoption: 2012-10-15
+  - evenement: Conseil administratif
+    date: 2012-02-07
+    adoption: 2012-10-15
+  - evenement: Assemblée générale
+    date: 2012-02-10
+    adoption: 2012-04-05
+  - evenement: Conseil administratif
+    date: 2012-02-17
+    adoption:
+  - evenement: Conseil administratif
+    date: 2012-03-09
+    adoption: 2012-04-05
+  - evenement: Assemblée générale
+    date: 2012-03-16
+    adoption: 2012-04-05
+  - evenement: Assemblée générale
+    date: 2012-03-23
+    adoption: 2012-05-07
+  - evenement: Assemblée générale
+    date: 2012-03-29
+    adoption: 2012-05-07
+  - evenement: Assemblée générale
+    date: 2012-04-05
+    adoption: 2012-05-07
+  - evenement: Conseil administratif
+    date: 2012-04-05
+    adoption:
+  - evenement: Assemblée générale
+    date: 2012-04-13
+    adoption: 2012-10-16
+  - evenement: Assemblée générale
+    date: 2012-04-19
+    adoption: 2012-10-16
+  - evenement: Assemblée générale
+    date: 2012-04-25
+    adoption:
+  - evenement: Assemblée générale
+    date: 2012-04-26
+    adoption: 2013-09-20
+  - evenement: Assemblée générale
+    date: 2012-05-01
+    adoption: 2014-03-28
+  - evenement: Assemblée générale
+    date: 2012-05-07
+    adoption:
+  - evenement: Assemblée générale
+    date: 2012-05-11
+    adoption:
+  - evenement: Assemblée générale
+    date: 2012-05-16
+    adoption: 2014-03-28
+  - evenement: Assemblée générale
+    date: 2012-06-13
+    adoption: 2014-03-28
+  - evenement: Assemblée générale
+    date: 2012-08-20
+    adoption: 2014-09-19
   - evenement: Assemblée générale
     date: 2012-09-05
     adoption: 2014-03-28
   - evenement: Assemblée générale
-    date: 
-    date: lundi 20 août 2012
-    adoption: vendredi 19 septembre 2014
-    lien:
-  - evenement: Assemblée générale
-    date: mercredi 13 juin 2012
-    adoption: vendredi 28 mars 2014
-    lien:
-  - evenement: Assemblée générale
-    date: mercredi 16 mai 2012
-    adoption: vendredi 28 mars 2014
-    lien:
-  - evenement: Assemblée générale
-    date: vendredi 11 mai 2012
-    adoption:
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 07 mai 2012
-    adoption:
-    lien:
-  - evenement: Assemblée générale
-    date: mardi 01 mai 2012
-    adoption: vendredi 28 mars 2014
-    lien:
-  - evenement: Assemblée générale
-    date: jeudi 26 avril 2012
-    adoption: vendredi 20 septembre 2013
-    lien:
-  - evenement: Assemblée générale
-    date: mercredi 25 avril 2012
-    adoption:
-    lien:
-  - evenement: Assemblée générale
-    date: jeudi 19 avril 2012
-    adoption: mardi 16 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: vendredi 13 avril 2012
-    adoption: mardi 16 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: jeudi 05 avril 2012
-    adoption:
-    lien:
-  - evenement: Assemblée générale
-    date: jeudi 05 avril 2012
-    adoption: lundi 07 mai 2012
-    lien:
-  - evenement: Assemblée générale
-    date: jeudi 29 mars 2012
-    adoption: lundi 07 mai 2012
-    lien:
-  - evenement: Assemblée générale
-    date: vendredi 23 mars 2012
-    adoption: lundi 07 mai 2012
-    lien:
-  - evenement: Assemblée générale
-    date: vendredi 16 mars 2012
-    adoption: jeudi 05 avril 2012
-    lien:
-  - evenement: Assemblée générale
-    date: vendredi 09 mars 2012
-    adoption: jeudi 05 avril 2012
-    lien:
-  - evenement: Assemblée générale
-    date: vendredi 17 février 2012
-    adoption:
-    lien:
-  - evenement: Assemblée générale
-    date: vendredi 10 février 2012
-    adoption: jeudi 05 avril 2012
-    lien:
-  - evenement: Assemblée générale
-    date: mardi 07 février 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
-  - evenement: Assemblée générale
-    date: lundi 23 janvier 2012
-    adoption: lundi 15 octobre 2012
-    lien:
+    date: 2012-10-16
+    adoption: 2013-02-19
