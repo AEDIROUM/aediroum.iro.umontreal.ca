@@ -19,3 +19,4 @@ disableHugoGeneratorInject: true
 
 blackfriday:
   angledQuotes: true
+  hrefTargetBlank: true
