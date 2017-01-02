@@ -1,13 +1,67 @@
-header img {
-    max-height: 200px;
-    padding: 1em 0;
+header {
+    padding-bottom: .5rem;
 }
 
-.lien img {
-    max-height: 128px;
+header img {
+    max-height: 192px;
+}
+
+header .navbar {
+    border-radius: 0;
+}
+
+header .navbar-dark {
+    background-color: black;
+}
+
+header .navbar-dark a {
+    color: white !important;
+}
+
+header .navbar .dropdown-menu  {
+    background-color: black;
+    border-radius: 0;
+}
+
+header .navbar .dropdown-item:hover  {
+    background-color: black;
+}
+
+header .navbar .dropdown-item.active  {
+    background-color: black;
+}
+
+header .navbar .active {
+    font-weight: bolder;
+}
+
+header .navbar-toggler {
+    border: none;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    padding: .5rem 0 1rem 0;
+}
+
+.media-heading {
+    font-size: 1rem;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 1rem 0;
 }
 
 footer img {
-    max-width: 256px !important;
-    padding: 0 1em;
+    /* max-width: 160px !important; */
+}
+
+.card {
+    background-color: black;
 }

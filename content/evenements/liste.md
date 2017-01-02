@@ -3,7 +3,7 @@ title: Liste d'évènements
 menu:
   main:
     parent: evenements
-    weight: 1
+    weight: 0
 ---
 
 5 à 7

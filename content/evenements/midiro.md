@@ -4,5 +4,5 @@ layout: evenements/midiro
 menu:
   main:
     parent: evenements
-    weight: 0
+    weight: 1
 ---

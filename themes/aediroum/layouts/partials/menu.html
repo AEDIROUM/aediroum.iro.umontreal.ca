@@ -1,16 +1,17 @@
 {{ $currentPage := . }}
 
-<nav class="navbar navbar-light bg-faded">
-  <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Basculer la navigation"></button>
-  <div class="collapse navbar-toggleable-sm" id="mainMenu">
+<nav class="navbar navbar-dark">
+  <button class="navbar-toggler hidden-md-up float-xs-right" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Basculer la navigation"></button>
+
+  <div class="collapse navbar-toggleable-md" id="mainMenu">
     <ul class="nav navbar-nav">
       {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">
             <a class="nav-link dropdown-toggle" href="#" id="{{ .Identifier }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
             <div class="dropdown-menu" aria-labelledby="{{ .Identifier }}">
               {{ range .Children }}
-                <a class="dropdown-item {{if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                <a class="dropdown-item {{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
               {{ end }}
             </div>
           </li>

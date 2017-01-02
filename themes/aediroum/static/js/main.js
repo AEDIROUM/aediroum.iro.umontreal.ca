@@ -1,5 +1,5 @@
 // Formulaire de contact
-$('#contact-form').submit(function (event) {
+$('#contact').submit(function (event) {
     event.preventDefault();
 
     $.ajax({
