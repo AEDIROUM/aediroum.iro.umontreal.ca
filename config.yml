@@ -3,6 +3,7 @@ title: AÉDIROUM
 baseurl: http://aediroum.iro.umontreal.ca/
 theme: aediroum
 
+# Menu
 menu:
   main:
     - Name: Évènements
@@ -12,16 +13,27 @@ menu:
       Identifier: documents
       Weight: 4
 
+# Markdown
+blackfriday:
+  angledQuotes: true
+  hrefTargetBlank: true
+
+# Sitemap
 sitemap:
   changefreq: monthly
   priority: 0.5
 
+# Langue
 defaultContentLanguage: fr
+languageCode: fr
+
+# Éditeurs
+editor: vim
+newContentEditor: vim
+
+# Divers
 metaDataFormat: yaml
+# ignoreFiles: [".scss$"]
 canonifyURLs: true
 enableRobotsTXT: true
 disableHugoGeneratorInject: true
-
-blackfriday:
-  angledQuotes: true
-  hrefTargetBlank: true
