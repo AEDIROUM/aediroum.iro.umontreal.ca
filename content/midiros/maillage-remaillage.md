@@ -11,3 +11,5 @@ Vous ferez un saut dans l'arrière-scène de l'infographie où les maillages son
 
 Je présenterai une notion de qualité d'un maillage et les techniques de remaillage visant à améliorer cette qualité.
 Je présenterai également l'importance des maillages dans des domaines connexes, tels que l'architecture et l'ingénierie, afin d'illustrer le fait que tout objet peut être, et souvent même doit être maillé. 
+
+<!--more-->

@@ -12,3 +12,5 @@ Plutôt que d'inculquer aux ordinateurs des comportements intelligents de façon
 Cette approche permet entre autres de développer des modèles qui ont la propriété surprenante d'imaginer des exemples plausibles mais jamais vus auparavant.
 
 Dans cette conférence, je propose de lever le voile sur un de ces modèles, appelé machine de Boltzmann restreinte (RBM), et d'explorer son fonctionnement et ses applications. 
+
+<!--more-->

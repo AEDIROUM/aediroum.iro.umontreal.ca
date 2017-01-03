@@ -11,3 +11,5 @@ Il discutera des bienfaits de démarrer une compagnie.
 Il vous dira que le métier d’entrepreneur est accessible à tous pourvu que la passion y soit.
 
 L’objectif de la présentation est de vous démontrer que le métier d’informaticien est le plus beau métier du monde et qu’il nous permet d’atteindre les plus hauts sommets, si on le désire...
+
+<!--more-->

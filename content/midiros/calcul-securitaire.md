@@ -10,3 +10,5 @@ Le Calcul Sécuritaire est le domaine qui étudie comment apprendre le résultat
 Les applications du calcul sécuritaire incluent le vote, l'enchère et la transmission de message anonyme.
 
 Dans cette présentation, nous allons voir les définitions de base et de protocoles simples de ce domaine.
+
+<!--more-->

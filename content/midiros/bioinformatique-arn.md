@@ -13,6 +13,8 @@ Est-ce cool et important ?
 
 Après une présentation des entités manipulées par la bioinformatique, je trancherai grossièrement dans ce jeune corpus pour identifier ses points d'ancrage (l'information, l'algorithmique et la modélisation).
 
+<!--more-->
+
 Nous nous attarderons surtout à la modélisation des ARN.
 Les découvertes de la dernière décennie (et demi) à ce sujet sont fascinantes.
 Contrairement à ce qu'on pouvait croire, ces molécules sont en fait très nombreuses et impliquées directement dans le contrôle de l'expression génétique.

@@ -13,3 +13,5 @@ Pour cela nous profilons l’utilisateur pour dégager ses besoins et ses préf�
 Nous utilisons pour cette tâche le clustering pour dégager des cas similaires.
 
 Notre thèse développe des méthodes pour automatiser l’exploration d’informations de type environnemental, pour prévoir les préférences et les besoins des utilisateurs et pour générer des bulletins météorologiques personnalisés. 
+
+<!--more-->

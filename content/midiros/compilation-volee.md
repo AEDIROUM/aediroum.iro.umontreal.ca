@@ -10,3 +10,5 @@ Un avantage majeur des compilateurs à la volée par rapport aux compilateurs st
 Ceci est particulièrement important quand on travaille avec un langage de programmation dynamique tel que JavaScript ou [Python](https://python.org).
 
 Nous introduirons des stratégies de compilation adaptives qui visent à atteindre deux objectifs a priori conflictuels : générer du code machine plus optimisé tout en réduisant le temps de compilation. 
+
+<!--more-->

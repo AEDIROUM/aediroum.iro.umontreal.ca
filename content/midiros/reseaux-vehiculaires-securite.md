@@ -13,3 +13,5 @@ Dans cette perspective, la communauté scientifique s'est intéressée à l'expl
 
 Cette présentation focalise sur les applications possibles des réseaux véhiculaires pour la sécurité active sur les routes.
 Je vais aussi présenter certains défis et problèmes à résoudre pour ce type de réseau qui sont en relation avec mes travaux de recherche. 
+
+<!--more-->
