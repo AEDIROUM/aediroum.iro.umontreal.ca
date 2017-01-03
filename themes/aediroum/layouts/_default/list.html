@@ -1,8 +1,67 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
 
-  {{ range .Data.Pages }}
-    <h2>{{ .Title }}</h2>
-    {{ .Content }}
+  {{ $pag := $.Paginator }}
+
+  {{ range $pag.Pages }}
+    <div class="media">
+      <div class="media-body">
+        <h2 class="media-heading">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+
+        {{ .Summary }}
+
+        {{ if .Truncated }}
+          <p><a href="{{ .RelPermalink }}">Lire plus...</a></p>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  {{ if gt $pag.TotalPages 1 }}
+    <div class="text-xs-center">
+      <nav aria-label="Pages">
+        <ul class="pagination">
+          {{ with $pag.First }}
+            <li class="page-item">
+              <a class="page-link" href="{{ .URL }}" aria-label="Première page">
+                <span aria-hidden="true">&laquo;&laquo;</span>
+                <span class="sr-only">Première page</span>
+              </a>
+            </li>
+          {{ end }}
+
+          <li class="page-item{{ if not $pag.HasPrev }} disabled{{ end }}">
+            <a class="page-link" href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Précédent">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Précédent</span>
+            </a>
+          </li>
+
+          {{ range $pag.Pagers }}
+            <li class="page-item{{ if eq . $pag }} active{{ end }}">
+              <a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a>
+            </li>
+          {{ end }}
+
+          <li class="page-item{{ if not $pag.HasNext }} disabled{{ end }}">
+            <a class="page-link" href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Suivant">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Suivant</span>
+            </a>
+          </li>
+
+          {{ with $pag.Last }}
+            <li class="page-item">
+              <a class="page-link" href="{{ .URL }}" aria-label="Dernière page">
+                <span aria-hidden="true">&raquo;&raquo;</span>
+                <span class="sr-only">Dernière page</span>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
   {{ end }}
 {{ end }}

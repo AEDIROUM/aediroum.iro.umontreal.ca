@@ -33,6 +33,7 @@ newContentEditor: vim
 
 # Divers
 metaDataFormat: yaml
+paginate: 5
 # ignoreFiles: [".scss$"]
 canonifyURLs: true
 enableRobotsTXT: true
