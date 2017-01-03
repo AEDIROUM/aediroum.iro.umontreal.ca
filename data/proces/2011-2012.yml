@@ -1,93 +1,93 @@
 ---
-année: 2011-2012
-procès:
-  - évènement: Assemblée générale
+annee: 2011-2012
+proces:
+  - evenement: Assemblée générale
     date: 2011-09-14
     adoption: 2012-02-10
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2011-09-30
     adoption: 2011-10-14
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2011-10-14
     adoption: 2011-12-20
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2011-11-02
     adoption: 2012-01-13
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2011-11-11
     adoption: 2012-02-17
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2011-12-20
     adoption: 2012-10-15
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2012-01-06
     adoption: 2012-01-23
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2012-01-23
     adoption: 2012-10-15
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-01-23
     adoption: 2012-10-15
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2012-02-07
     adoption: 2012-10-15
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-02-10
     adoption: 2012-04-05
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2012-02-17
     adoption:
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2012-03-09
     adoption: 2012-04-05
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-03-16
     adoption: 2012-04-05
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-03-23
     adoption: 2012-05-07
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-03-29
     adoption: 2012-05-07
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-04-05
     adoption: 2012-05-07
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2012-04-05
     adoption:
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-04-13
     adoption: 2012-10-16
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-04-19
     adoption: 2012-10-16
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-04-25
     adoption:
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-04-26
     adoption: 2013-09-20
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-05-01
     adoption: 2014-03-28
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-05-07
     adoption:
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-05-11
     adoption:
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-05-16
     adoption: 2014-03-28
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-06-13
     adoption: 2014-03-28
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-08-20
     adoption: 2014-09-19
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-09-05
     adoption: 2014-03-28
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2012-10-16
     adoption: 2013-02-19

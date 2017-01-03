@@ -12,7 +12,7 @@ menu:
 [Cahier de positions](positions.pdf)
 : Le cahier de positions sert à garder les lignes directrices de l'association ainsi que les positions concernant plusieurs sujets et enjeux.
 
-[Cahier de positions temporaires]()
+Cahier de positions temporaires
 : Le cahier de positions temporaires contient les positions qui ne sont valides que pour un certain temps (par exemple les positions prises lors de grèves).
 
 [Guide du premier cycle](//diro.umontreal.ca/fileadmin/Documents/FAS/Informatique/Documents/1-Programmes-cours/1-cycle/guide1cy2015.pdf)

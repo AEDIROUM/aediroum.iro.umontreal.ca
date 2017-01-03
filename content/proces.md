@@ -1,6 +1,6 @@
 ---
 title: Procès verbaux
-layout: documents/proces
+layout: proces
 menu:
   main:
     parent: documents

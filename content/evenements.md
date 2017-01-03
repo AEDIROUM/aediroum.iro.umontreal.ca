@@ -7,10 +7,10 @@ menu:
 ---
 
 5 à 7
-: Aux 2 ou 3 semaines, party avec alcool et pizza pas cher au Café Math-Info.
+: Aux 2 ou 3 semaines, party avec alcool et pizza pas cher au [Café Math-Info](//cafemathinfo.iro.umontreal.ca).
 
 Lait et Biscuits des premiers cycles
-: Chaque semaine, le mercredi à 14 h 00 au local de l'association.
+: Chaque semaine, le mercredi à 14 h 00 au local de l'association (AA-3190).
 
 Beignes et café des cycles supérieurs
 : Chaque semaine, le mercredi à 14 h au salon Maurice-Labbé (6ème étage).

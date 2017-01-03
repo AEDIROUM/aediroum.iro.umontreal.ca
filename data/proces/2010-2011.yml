@@ -1,39 +1,39 @@
 ---
-année: 2012-2013
-procès:
-  - évènement: Assemblée générale
+annee: 2010-2011
+proces:
+  - evenement: Assemblée générale
     date: 2010-09-16
     adoption: 2011-01-25
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2010-09-27
     adoption: 2010-11-15
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2010-11-15
     adoption: 2011-01-17
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2010-12-22
     adoption: 2011-01-17
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2011-01-17
     adoption: 2011-02-14
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2011-01-25
     adoption: 2011-04-07
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2011-02-14
     adoption: 2011-03-07
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2011-03-07
     adoption: 2011-04-04
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2011-04-04
     adoption: 2013-06-09
-  - évènement: Assemblée générale
+  - evenement: Assemblée générale
     date: 2011-04-07
     adoption: 2011-09-14
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2011-05-11
     adoption: 2011-09-30
-  - évènement: Conseil administratif
+  - evenement: Conseil administratif
     date: 2011-08-30
     adoption: 2011-09-30

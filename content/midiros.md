@@ -1,6 +1,6 @@
 ---
 title: Conférences MiDiro
-layout: evenements/midiro
+layout: midiros
 menu:
   main:
     parent: evenements

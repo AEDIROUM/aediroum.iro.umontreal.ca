@@ -52,16 +52,16 @@ main {
     font-size: 1rem;
 }
 
+.conseil td {
+    text-align: right;
+}
+
+.proces th {
+    text-align: center !important;
+}
+
 footer {
     color: white;
     background-color: black;
     padding: 1rem 0;
-}
-
-footer img {
-    /* max-width: 160px !important; */
-}
-
-.card {
-    background-color: black;
 }
