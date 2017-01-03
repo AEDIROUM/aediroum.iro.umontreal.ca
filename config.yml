@@ -18,10 +18,12 @@ blackfriday:
   angledQuotes: true
   hrefTargetBlank: true
 
-# Sitemap
+# Crawling
 sitemap:
   changefreq: monthly
   priority: 0.5
+enableRobotsTXT: true
+disableHugoGeneratorInject: true
 
 # Langue
 defaultContentLanguage: fr
@@ -33,8 +35,6 @@ newContentEditor: vim
 
 # Divers
 metaDataFormat: yaml
+canonifyURLs: true
 paginate: 5
 # ignoreFiles: [".scss$"]
-canonifyURLs: true
-enableRobotsTXT: true
-disableHugoGeneratorInject: true
