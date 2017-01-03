@@ -11,16 +11,16 @@ conseil:
       - nom: André Lalonde
         id: lalondan
   - Secrétaire:
-      - nom: Yan Coutu
-        id: coutuyan
+      - nom:
+        id:
   - Trésorier:
       - nom: Vincent Aymong
         id: aymongvi
   - Coordonateur à la vie étudiante:
-      - nom: Francis Gauthier
-        id: gauthif
+      - nom:
+        id:
   - Responsable du café Math-Info:
-      - nom: Vincent Dessales
+      - nom:
         id:
   - Représentant première année:
       - nom: Abdelhakim Qbaich
