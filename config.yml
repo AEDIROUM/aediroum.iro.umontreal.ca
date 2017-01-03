@@ -1,7 +1,6 @@
 ---
 title: AÉDIROUM
 baseurl: http://aediroum.iro.umontreal.ca/
-defaultContentLanguage: fr
 theme: aediroum
 
 menu:
@@ -13,7 +12,9 @@ menu:
       Identifier: documents
       Weight: 4
 
+defaultContentLanguage: fr
 metaDataFormat: yaml
+canonifyURLs: true
 enableRobotsTXT: true
 disableHugoGeneratorInject: true
 
