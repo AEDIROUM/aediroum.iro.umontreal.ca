@@ -25,7 +25,7 @@
                 </th>
                 <td>
                   {{ range $index, $element := $titulaires }}
-                    <a href="http://www-etud.iro.umontreal.ca/~{{ .id }}">{{ .nom }}</a>
+                    <a href="//www-etud.iro.umontreal.ca/~{{ .id }}">{{ .nom }}</a>
                     {{ if gt (len $titulaires) 1 }}
                       {{ if eq $index 0 }}, {{ end }}
                     {{ end }}
