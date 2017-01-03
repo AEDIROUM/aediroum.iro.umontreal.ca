@@ -2,6 +2,9 @@
 title: Liens
 menu: main
 weight: 5
+sitemap:
+  changefreq: monthly
+  priority: 0.8
 ---
 
 * [Groupe Facebook de l'association](https://fb.com/groups/2354091571)

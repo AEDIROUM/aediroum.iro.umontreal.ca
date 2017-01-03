@@ -12,6 +12,10 @@ menu:
       Identifier: documents
       Weight: 4
 
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+
 defaultContentLanguage: fr
 metaDataFormat: yaml
 canonifyURLs: true

@@ -4,6 +4,9 @@ menu:
   main:
     parent: documents
     weight: 1
+sitemap:
+  changefreq: yearly
+  priority: 0.8
 ---
 
 [Charte](charte.pdf)

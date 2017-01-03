@@ -4,6 +4,9 @@ menu:
   main:
     parent: evenements
     weight: 0
+sitemap:
+  changefreq: yearly
+  priority: 0.8
 ---
 
 5 à 7
