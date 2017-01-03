@@ -15,6 +15,10 @@ header img {
     max-height: 192px;
 }
 
+header .navbar-toggler {
+    cursor: pointer;
+}
+
 header .navbar {
     border-radius: 0;
 }
