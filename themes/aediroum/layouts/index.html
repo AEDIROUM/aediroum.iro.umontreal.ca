@@ -4,20 +4,23 @@
 
 {{ define "main" }}
   <div class="row">
-    <div class="col-xs">
-      <h1>À propos</h1>
+    <div class="col">
+      <h3>À propos</h3>
+
       {{ range first 1 (where .Data.Pages "Title" "Accueil") }}
         {{ .Content }}
       {{ end }}
     </div>
-    <div class="col-md-4 hidden-sm-down">
-      <h1>Dernières nouvelles</h1>
-      <ul class="media-list">
+
+    <div class="col-3 hidden-sm-down">
+      <h3>Dernières nouvelles</h3>
+
+      <ul class="list-unstyled">
         {{ range first 5 (where .Data.Pages "Type" "nouvelles") }}
           <li class="media">
             <div class="media-body">
-              <h2 class="media-heading"><a href="{{ .URL }}">{{ .Title }}</a></h2>
-              <p class="text-muted">{{ dateFormat "02/01/2006" .Date }}</p>
+              <h6 class="mt-0 mb-1"><a href="{{ .URL }}">{{ .Title }}</a></h6>
+              <p class="mb-0 text-muted">{{ dateFormat "02/01/2006" .Date }}</p>
             </div>
           </li>
         {{ end }}

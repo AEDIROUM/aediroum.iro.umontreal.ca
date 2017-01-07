@@ -1,31 +1,31 @@
 {{ define "main" }}
   <div class="row">
-    <div class="col-xs">
-      <h1>Formulaire de contact</h1>
+    <div class="col">
+      <h3>Formulaire de contact</h3>
 
       <form id="contact">
         <div class="form-group row">
-          <label for="first-name" class="col-xs-2 col-form-label">Prénom</label>
-          <div class="col-xs-4">
+          <label for="first-name" class="col-2 col-form-label">Prénom</label>
+          <div class="col-4">
             <input class="form-control" type="text" id="first-name" name="first-name" placeholder="Prénom" required/>
           </div>
 
-          <label for="last-name" class="col-xs-2 col-form-label">Nom</label>
-          <div class="col-xs-4">
+          <label for="last-name" class="col-2 col-form-label">Nom</label>
+          <div class="col-4">
             <input class="form-control" type="text" id="last-name" name="last-name" placeholder="Nom" required/>
           </div>
         </div>
 
         <div class="form-group row">
-          <label for="email" class="col-xs-2 col-form-label">Courriel</label>
-          <div class="col-xs-6">
+          <label for="email" class="col-2 col-form-label">Courriel</label>
+          <div class="col-6">
             <input class="form-control" type="email" id="email" name="email" placeholder="Courriel" required/>
           </div>
         </div>
 
         <div class="form-group row">
-          <label for="subject" class="col-xs-2 col-form-label">Sujet</label>
-          <div class="col-xs-6">
+          <label for="subject" class="col-2 col-form-label">Sujet</label>
+          <div class="col-6">
             <input class="form-control" type="text" id="subject" name="_subject" placeholder="Sujet" required/>
           </div>
         </div>
@@ -35,28 +35,31 @@
           <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" required></textarea>
         </div>
 
-        <button type="submit" class="btn btn-secondary">Envoyer</button>
+        <div class="form-group">
+          <button type="submit" class="btn btn-secondary">Envoyer</button>
+        </div>
       </form>
     </div>
 
-    <div class="col-md-3 hidden-sm-down">
-      <h1>Autres façons</h1>
+    <div class="col-3 hidden-sm-down">
+      <h3>Autres façons</h3>
+
       <p>Il est possible de nous contacter de plusieurs autres façon:</p>
+
       <button type="button" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#modalPerson">En personne</button>
       <button type="button" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#modalEmail">Par courriel</button>
       <button type="button" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#modalFacebook">Sur Facebook</button>
     </div>
   </div>
 
-  <div class="modal" id="modalPerson" tabindex="-1" role="dialog" aria-labelledby="modalPersonLabel" aria-hidden="true">
+  <div class="modal fade" id="modalPerson" tabindex="-1" role="dialog" aria-labelledby="modalPersonLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
+          <h5 class="modal-title" id="modalPersonLabel">Nous contacter en personne</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
             <span aria-hidden="true">&times;</span>
           </button>
-
-          <h1 class="modal-title" id="modalPersonLabel">Nous contacter en personne</h1>
         </div>
 
         <div class="modal-body">
@@ -74,27 +77,26 @@
     </div>
   </div>
 
-  <div class="modal" id="modalEmail" tabindex="-1" role="dialog" aria-labelledby="modalEmailLabel" aria-hidden="true">
+  <div class="modal fade" id="modalEmail" tabindex="-1" role="dialog" aria-labelledby="modalEmailLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
+          <h5 class="modal-title" id="modalEmailLabel">Nous contacter par courriel</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
             <span aria-hidden="true">&times;</span>
           </button>
-
-          <h1 class="modal-title" id="modalEmailLabel">Nous contacter par courriel</h1>
         </div>
 
         <div class="modal-body">
           <p>Vous pouvez directement écrire au conseil exécutif par courriel à l'adresse suivante:</p>
 
-          <div class="text-xs-center">
+          <div class="text-center">
             <a href="https://google.com/recaptcha/mailhide/d?k=01mdWsrxBKVoSR_ZZW2zbt2w==&amp;c=fsrjKCFNI16dLMFzronrQagFBSXbdBo-3AUmLf59BhA=" class="btn btn-link btn-lg" role="button" target="_blank">ae...um@iro.umontreal.ca</a>
           </div>
 
           <p>Si vous nous écrivez, s'il vous plaît:</p>
           <ul>
-            <li>N'envoyez pas de <a href="//rfc1149.net/documents/pourquoi-pas-word.html" target="_blank">pièces jointes au format Word (DOCX)</a>, nous préférons fortement les formats dont la spécification est accessible à tous, tels que PDF et ODF.</li>
+            <li>N'envoyez pas de <a href="http://rfc1149.net/documents/pourquoi-pas-word.html" target="_blank">pièces jointes au format Word (DOCX)</a>, nous préférons fortement les formats dont la spécification est accessible à tous, tels que PDF et ODF.</li>
             <li>Dans la mesure du possible, écrivez le corps de votre message en « texte simple » (<i>plain text</i>), plutôt qu'en HTML.</li>
           </ul>
         </div>
@@ -106,21 +108,20 @@
     </div>
   </div>
 
-  <div class="modal" id="modalFacebook" tabindex="-1" role="dialog" aria-labelledby="modalFacebookLabel" aria-hidden="true">
+  <div class="modal fade" id="modalFacebook" tabindex="-1" role="dialog" aria-labelledby="modalFacebookLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
+          <h5 class="modal-title" id="modalFacebookLabel">Nous contacter sur Facebook</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
             <span aria-hidden="true">&times;</span>
           </button>
-
-          <h1 class="modal-title" id="modalFacebookLabel">Nous contacter sur Facebook</h1>
         </div>
 
         <div class="modal-body">
           <p>Pour discuter avec les membres et obtenir plus de détails sur les différents événements de l'AÉDIROUM:</p>
 
-          <div class="text-xs-center">
+          <div class="d-flex justify-content-center">
             <a href="https://fb.com/groups/2354091571" class="btn btn-link btn-lg" role="button" target="_blank">Groupe</a>
             <a href="https://fb.com/aediroum" class="btn btn-link btn-lg" role="button" target="_blank">Page</a>
           </div>

@@ -1,23 +1,33 @@
 {{ $currentPage := . }}
 
-<nav class="navbar navbar-dark">
-  <button class="navbar-toggler hidden-md-up float-xs-right" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Basculer la navigation"></button>
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Basculer la navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <div class="collapse navbar-toggleable-md" id="mainMenu">
-    <ul class="nav navbar-nav">
+  <div class="collapse navbar-collapse" id="mainMenu">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
           <li class="nav-item dropdown{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">
-            <a class="nav-link dropdown-toggle" href="#" id="{{ .Identifier }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+            <a class="nav-link dropdown-toggle" href="#" id="{{ .Identifier }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ .Name }}
+            </a>
+
             <div class="dropdown-menu" aria-labelledby="{{ .Identifier }}">
               {{ range .Children }}
-                <a class="dropdown-item {{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                <a class="dropdown-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
               {{ end }}
             </div>
           </li>
         {{ else }}
           <li class="nav-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{end}}">
-            <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+            <a class="nav-link" href="{{ .URL }}">
+              <span>{{ .Name }}</span>
+              {{ if $currentPage.IsMenuCurrent "main" . }}
+                <span class="sr-only">(actuel)</span>
+              {{end}}
+            </a>
           </li>
         {{ end }}
       {{ end }}

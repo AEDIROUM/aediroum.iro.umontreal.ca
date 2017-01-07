@@ -1,18 +1,18 @@
 {{ define "main" }}
-  <h1>Conseils d'administration</h1>
+  <h3>Conseils d'administration</h3>
 
-  <ul class="nav nav-tabs" role="tablist">
+  <ul class="nav nav-tabs nav-justified" role="tablist">
     {{ range $index, $element := first 5 (sort .Site.Data.conseils "annee" "desc") }}
       <li class="nav-item">
-        <a class="nav-link{{ if eq $index 0 }} active{{ end }}" data-toggle="tab" href="#{{ .annee }}" role="tab">{{ .annee }}</a>
+        <a class="nav-link{{ if eq $index 0 }} active{{ end }}" data-toggle="tab" href="#{{ .annee }}" role="tab" aria-controls="{{ .annee }}">{{ .annee }}</a>
       </li>
     {{ end }}
   </ul>
 
   <div class="tab-content">
     {{ range $index, $element := first 5 (sort .Site.Data.conseils "annee" "desc") }}
-      <div class="tab-pane fade{{ if eq $index 0 }} in active{{ end }}" id="{{ .annee }}" role="tabpanel">
-        <table class="table table-responsive table-hover conseil">
+      <div class="tab-pane fade{{ if eq $index 0 }} show active{{ end }}" id="{{ .annee }}" role="tabpanel">
+        <table class="table table-responsive table-hover">
           {{ range $index, $postes := .conseil }}
             {{ range $poste, $titulaires := $postes }}
               <tr>
@@ -25,7 +25,7 @@
                 </th>
                 <td>
                   {{ range $index, $element := $titulaires }}
-                    <a href="//www-ens.iro.umontreal.ca/~{{ .id }}" target="_blank">{{ .nom }}</a>
+                    <a href="http://www-ens.iro.umontreal.ca/~{{ .id }}" target="_blank">{{ .nom }}</a>
                     {{ if gt (len $titulaires) 1 }}
                       {{ if eq $index 0 }}, {{ end }}
                     {{ end }}

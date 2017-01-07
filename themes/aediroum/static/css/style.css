@@ -1,26 +1,45 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-main {
-  margin-bottom: 106.9px;
-}
-
-header {
-    padding-bottom: .5rem;
-}
+/* Haut de page */
 
 header img {
     max-height: 192px;
 }
 
-header .navbar-toggler {
+
+/* Menu principal */
+
+.navbar-inverse {
+    background-color: #000 !important;
+}
+
+.navbar-inverse .dropdown-menu {
+    background-color: #000;
+}
+
+.navbar-toggler {
     cursor: pointer;
 }
 
-header .navbar {
-    border-radius: 0;
+
+/* Pied de page */
+
+footer {
+    background-color: #000;
+}
+
+.card-inverse {
+    background-color: #000;
+    border-color: #000;
+}
+
+
+/* Fix footer and shit */
+/* conseils.html, contact.html, proces.html */
+/* Remove all this crap style, keep important stuff */
+/* Might as well make main.js do werk twerk twerk twerk */
+
+/*
+header .navbar-toggler {
+    cursor: pointer;
 }
 
 header .navbar-dark {
@@ -53,14 +72,6 @@ header .navbar-toggler {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
-h1 {
-    font-size: 2rem;
-}
-
-main {
-    padding: .5rem 0 1rem 0;
-}
-
 .media-heading {
     font-size: 1rem;
 }
@@ -72,12 +83,4 @@ main {
 .proces th {
     text-align: center !important;
 }
-
-footer {
-    color: white;
-    background-color: black;
-
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+*/
