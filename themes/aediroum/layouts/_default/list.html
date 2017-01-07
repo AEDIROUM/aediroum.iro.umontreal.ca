@@ -1,7 +1,7 @@
 {{ define "main" }}
   <h3>{{ .Title }}</h3>
 
-  {{ $page := $.Paginator }}
+  {{ $page := .Paginator 5 }}
 
   <ul class="list-unstyled">
     {{ range $page.Pages }}
