@@ -32,5 +32,6 @@ languageCode: fr
 # Divers
 metaDataFormat: yaml
 # canonifyURLs: true
+# relativeURLs: true
 paginate: 5
 # ignoreFiles: [".scss$"]

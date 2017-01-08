@@ -1,5 +1,9 @@
 {{ define "main" }}
-  <h3>{{ .Title }}</h3>
+  <h3 class="mt-0 mb-1">{{ .Title }}</h3>
+  {{ if .Date.IsZero }}
+  {{ else }}
+    <p class="text-muted">{{ dateFormat "02/01/2006" .Date }}</p>
+  {{ end }}
 
   {{ .Content }}
 {{ end }}

@@ -23,17 +23,25 @@ header img {
 }
 
 .navbar-inverse .dropdown-item {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .navbar-inverse .dropdown-item:hover {
-    color: rgba(255,255,255,.75);
+    color: rgba(255, 255, 255, .75);
     background-color: inherit;
 }
 
 .navbar-inverse .dropdown-item.active {
     background-color: inherit;
     color: #fff;
+}
+
+
+/* Medias */
+
+.media h5 a {
+    color: inherit;
+    text-decoration: none;
 }
 
 
