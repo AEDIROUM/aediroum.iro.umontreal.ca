@@ -29,12 +29,8 @@ disableHugoGeneratorInject: true
 defaultContentLanguage: fr
 languageCode: fr
 
-# Éditeurs
-editor: vim
-newContentEditor: vim
-
 # Divers
 metaDataFormat: yaml
-canonifyURLs: true
+# canonifyURLs: true
 paginate: 5
 # ignoreFiles: [".scss$"]
