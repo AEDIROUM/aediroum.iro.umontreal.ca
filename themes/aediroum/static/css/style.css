@@ -1,3 +1,10 @@
+/* Général */
+
+button {
+    cursor: pointer;
+}
+
+
 /* Haut de page */
 
 header img {
@@ -15,10 +22,6 @@ header img {
     background-color: #000;
 }
 
-.navbar-toggler {
-    cursor: pointer;
-}
-
 .navbar-inverse .dropdown-item {
     color: rgba(255,255,255,.5);
 }
@@ -26,6 +29,11 @@ header img {
 .navbar-inverse .dropdown-item:hover {
     color: rgba(255,255,255,.75);
     background-color: inherit;
+}
+
+.navbar-inverse .dropdown-item.active {
+    background-color: inherit;
+    color: #fff;
 }
 
 

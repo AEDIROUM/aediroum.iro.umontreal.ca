@@ -12,14 +12,14 @@
       {{ end }}
     </div>
 
-    <div class="col-3 hidden-sm-down">
+    <div class="col-4 hidden-sm-down">
       <h3>Dernières nouvelles</h3>
 
       <ul class="list-unstyled">
         {{ range first 5 (where .Data.Pages "Type" "nouvelles") }}
           <li class="media">
             <div class="media-body">
-              <h6 class="mt-0 mb-1"><a href="{{ .URL }}">{{ .Title }}</a></h6>
+              <h5 class="mt-0 mb-1"><a href="{{ .URL }}">{{ .Title }}</a></h5>
               <p class="mb-0 text-muted">{{ dateFormat "02/01/2006" .Date }}</p>
             </div>
           </li>
