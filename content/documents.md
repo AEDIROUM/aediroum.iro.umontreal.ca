@@ -15,6 +15,9 @@ sitemap:
 [Cahier de positions](positions.pdf)
 : Le cahier de positions sert à garder les lignes directrices de l'association ainsi que les positions concernant plusieurs sujets et enjeux.
 
+[Règlement de la vie étudiante](coussin.pdf)
+: Le règlement de la vie étudiante définit les activités du COUSSIN dans son rôle de support essentiel du CVE de l'AÉDIROUM.
+
 Cahier de positions temporaires
 : Le cahier de positions temporaires contient les positions qui ne sont valides que pour un certain temps (par exemple les positions prises lors de grèves).
 
