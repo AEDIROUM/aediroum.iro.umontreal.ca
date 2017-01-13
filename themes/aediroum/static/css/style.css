@@ -32,16 +32,8 @@ header img {
 }
 
 .navbar-inverse .dropdown-item.active {
-    background-color: inherit;
     color: #fff;
-}
-
-
-/* Medias */
-
-.media h5 a {
-    color: inherit;
-    text-decoration: none;
+    background-color: inherit;
 }
 
 
