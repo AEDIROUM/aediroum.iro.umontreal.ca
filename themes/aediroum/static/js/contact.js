@@ -1,4 +1,3 @@
-// Formulaire de contact
 var $form = $('#contact');
 
 $form.submit(function (event) {
