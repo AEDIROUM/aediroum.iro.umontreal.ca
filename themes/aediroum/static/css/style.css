@@ -4,15 +4,11 @@ button {
     cursor: pointer;
 }
 
-
 /* Haut de page */
 
 header img {
     max-height: 192px;
 }
-
-
-/* Menu principal */
 
 .navbar-inverse {
     background-color: #000 !important;
@@ -36,6 +32,11 @@ header img {
     background-color: inherit;
 }
 
+/* Corps de page */
+
+main {
+    padding: .5rem 0;
+}
 
 /* Pied de page */
 
@@ -46,4 +47,12 @@ footer {
 .card-inverse {
     background-color: #000;
     border-color: #000;
+}
+
+.card-text {
+    color: #fff !important;
+}
+
+.card-text a {
+    color: #fff;
 }
