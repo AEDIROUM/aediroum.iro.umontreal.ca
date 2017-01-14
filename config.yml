@@ -25,13 +25,10 @@ sitemap:
 enableRobotsTXT: true
 disableHugoGeneratorInject: true
 
-# Langue
+# Language
 defaultContentLanguage: fr
 languageCode: fr
 
-# Divers
+# Miscellaneous
 metaDataFormat: yaml
-# canonifyURLs: true
-# relativeURLs: true
 paginate: 5
-# ignoreFiles: [".scss$"]
