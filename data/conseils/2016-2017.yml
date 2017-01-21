@@ -18,7 +18,7 @@ conseil:
         id: aymongvi
   - Coordonateur à la vie étudiante:
       - nom: Mehran Asadi
-        id:
+        id: asadimeh
   - Responsable du café Math-Info:
       - nom: Alizée Gagnon
         id: gagnoali
@@ -30,7 +30,7 @@ conseil:
         id: boivinda
   - Représentante troisième année:
       - nom: Pierre-Olivier Talbot
-        id:
+        id: talbotpo
   - Représentant majeure:
       - nom: François Dufour
         id: dufoufra
@@ -45,7 +45,7 @@ conseil:
         id: miloszro
   - Responsables soirées et party:
       - nom: Patrice Dumontier-Houle
-        id:
+        id: dumontip
       - nom: Yan Coutu
         id: coutuyan
   - Responsable sport:
