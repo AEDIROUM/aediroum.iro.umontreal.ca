@@ -11,17 +11,17 @@ conseil:
       - nom: André Lalonde
         id: lalondan
   - Secrétaire:
-      - nom:
-        id:
+      - nom: Yan Coutu
+        id: coutuyan
   - Trésorier:
       - nom: Vincent Aymong
         id: aymongvi
   - Coordonateur à la vie étudiante:
-      - nom:
+      - nom: Mehran Asadi
         id:
   - Responsable du café Math-Info:
-      - nom:
-        id:
+      - nom: Alizée Gagnon
+        id: gagnoali
   - Représentant première année:
       - nom: Abdelhakim Qbaich
         id: qbaichab
@@ -29,7 +29,7 @@ conseil:
       - nom: David Boivin
         id: boivinda
   - Représentante troisième année:
-      - nom:
+      - nom: Pierre-Olivier Talbot
         id:
   - Représentant majeure:
       - nom: François Dufour
@@ -38,14 +38,14 @@ conseil:
       - nom: Alizée Gagnon
         id: gagnoali
   - Représentant maîtrise:
-      - nom: Charles Desharnais
-        id: desharnc
+      - nom: Vincent Aymong
+        id: aymongvi
   - Représentant doctorat:
       - nom: Robin Milosz
         id: miloszro
   - Responsables soirées et party:
-      - nom: André Lalonde
-        id: lalondan
+      - nom: Patrice Dumontier-Houle
+        id:
       - nom: Yan Coutu
         id: coutuyan
   - Responsable sport:
@@ -55,8 +55,8 @@ conseil:
       - nom: David Boivin
         id: boivinda
   - Responsable MiDiro:
-      - nom:
-        id:
+      - nom: Abdelhakim Qbaich
+        id: qbaichab
   - Null pointer exception:
       - nom: Étienne Boucher
         id: boucheet
