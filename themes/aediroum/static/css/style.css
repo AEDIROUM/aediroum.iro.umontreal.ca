@@ -23,22 +23,27 @@ header img {
   background-color: #000 !important;
 }
 
+.navbar-inverse .navbar-nav .nav-link,
+.dropdown-item {
+  color: rgba(255,255,255,.65);
+}
+
+.navbar-inverse a:hover {
+  color: #fff !important;
+}
+
 .navbar-inverse .dropdown-menu {
   background-color: #000;
 }
 
-.navbar-inverse .dropdown-item {
-  color: rgba(255, 255, 255, .5);
-}
-
-.navbar-inverse .dropdown-item:hover {
-  color: rgba(255, 255, 255, .75);
-  background-color: inherit;
-}
-
+.navbar-inverse .dropdown-item:hover,
 .navbar-inverse .dropdown-item.active {
-  color: #fff;
   background-color: inherit;
+}
+
+.navbar-inverse .active {
+  color: #fff !important;
+  font-weight: bold;
 }
 
 /* Corps de page */
