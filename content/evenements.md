@@ -13,10 +13,10 @@ sitemap:
 : Aux 2 ou 3 semaines, party avec alcool et pizza pas cher au [Café Math-Info](//cafemathinfo.iro.umontreal.ca).
 
 Lait et Biscuits des premiers cycles
-: Chaque semaine, le mercredi à 14 h au local de l'association (André-Aisenstadt, 3190).
+: Chaque semaine, le jeudi à 14 h au local de l'association (André-Aisenstadt, 3190).
 
 Beignes et café des cycles supérieurs
-: Chaque semaine, le mercredi à 14 h au salon Maurice-Labbé (André-Aisenstadt, 6ème étage).
+: Chaque semaine, le mardi à 14 h au salon Maurice-Labbé (André-Aisenstadt, 6ème étage).
 
 Vins et Fromages des cycles supérieurs
 : Une fois par session d'automne et d'hiver, souper vins et fromages de 3 services.
