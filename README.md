@@ -17,12 +17,13 @@ Le site web utilise [Hugo](https://gohugo.io), un moteur de sites web statiques.
 Toutes les pages ont un fichier dans le répertoire `content`.
 Ce sont des fichiers dans le format [Markdown](https://daringfireball.net/projects/markdown/syntax).
 
-Certaines pages comme *Liste d'évènements* (`evenements.md`) et *Liens* (`liens.md`) peuvent être modifiées directement, tout simplement.
+Certaines pages comme *Liste d'évènements* `evenements.md` et *Liens* `liens.md` peuvent être modifiées directement, tout simplement.
 
 #### Nouvelles, MiDiros
 
 Les nouvelles se situent dans `content/nouvelles`.
 Les MiDiros se situent dans `content/midiros`.
+
 Référez-vous aux fichiers déjà existants pour créer les vôtres.
 
 **Attention :** Assurez-vous que votre fichier contient toujours la balise `<!--more-->` qui sépare ce qui est affiché comme "résumé" et le reste du contenu.
