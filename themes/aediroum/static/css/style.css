@@ -1,58 +1,70 @@
 /* Général */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 148px;
+}
+
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* Haut de page */
 
 header img {
-    max-height: 192px;
+  max-height: 192px;
 }
 
 .navbar-inverse {
-    background-color: #000 !important;
+  background-color: #000 !important;
 }
 
 .navbar-inverse .dropdown-menu {
-    background-color: #000;
+  background-color: #000;
 }
 
 .navbar-inverse .dropdown-item {
-    color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .5);
 }
 
 .navbar-inverse .dropdown-item:hover {
-    color: rgba(255, 255, 255, .75);
-    background-color: inherit;
+  color: rgba(255, 255, 255, .75);
+  background-color: inherit;
 }
 
 .navbar-inverse .dropdown-item.active {
-    color: #fff;
-    background-color: inherit;
+  color: #fff;
+  background-color: inherit;
 }
 
 /* Corps de page */
 
 main {
-    padding: .5rem 0;
+  padding: .5rem 0;
 }
 
 /* Pied de page */
 
 footer {
-    background-color: #000;
+  background-color: #000;
+  position: absolute !important;
+  bottom: 0;
+  width: 100%;
 }
 
 .card-inverse {
-    background-color: #000;
-    border-color: #000;
+  background-color: #000;
+  border-color: #000;
 }
 
 .card-text {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .card-text a {
-    color: #fff;
+  color: #fff;
 }
