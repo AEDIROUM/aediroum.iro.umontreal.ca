@@ -42,7 +42,7 @@ Les fichiers vont dans le répertoire `static`.
 Si ce sont des documents, vous pouvez les déposer dans `static/documents`.
 Vous pouvez alors utiliser le nom du fichier comme lien dans `documents.md`.
 
-Si ce sont des procès verbaux, assurez-vous que le nom du fichier correspond à la date utlisée dans le fichier YAML, dans `data/proces`.
+Si ce sont des procès verbaux, assurez-vous que le nom du fichier correspond à la date utilisée dans le fichier YAML, dans `data/proces`.
 
 ### Déploiement
 
@@ -50,4 +50,4 @@ Pour déployer le site web, vous n'avez qu'à exécuter `deploy.sh` sur votre or
 
 ## License
 
-Ce projet est licensié sous les termes de la [License MIT](LICENSE.md).
+Ce projet suit les termes de la [License MIT](LICENSE.md).

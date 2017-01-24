@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# NPM
+# npm
 npm install --prefix themes/aediroum/
 npm update --prefix themes/aediroum/
 
