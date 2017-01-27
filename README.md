@@ -9,6 +9,7 @@ Le site web utilise [Hugo](https://gohugo.io), un moteur de sites web statiques.
 * [Hugo](https://gohugo.io), pour générer le site web.
 * [npm](https://npmjs.com), pour les fichiers statiques (CSS/JS).
 * [rsync](https://rsync.samba.org), pour le déploiement.
+* [git](https://git-scm.com), optionnellement.
 
 ## Guide d'utilisation
 
@@ -46,7 +47,10 @@ Si ce sont des procès verbaux, assurez-vous que le nom du fichier correspond à
 
 ### Déploiement
 
-Pour déployer le site web, vous n'avez qu'à exécuter `deploy.sh` sur votre ordinateur ou directement sur frontal.
+Pour déployer le site web, vous n'avez qu'à exécuter `deploy.sh` sur votre ordinateur.
+
+Vous pouvez le déployer en vous connectant sur le compte de l'AÉDIROUM, dans un des ordinateurs du DIRO.
+`npm` n'est pas accessible par SSH sur frontal.
 
 ## License
 
