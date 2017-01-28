@@ -12,4 +12,5 @@ sitemap:
 * [Café Math-Info](//cafemathinfo.iro.umontreal.ca)
 * [Club de Sécurité Informatique](//csi.ninja)
 * [Département d'informatique et de recherche opérationelle](//diro.umontreal.ca)
+* [Soutien technique DIRO](//support.iro.umontreal.ca)
 * [Fédération des associations étudiantes du campus de l'Université de Montréal](//faecum.qc.ca)
