@@ -8,8 +8,7 @@ Le site web utilise [Hugo](https://gohugo.io), un moteur de sites web statiques.
 
 * [Hugo](https://gohugo.io), pour générer le site web.
 * [npm](https://npmjs.com), pour les fichiers statiques (CSS/JS).
-* [rsync](https://rsync.samba.org), pour le déploiement.
-* [git](https://git-scm.com), optionnellement.
+* [bash](https://www.gnu.org/software/bash/) et [rsync](https://rsync.samba.org), pour le déploiement.
 
 ## Guide d'utilisation
 
@@ -18,7 +17,7 @@ Le site web utilise [Hugo](https://gohugo.io), un moteur de sites web statiques.
 Toutes les pages ont un fichier dans le répertoire `content`.
 Ce sont des fichiers dans le format [Markdown](https://daringfireball.net/projects/markdown/syntax).
 
-Certaines pages comme *Liste d'évènements* `evenements.md` et *Liens* `liens.md` peuvent être modifiées directement, tout simplement.
+Certaines pages comme *Liste d'évènements* (`evenements.md`) et *Liens* (`liens.md`) peuvent être modifiées directement, tout simplement.
 
 #### Nouvelles, MiDiros
 
@@ -27,14 +26,14 @@ Les MiDiros se situent dans `content/midiros`.
 
 Référez-vous aux fichiers déjà existants pour créer les vôtres.
 
-**Attention :** Assurez-vous que votre fichier contient toujours la balise `<!--more-->` qui sépare ce qui est affiché comme "résumé" et le reste du contenu.
+**Attention :** Assurez-vous que votre fichier contient toujours la balise `<!--more-->` qui sépare ce qui est affiché comme « résumé » et le reste du contenu.
 
 ### Données
 
 Le répertoire `data` regroupe les listes de conseils d'administration et de procès verbaux par année scolaire.
 Ce sont des fichiers dans le format [YAML](//yaml.org).
 
-Il est à noter que les `id` dans les fichiers de conseils sont les noms d'utilisateurs du DIRO des membres.
+Il est à noter que les *id* dans les fichiers de conseils sont les noms d'utilisateurs du DIRO des membres.
 
 ### Fichiers
 
@@ -47,7 +46,7 @@ Si ce sont des procès verbaux, assurez-vous que le nom du fichier correspond à
 
 ### Déploiement
 
-Pour déployer le site web, vous n'avez qu'à exécuter `deploy.sh` sur votre ordinateur.
+Pour déployer le site web, vous n'avez qu'à exécuter `deploy` sur votre ordinateur.
 
 Vous pouvez le déployer en vous connectant sur le compte de l'AÉDIROUM, dans un des ordinateurs du DIRO.
 `npm` n'est pas accessible par SSH sur frontal.
