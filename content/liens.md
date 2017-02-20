@@ -14,3 +14,4 @@ sitemap:
 * [Département d'informatique et de recherche opérationelle](//diro.umontreal.ca)
 * [Soutien technique DIRO](//support.iro.umontreal.ca)
 * [Fédération des associations étudiantes du campus de l'Université de Montréal](//faecum.qc.ca)
+* [DIRO Bash](//dirobash.tolarian.com)
