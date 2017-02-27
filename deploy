@@ -15,5 +15,5 @@ if [ $USER = "aediroum" ]; then
   rsync -az --delete public/ ~/public_html
 else
   # Remote
-  rsync -az --delete public/ aediroum@frontal.iro.umontreal.ca:~/public_html
+  rsync -az --delete public/ aediroum@arcade.iro.umontreal.ca:~/public_html
 fi
