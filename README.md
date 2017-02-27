@@ -49,7 +49,7 @@ Si ce sont des procès verbaux, assurez-vous que le nom du fichier correspond à
 Pour déployer le site web, vous n'avez qu'à exécuter `deploy` sur votre ordinateur.
 
 Vous pouvez le déployer en vous connectant sur le compte de l'AÉDIROUM, dans un des ordinateurs du DIRO.
-`npm` n'est pas accessible par SSH sur frontal.
+`npm` n'est pas accessible par SSH sur arcade (frontal).
 
 ## License
 
