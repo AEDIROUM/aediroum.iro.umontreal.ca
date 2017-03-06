@@ -2,7 +2,7 @@
 title: Nous Contacter
 layout: contact
 menu: main
-weight: 6
+weight: 7
 sitemap:
   changefreq: yearly
   priority: 0.6

@@ -3,7 +3,7 @@ title: Autres documents
 menu:
   main:
     parent: documents
-    weight: 1
+    weight: 2
 sitemap:
   changefreq: yearly
   priority: 0.8

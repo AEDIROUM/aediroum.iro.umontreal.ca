@@ -1,7 +1,7 @@
 ---
 title: Accueil
 menu: main
-weight: 0
+weight: 1
 sitemap:
   changefreq: daily
   priority: 1

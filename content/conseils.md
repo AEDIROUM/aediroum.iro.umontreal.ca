@@ -2,7 +2,7 @@
 title: Conseils d'administration
 layout: conseils
 menu: main
-weight: 1
+weight: 2
 sitemap:
   changefreq: monthly
   priority: 0.8

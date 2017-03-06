@@ -3,7 +3,7 @@ title: Liste d'évènements
 menu:
   main:
     parent: evenements
-    weight: 0
+    weight: 1
 sitemap:
   changefreq: yearly
   priority: 0.8

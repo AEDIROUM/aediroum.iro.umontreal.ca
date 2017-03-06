@@ -8,10 +8,10 @@ menu:
   main:
     - Name: Évènements
       Identifier: evenements
-      Weight: 3
+      Weight: 4
     - Name: Documents
       Identifier: documents
-      Weight: 4
+      Weight: 5
 
 # Markdown
 blackfriday:

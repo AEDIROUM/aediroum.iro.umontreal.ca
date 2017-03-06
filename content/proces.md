@@ -4,7 +4,7 @@ layout: proces
 menu:
   main:
     parent: documents
-    weight: 0
+    weight: 1
 sitemap:
   changefreq: daily
   priority: 0.7
