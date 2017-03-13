@@ -61,6 +61,12 @@ footer {
   width: 100%;
 }
 
+footer svg {
+  width: 32px;
+  height: 32px;
+  fill: white;
+}
+
 .card-inverse {
   background-color: #000;
   border-color: #000;
