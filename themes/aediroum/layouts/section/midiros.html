@@ -1,0 +1,54 @@
+{{ define "main" }}
+  <h3>{{ .Title }}</h3>
+
+  {{ $page := .Paginator 5 }}
+
+  <ul class="list-unstyled">
+    {{ range $page.Pages }}
+      <li class="media">
+        <div class="media-body">
+          <h4 class="mt-0 mb-1"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+          <p class="text-muted mb-0">{{ .Params.speaker }} — {{ .Params.room }}</p>
+          <p class="text-muted">{{ dateFormat "02/01/2006" .Date }}</p>
+
+          {{ .Summary }}
+
+          {{ if .Truncated }}
+            <p class="mb-0"><a href="{{ .RelPermalink }}">Lire plus...</a></p>
+          {{ end }}
+        </div>
+      </li>
+
+      <hr/>
+    {{ end }}
+  </ul>
+
+  {{ if gt $page.TotalPages 1 }}
+    <nav aria-label="Pages">
+      <ul class="pagination justify-content-center">
+        <li class="page-item{{ if not $page.HasPrev }} disabled{{ end }}">
+          <a class="page-link" href="{{ if $page.HasPrev }}{{ $page.Prev.URL }}{{ end }}" aria-label="Précédent"{{ if not $page.HasPrev }} tabindex="-1"{{ end }}>
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Précédent</span>
+          </a>
+        </li>
+
+        {{ range $page.Pagers }}
+          <li class="page-item{{ if eq . $page }} active{{ end }}">
+            <a class="page-link" href="{{ .URL }}">
+              <span>{{ .PageNumber }}</span>
+              <span class="sr-only">(actuelle)</span>
+            </a>
+          </li>
+        {{ end }}
+
+        <li class="page-item{{ if not $page.HasNext }} disabled{{ end }}">
+          <a class="page-link" href="{{ if $page.HasNext }}{{ $page.Next.URL }}{{ end }}" aria-label="Suivant"{{ if not $page.HasNext }} tabindex="-1"{{ end }}>
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Suivant</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  {{ end }}
+{{ end }}
