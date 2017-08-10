@@ -7,8 +7,8 @@ Le site web utilise [Hugo](https://gohugo.io), un moteur de sites web statiques.
 ## Logiciels requis
 
 * [Hugo](https://gohugo.io), pour générer le site web.
-* [npm](https://npmjs.com), pour les fichiers statiques (CSS/JS).
-* [bash](https://www.gnu.org/software/bash/) et [rsync](https://rsync.samba.org), pour le déploiement.
+* [Npm](https://npmjs.com), pour les fichiers statiques (CSS/JS).
+* [Bash](https://www.gnu.org/software/bash/) et [Rsync](https://rsync.samba.org), pour le déploiement.
 
 ## Guide d'utilisation
 
@@ -46,10 +46,10 @@ Si ce sont des procès verbaux, assurez-vous que le nom du fichier correspond à
 
 ### Déploiement
 
-Pour déployer le site web, vous n'avez qu'à exécuter `deploy` sur votre ordinateur.
+Pour déployer le site web, vous n'avez qu'à exécuter le script `deploy` sur votre ordinateur.
 
-Vous pouvez le déployer en vous connectant sur le compte de l'AÉDIROUM, dans un des ordinateurs du DIRO.
-`npm` n'est pas accessible par SSH sur arcade (frontal).
+Vous pouvez aussi le déployer en vous connectant sur le compte de l'AÉDIROUM, dans un des ordinateurs du DIRO.
+`npm` n'est pas accessible par SSH sur arcade.
 
 ## License
 
