@@ -1,9 +1,5 @@
 #!/bin/sh
 
-# npm
-npm install --prefix themes/aediroum/
-npm update --prefix themes/aediroum/
-
 # Hugo
 hugo
 
