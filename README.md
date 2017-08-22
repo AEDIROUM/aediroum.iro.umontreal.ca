@@ -25,7 +25,7 @@ Les MiDiros se situent dans `content/midiros`.
 
 Référez-vous aux fichiers déjà existants pour créer les vôtres.
 
-**Attention :** Assurez-vous que votre fichier contient toujours la balise `<!--more-->` qui sépare ce qui est affiché comme « résumé » et le reste du contenu.
+**Attention** Assurez-vous que votre fichier contient toujours la balise `<!--more-->` qui sépare ce qui est affiché comme « résumé » et le reste du contenu.
 
 ### Données
 
