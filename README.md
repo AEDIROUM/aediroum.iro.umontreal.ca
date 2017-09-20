@@ -32,7 +32,7 @@ Référez-vous aux fichiers déjà existants pour créer les vôtres.
 Le répertoire `data` regroupe les listes de conseils d'administration et de procès verbaux par année scolaire.
 Ce sont des fichiers dans le format [YAML](//yaml.org).
 
-Il est à noter que les *id* dans les fichiers de conseils sont les noms d'utilisateurs du DIRO des membres.
+Il est à noter que les **id** dans les fichiers de conseils sont les noms d'utilisateurs du DIRO des membres.
 
 ### Fichiers
 
