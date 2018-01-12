@@ -1,0 +1,62 @@
+---
+annee: 2017-2018
+conseil:
+  - Président:
+      - nom: André Lalonde
+        id: lalondan
+  - Vice-présidente interne:
+      - nom: Karine Déry
+        id: derykari
+  - Vice-président externe:
+      - nom: Aldo Lamarre
+        id: lamarrea
+  - Secrétaire:
+      - nom: Maxime Pelletier
+        id: pelletim
+  - Trésorier:
+      - nom: vacant
+        id:
+  - Coordonateur à la vie étudiante:
+      - nom: vacant
+        id:
+  - Responsable du café Math-Info:
+      - nom: David Boivin
+        id: boivinda
+  - Représentante première année:
+      - nom: Audrey Champagne
+        id: champaga
+  - Représentant deuxième année:
+      - nom: Alexandre Chartrand
+        id: chartraa
+  - Représentante troisième année:
+      - nom: Maude Sabourin
+        id: sabourim
+  - Représentant majeure:
+      - nom: Alexandre Brilhante
+        id: brilhana
+  - Représentante mathématiques et informatique:
+      - nom: Karine Déry
+        id: derykari
+  - Représentant maîtrise:
+      - nom: Nicolas Hurtubise
+        id: hurtubin
+  - Représentante doctorat:
+      - nom: Assya Trofimov
+        id: trofimoa
+  - Responsables soirées et party:
+      - nom: vacant
+        id:
+      - nom: vacant
+        id:
+  - Responsable sport:
+      - nom: vacant
+        id:
+  - Responsable compétition:
+      - nom: Maude Sabourin
+        id: sabourim
+  - Responsable MiDiro:
+      - nom: Lauranne Deaudelin
+        id: deaudell
+  - Null pointer exception:
+      - nom: vacant
+        id:
