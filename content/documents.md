@@ -7,7 +7,7 @@ menu:
 sitemap:
   changefreq: yearly
   priority: 0.8
-...
+---
 
 #### Charte et règlements
 

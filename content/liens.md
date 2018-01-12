@@ -5,7 +5,7 @@ weight: 6
 sitemap:
   changefreq: monthly
   priority: 0.8
-...
+---
 
 * [Groupe Facebook de l'association](//fb.com/groups/2354091571)
 * [Page Facebook de l'association](//fb.com/aediroum)

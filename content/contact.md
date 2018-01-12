@@ -6,4 +6,4 @@ weight: 7
 sitemap:
   changefreq: yearly
   priority: 0.6
-...
+---
