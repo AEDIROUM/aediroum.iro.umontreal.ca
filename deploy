@@ -2,6 +2,7 @@
 
 hugo
 
+# Permissions
 chmod -R u+rwX,go+rX,go-w public/
 
 if [ $USER = "aediroum" ]; then
