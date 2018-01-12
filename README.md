@@ -2,19 +2,17 @@
 
 Dépôt contenant le site web de l'Association des Étudiants du [Département d'Informatique et de Recherche Opérationnelle](//diro.umontreal.ca) de l'[Université de Montréal](//umontreal.ca).
 
-Le site web utilise [Hugo](https://gohugo.io), un moteur de sites web statiques.
-
 ## Logiciels requis
 
-* [Hugo](https://gohugo.io), pour générer le site web.
-* [Bash](https://www.gnu.org/software/bash/) et [Rsync](https://rsync.samba.org), pour le déploiement.
+* [Hugo](//gohugo.io), pour générer le site web.
+* [Rsync](//rsync.samba.org), pour le déploiement.
 
 ## Guide d'utilisation
 
 ### Contenu
 
 Toutes les pages ont un fichier dans le répertoire `content`.
-Ce sont des fichiers dans le format [Markdown](https://daringfireball.net/projects/markdown/syntax).
+Ce sont des fichiers dans le format [Markdown](//daringfireball.net/projects/markdown/syntax).
 
 Certaines pages comme *Liste d'évènements* (`evenements.md`) et *Liens* (`liens.md`) peuvent être modifiées directement, tout simplement.
 
