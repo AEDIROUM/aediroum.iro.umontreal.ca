@@ -7,7 +7,7 @@ menu:
 sitemap:
   changefreq: yearly
   priority: 0.8
----
+...
 
 5 à 7
 : Aux 2 ou 3 semaines, party avec alcool et pizza pas cher au [Café Math-Info](//cafemathinfo.iro.umontreal.ca).
