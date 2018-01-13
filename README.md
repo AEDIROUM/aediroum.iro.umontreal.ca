@@ -7,7 +7,7 @@ l'[Université de Montréal](http://umontreal.ca).
 ## Logiciels requis
 
 * [hugo](//gohugo.io), pour la génération du site.
-* [rsync](//rsync.samba.org), pour le déploiement.
+* [rsync](//rsync.samba.org), pour le déploiement du site.
 
 ## Guide d'utilisation
 
