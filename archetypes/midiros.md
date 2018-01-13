@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
-speaker:
-room:
+speaker: ""
+room: ""
 draft: false
 ---
