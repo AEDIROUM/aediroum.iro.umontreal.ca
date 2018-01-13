@@ -1,6 +1,7 @@
 ---
-title: ""
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+date: {{ .Date }}
 speaker:
-room: AA-
+room:
 draft: false
 ---
