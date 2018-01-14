@@ -29,7 +29,11 @@
                       {{ if .id }}
                         <a href="http://www-ens.iro.umontreal.ca/~{{ .id }}" target="_blank">{{ .nom }}</a>
                       {{ else }}
-                        {{ .nom }}
+                        {{ if .nom }}
+                          {{ .nom }}
+                        {{ else }}
+                          Vacant
+                        {{ end }}
                       {{ end }}
                       {{ if gt (len $titulaires) 1 }}
                         {{ if eq $index 0 }}, {{ end }}

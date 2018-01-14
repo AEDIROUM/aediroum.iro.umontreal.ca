@@ -19,29 +19,28 @@ header img {
   max-height: 192px;
 }
 
-.navbar-inverse {
+.bg-dark {
   background-color: #000 !important;
 }
 
-.navbar-inverse .navbar-nav .nav-link,
-.dropdown-item {
+.navbar-nav .nav-link, .dropdown-item {
   color: rgba(255,255,255,.65);
 }
 
-.navbar-inverse a:hover {
+.navbar a:hover {
   color: #fff !important;
 }
 
-.navbar-inverse .dropdown-menu {
+.navbar .dropdown-menu {
   background-color: #000;
 }
 
-.navbar-inverse .dropdown-item:hover,
-.navbar-inverse .dropdown-item.active {
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item.active {
   background-color: inherit;
 }
 
-.navbar-inverse .active {
+.navbar .active {
   color: #fff !important;
   font-weight: bold;
 }
@@ -74,6 +73,10 @@ footer svg {
 
 .card-text {
   color: #fff !important;
+}
+
+.card-subtitle {
+  color: #fff;
 }
 
 .card-text a {

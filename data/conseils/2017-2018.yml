@@ -9,28 +9,28 @@ conseil:
         id: derykari
   - Vice-président externe:
       - nom: Aldo Lamarre
-        id: lamarrea
+        id: lamarral
   - Secrétaire:
       - nom: Maxime Pelletier
-        id: pelletim
+        id:
   - Trésorier:
-      - nom: vacant
+      - nom:
         id:
   - Coordonateur à la vie étudiante:
-      - nom: vacant
+      - nom:
         id:
   - Responsable du café Math-Info:
       - nom: David Boivin
         id: boivinda
   - Représentante première année:
       - nom: Audrey Champagne
-        id: champaga
+        id:
   - Représentant deuxième année:
       - nom: Alexandre Chartrand
-        id: chartraa
+        id: chartral
   - Représentante troisième année:
       - nom: Maude Sabourin
-        id: sabourim
+        id:
   - Représentant majeure:
       - nom: Alexandre Brilhante
         id: brilhana
@@ -43,20 +43,18 @@ conseil:
   - Représentante doctorat:
       - nom: Assya Trofimov
         id: trofimoa
-  - Responsables soirées et party:
-      - nom: vacant
-        id:
-      - nom: vacant
+  - Responsable soirées et party:
+      - nom:
         id:
   - Responsable sport:
-      - nom: vacant
+      - nom:
         id:
   - Responsable compétition:
       - nom: Maude Sabourin
-        id: sabourim
+        id:
   - Responsable MiDiro:
       - nom: Lauranne Deaudelin
         id: deaudell
   - Null pointer exception:
-      - nom: vacant
+      - nom:
         id:

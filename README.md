@@ -35,9 +35,9 @@ contenu.
 
 ### Données
 
-Le répertoire `data` regroupe les listes de conseils d'administration et de
-procès verbaux par année scolaire.
-Ce sont des fichiers dans le format [YAML](//yaml.org).
+Le répertoire [`data`](data) regroupe les listes de conseils d'administration
+et de procès verbaux par année scolaire. Ce sont des fichiers dans le format
+[YAML](//yaml.org).
 
 Il est à noter que les **id** dans les fichiers de conseils sont les noms
 d'utilisateurs du DIRO des membres.
@@ -57,11 +57,11 @@ la date utilisée dans le fichier YAML, dans [`data/proces/`](data/proces).
 ### Déploiement
 
 Pour déployer le site web, vous n'avez qu'à exécuter le script
-[`deploy`](deploy) sur votre ordinateur.
+[`deploy.sh`](deploy.sh) sur votre ordinateur.
 
 Vous pouvez aussi le déployer en vous connectant sur le compte de l'AÉDIROUM,
 dans un des ordinateurs du DIRO.
 
 ## License
 
-Ce projet suit les termes de la [License MIT](LICENSE.md).
+Ce projet suit les termes de la [License ISC](LICENSE).

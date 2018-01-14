@@ -1,6 +1,5 @@
----
 title: AÉDIROUM
-baseurl: http://aediroum.iro.umontreal.ca/
+baseurl: http://aediroum.iro.umontreal.ca
 theme: aediroum
 
 # Menu
@@ -13,21 +12,17 @@ menu:
       Identifier: documents
       Weight: 5
 
-# Markdown
-blackfriday:
-  angledQuotes: true
-  hrefTargetBlank: true
-
-# Crawling
-sitemap:
-  changefreq: monthly
-  priority: 0.5
-enableRobotsTXT: true
-disableHugoGeneratorInject: true
-
 # Language
 defaultContentLanguage: fr
 languageCode: fr
+
+# Markdown
+blackfriday:
+  angledQuotes: true
+
+# Crawling
+enableRobotsTXT: true
+disableHugoGeneratorInject: true
 
 # Miscellaneous
 metaDataFormat: yaml
