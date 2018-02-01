@@ -9,7 +9,7 @@ sitemap:
 
 * [Groupe Facebook de l'association](//fb.com/groups/2354091571)
 * [Page Facebook de l'association](//fb.com/aediroum)
-* [Café Tore et Fraction](//cafemathinfo.iro.umontreal.ca)
+* [Café Torre et Fraction](//cafemathinfo.iro.umontreal.ca)
 * [Club de Sécurité Informatique](//csi.ninja)
 * [Club FinTech](//fb.com/groups/143067566363926)
 * [Département d'informatique et de recherche opérationelle](//diro.umontreal.ca)
