@@ -1,0 +1,60 @@
+---
+annee: 2018-2019
+conseil:
+  - Président:
+      - nom: Maxime Pelletier
+        id: pellemax
+  - Vice-présidente interne:
+      - nom: Alizée Gagnon
+        id: 
+  - Vice-président externe:
+      - nom: Francis Boudreau
+        id: 
+  - Secrétaire:
+      - nom: Olivier St-Laurent
+        id:
+  - Trésorier:
+      - nom: Maud Moerel-martini
+        id:
+  - Coordonateur à la vie étudiante:
+      - nom: Laura Bégin
+        id:
+  - Responsable du café Math-Info:
+      - nom: Francis De Ladurantaye
+        id: 
+  - Représentante première année:
+      - nom: Raphaël Guillemin
+        id:
+  - Représentant deuxième année:
+      - nom: François Marchand
+        id:
+  - Représentante troisième année:
+      - nom: Stéphane Verville-Vohl
+        id:
+  - Représentant majeure:
+      - nom: Maud Moerel-Martini
+        id: 
+  - Représentante mathématiques et informatique:
+      - nom: Anthony Uyende
+        id:
+  - Représentant maîtrise:
+      - nom: Alizée Gagnon
+        id:
+  - Représentante doctorat:
+      - nom:
+        id:
+  - Responsable soirées et party:
+      - nom: Stéphane Verville Vohl et Lauranne Deaudelin
+        id:
+  - Responsable sport:
+      - nom: Mathieu David-Babin
+        id:
+  - Responsable compétition:
+      - nom: Jérémy Coulombe
+        id:
+  - Responsable MiDiro:
+      - nom: Nicolas Hurtubise
+        id:
+  - Null pointer exception:
+      - nom:
+        id:
