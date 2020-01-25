@@ -11,6 +11,7 @@ sitemap:
 * [Page Facebook de l'association](//fb.com/aediroum)
 * [Café Tore et Fraction](//cafemathinfo.iro.umontreal.ca)
 * [Club de Sécurité Informatique](//csi.ninja)
+* [Club FinTech](//fb.com/groups/143067566363926)
 * [Département d'informatique et de recherche opérationelle](//diro.umontreal.ca)
 * [Site web de stages](//stages.dgtic.umontreal.ca/etudiants)
 * [Soutien technique DIRO](//support.iro.umontreal.ca)
