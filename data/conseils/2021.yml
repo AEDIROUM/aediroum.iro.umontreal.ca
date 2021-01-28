@@ -1,0 +1,63 @@
+---
+annee: 2021
+conseil:
+  - Président:
+      - nom: Léonard Oest O'Leary
+        id:
+  - Adjoint-Président:
+      - nom: Laurier Lavoie-Giasson
+        id:
+  - Vice-présidente interne:
+      - nom: Lucas Bamouni
+        id: 
+  - Vice-président externe:
+      - nom: Étienne Beaulé
+        id: 
+  - Secrétaire:
+      - nom: Antoine Colson
+        id:
+  - Adjoint-secrétaire:
+      - nom: Simon Janssen
+        id:
+  - Trésorier:
+      - nom: Louis Malenfant-Poulin
+        id:
+  - Adjoint-trésorier:
+      - nom: Mathieu Morin
+        id:
+  - Coordinatrice à la vie étudiante:
+      - nom: Catherine Larivière
+        id:
+  - Représentant première année:
+      - nom: Mathieu Morin
+        id:
+  - Représentant deuxième année:
+      - nom: Lauras Salas
+        id:
+  - Représentant troisième année:
+      - nom: François Luc Denhez-Teuton
+        id:
+  - Représentante mathématiques et informatique:
+      - nom: Mathilde Prouvost
+        id:
+  - Représentant maîtrise:
+      - nom: Charlie Gauthier
+        id:
+  - Représentant doctorat:
+      - nom: Julien Codsi
+        id:
+  - Responsable sport:
+      - nom: Mathilde Prouvost
+        id:
+  - Responsable compétition:
+      - nom: Reda Kzaz
+        id:
+  - Membre de confience:
+      - nom: Julien Codsi
+        id:
+  - Responsable du café Math-Info:
+      - nom: Le covid
+        id: 
+  - Null pointer exception:
+      - nom:
+        id:
