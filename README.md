@@ -62,6 +62,8 @@ Pour déployer le site web, vous n'avez qu'à exécuter le script
 Vous pouvez aussi le déployer en vous connectant sur le compte de l'AÉDIROUM,
 dans un des ordinateurs du DIRO.
 
+Le site web est maintenant situé dans le fichier `/home/www-labs/aediroum/public_html` sur le serveur
+
 ## License
 
 Ce projet suit les termes de la [License ISC](LICENSE).
