@@ -7,7 +7,7 @@ conseil:
   - Adjoint-Président:
       - nom: Laurier Lavoie-Giasson
         id:
-  - Vice-présidente interne:
+  - Vice-président interne:
       - nom: Lucas Bamouni
         id: 
   - Vice-président externe:
@@ -40,7 +40,7 @@ conseil:
   - Représentante mathématiques et informatique:
       - nom: Mathilde Prouvost
         id:
-  - Représentant maîtrise:
+  - Représentante maîtrise:
       - nom: Charlie Gauthier
         id:
   - Représentant doctorat:
