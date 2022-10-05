@@ -1,0 +1,120 @@
+---
+annee: 2021-2022
+conseil:
+  - Président:
+      - nom: Léonard Oest O'Leary
+        id:
+        courriel: leonard.oest.oleary@umontreal.ca
+  - Adjoint-Président:
+      - nom: Laurier Lavoie-Giasson
+        id:
+        courriel: laurier.lavoie-giasson@umontreal.ca
+  - Vice-président interne:
+      - nom: 
+        id: 
+        courriel: 
+  - Adjoint-Vice-président interne:
+      - nom: Lucas Bamouni
+        id: 
+        courriel: elvis.lucas.yanice.bamouni@umontreal.ca
+  - Vice-président externe:
+      - nom: Étienne Beaulé
+        id: 
+        courriel: etienne.beaule@umontreal.ca
+  - Adjoint-Vice-président externe:
+      - nom: 
+        id: 
+        courriel: 
+  - Secrétaire:
+      - nom: Simon Janssen
+        id:
+        courriel: simon.janssen@umontreal.ca
+  - Adjoint-secrétaire:
+      - nom: Juan Duran
+        id:
+        courriel: juan.duran@umontreal.ca
+  - Trésorier:
+      - nom: Lucas Hornung
+        id:
+        courriel: lucas.hornung@umontreal.ca
+  - Adjoint-trésorier:
+      - nom: Swann Suffrin
+        id:
+        courriel: swann.suffrin@umontreal.ca
+  - Coordinateur à la vie étudiante:
+      - nom: Louis Malenfant-Poulin
+        id:
+        courriel: louis.malenfant-poulin@umontreal.ca
+  - Adjointe-Coordinatrice à la vie étudiante:
+      - nom: Dominick Basque Morin
+        id:
+        courriel: dominick.basque.morin@umontreal.ca
+  - Représentant première année:
+      - nom: Stefan Roman
+        id:
+        courriel: stefan.roman@umontreal.ca
+  - Représentant deuxième année:
+      - nom: Mehdi Medjahed
+        id:
+        courriel: mehdi.medjahed@umontreal.ca
+  - Représentant troisième année:
+      - nom: Laurier Lavoie-Giasson
+        id:
+        courriel: laurier.lavoie-giasson@umontreal.ca
+  - Représentant mathématiques et informatique:
+      - nom: Reda Kzaz
+        id:
+        courriel: reda.kzaz@umontreal.ca
+  - Représentante maîtrise:
+      - nom: Charlie Gauthier
+        id:
+        courriel: charlie.gauthier@umontreal.ca
+  - Représentant doctorat:
+      - nom: 
+        id:
+        courriel: 
+  - Représentante majeure:
+      - nom: Laura Salas
+        id:
+        courriel: laura.elisa.salas@umontreal.ca
+  - Représentante des étudiants internationaux:
+      - nom: Mathilde Prouvost
+        id:
+        courriel: mathilde.prouvost@umontreal.ca
+  - Responsable sport:
+      - nom: Mathilde Prouvost
+        id:
+        courriel: mathilde.prouvost@umontreal.ca
+  - Responsable compétition:
+      - nom: Antoine Colson
+        id:
+        courriel: antoine.colson.ratelle@umontreal.ca
+  - Responsables du café Math-Info:
+      - nom: Colin Parent
+        id:
+        courriel: colin.parent.1@umontreal.ca
+      - nom: Laurent Charlebois
+        id:
+        courriel: laurent.charlebois@umontreal.ca
+      - nom: Simon Guy
+        id:
+        courriel: simon.guy5264@gmail.com
+  - Responsables des soirées:
+      - nom: Laurier Lavoie-Giasson
+        id:
+        courriel: laurier.lavoie-giasson@umontreal.ca
+      - nom: Stefan Roman
+        id:
+        courriel: stefan.roman@umontreal.ca
+  - Responsable MiDiro:
+      - nom:
+        id:
+        courriel: 
+  - Null pointer exception:
+      - nom: uncaught
+        id:
+        courriel: 
+  - Membre de confiance:
+      - nom: Julien Codsi
+        id:
+        courriel: julien.codsi@umontreal.ca

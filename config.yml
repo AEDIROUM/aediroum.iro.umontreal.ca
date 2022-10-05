@@ -5,7 +5,7 @@ theme: aediroum
 # Menu
 menu:
   main:
-    - Name: Évènements
+    - Name: Événements
       Identifier: evenements
       Weight: 4
     - Name: Documents

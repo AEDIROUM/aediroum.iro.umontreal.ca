@@ -13,10 +13,10 @@ conseil:
   - Secrétaire:
       - nom: Olivier St-Laurent
         id:
-  - Trésorier:
+  - Trésorière:
       - nom: Maud Moerel-martini
         id:
-  - Coordonateur à la vie étudiante:
+  - Coordinatrice à la vie étudiante:
       - nom: Laura Bégin
         id:
   - Responsable du café Math-Info:
@@ -31,20 +31,22 @@ conseil:
   - Représentante troisième année:
       - nom: Stéphane Verville-Vohl
         id:
-  - Représentant majeure:
+  - Représentante majeure:
       - nom: Maud Moerel-Martini
         id: 
-  - Représentante mathématiques et informatique:
+  - Représentant mathématiques et informatique:
       - nom: Anthony Uyende
         id:
-  - Représentant maîtrise:
+  - Représentante maîtrise:
       - nom: Alizée Gagnon
         id:
-  - Représentante doctorat:
+  - Représentant doctorat:
       - nom:
         id:
-  - Responsable soirées et party:
-      - nom: Stéphane Verville Vohl et Lauranne Deaudelin
+  - Responsables soirées et party:
+      - nom: Stéphane Verville Vohl
+        id:
+      - nom: Lauranne Deaudelin
         id:
   - Responsable sport:
       - nom: Mathieu David-Babin

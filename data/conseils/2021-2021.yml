@@ -1,0 +1,81 @@
+---
+annee: 2021-2021
+conseil:
+  - Président:
+      - nom: Léonard Oest O'Leary
+        id:
+        courriel: leonard.oest.oleary@umontreal.ca
+  - Adjoint-Président:
+      - nom: Laurier Lavoie-Giasson
+        id:
+        courriel: laurier.lavoie-giasson@umontreal.ca
+  - Vice-président interne:
+      - nom: Lucas Bamouni
+        id: 
+        courriel: elvis.lucas.yanice.bamouni@umontreal.ca
+  - Vice-président externe:
+      - nom: Étienne Beaulé
+        id: 
+        courriel: etienne.beaule@umontreal.ca
+  - Secrétaire:
+      - nom: Antoine Colson
+        id:
+        courriel: antoine.colson.ratelle@umontreal.ca
+  - Adjoint-secrétaire:
+      - nom: Simon Janssen
+        id:
+        courriel: simon.janssen@umontreal.ca
+  - Trésorier:
+      - nom: Louis Malenfant-Poulin
+        id:
+        courriel: louis.malenfant-poulin@umontreal.ca
+  - Adjoint-trésorier:
+      - nom: Mathieu Morin
+        id:
+        courriel: mathieu.morin.4@umontreal.ca
+  - Coordinatrice à la vie étudiante:
+      - nom: Catherine Larivière
+        id:
+        courriel: catherine.lariviere.1@umontreal.ca
+  - Représentant première année:
+      - nom: Mathieu Morin
+        id:
+        courriel: mathieu.morin.4@umontreal.ca
+  - Représentante deuxième année:
+      - nom: Laura Salas
+        id:
+        courriel: laura.elisa.salas@umontreal.ca
+  - Représentant troisième année:
+      - nom: François Luc Denhez-Teuton
+        id:
+        courriel: francois.luc.denhez-teuton@umontreal.ca
+  - Représentante mathématiques et informatique:
+      - nom: Mathilde Prouvost
+        id:
+        courriel: mathilde.prouvost@umontreal.ca
+  - Représentante maîtrise:
+      - nom: Charlie Gauthier
+        id:
+        courriel: charlie.gauthier@umontreal.ca
+  - Représentant doctorat:
+      - nom: Julien Codsi
+        id:
+        courriel: julien.codsi@umontreal.ca
+  - Responsable sport:
+      - nom: Mathilde Prouvost
+        id:
+        courriel: mathilde.prouvost@umontreal.ca
+  - Responsable compétition:
+      - nom: Reda Kzaz
+        id:
+        courriel: reda.kzaz@umontreal.ca
+  - Membre de confiance:
+      - nom: Julien Codsi
+        id:
+        courriel: julien.codsi@umontreal.ca
+  - Responsable du café Math-Info:
+      - nom: Le covid
+        id: 
+  - Null pointer exception:
+      - nom:
+        id:

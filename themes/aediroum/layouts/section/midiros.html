@@ -1,6 +1,15 @@
 {{ define "main" }}
   <h3>{{ .Title }}</h3>
 
+  {{ .Content }}
+
+  {{ with .OutputFormats.Get "rss" -}}
+  <p>
+    Ci-dessous les conférences à venir et les conférences passées.
+    <a href="{{ .Permalink }}">Suivez le flux RSS</a> pour être informé des prochaines conférences.
+  </p>
+  {{ end -}}
+
   {{ $page := .Paginator 5 }}
 
   <ul class="list-unstyled">
