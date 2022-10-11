@@ -26,4 +26,5 @@ disableHugoGeneratorInject: true
 
 # Miscellaneous
 metaDataFormat: yaml
+buildFuture: true
 paginate: 5
