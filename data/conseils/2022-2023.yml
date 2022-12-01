@@ -1,0 +1,124 @@
+---
+annee: 2022-2023
+conseil:
+  - Président:
+      - nom: Simon Jansen
+        id:
+        courriel: simon.jansen@umontreal.ca
+  - Adjoint-Président:
+      - nom: Alex Rompré
+        id:
+        courriel: laurier.lavoie-giasson@umontreal.ca
+  - Vice-président interne:Laurier Lavoie-Giasson
+      - nom: 
+        id: 
+        courriel: laurier.lavoie-giasson@umontreal.ca
+  - Adjoint-Vice-président interne:
+      - nom: Maxime Davidson-Longpré
+        id: 
+        courriel: maxime.davidson-longpre@umontral.ca
+  - Vice-président externe:
+      - nom: Samy Rasmy
+        id: 
+        courriel: samy.rasmy@umontreal.ca
+  - Adjoint-Vice-président externe:
+      - nom: Justin Veilleux
+        id: 
+        courriel: justin.veilleux@umontral.ca
+  - Secrétaire:
+      - nom: Juan Duran
+        id:
+        courriel: juan.duran@umontreal.ca
+  - Adjoint-secrétaire:
+      - nom: Juan Duran
+        id:
+        courriel: juan.duran@umontreal.ca
+  - Trésorier:
+      - nom: Maxim Bernard
+        id:
+        courriel: maxim.bernard@umontreal.ca
+  - Adjoint-trésorier:
+      - nom: Nicholas Cooper
+        id:
+        courriel: nicholas.cooper@umontreal.ca
+  - Coordinateur à la vie étudiante:
+      - nom: Louis Malenfant-Poulin
+        id:
+        courriel: louis.malenfant-poulin@umontreal.ca
+  - Adjoint-Coordinateur à la vie étudiante:
+      - nom: Francis Roy-Chouinard
+        id:
+        courriel: francis.roy-chouinard@umontreal.ca
+  - Représentante première année:
+      - nom: Joanie Birtz
+        id:
+        courriel: joanie.birtz@umontreal.ca
+  - Représentant deuxième année:
+      - nom: Élie Leblanc
+        id:
+        courriel: elie.leblanc@umontreal.ca
+  - Représentante troisième année:
+      - nom: Émulie Chhor
+        id:
+        courriel: emulie.chhor@umontreal.ca
+  - Représentante mathématiques et informatique:
+      - nom: Émulie Chhor
+        id:
+        courriel: emulie.chhor@umontreal.ca
+  - Représentant maîtrise:
+      - nom: Kevin Lessard
+        id:
+        courriel: kevin.lessard@umontreal.ca
+  - Représentant doctorat:
+      - nom: Jean Laprès-Chartrand
+        id:
+        courriel: jean.lapres-chartrand@umontreal.ca
+  - Représentante majeure:
+      - nom: Laura Salas
+        id:
+        courriel: laura.elisa.salas@umontreal.ca
+  - Représentant des étudiants internationaux:
+      - nom: Mattéo Delabre
+        id:
+        courriel: matteo.delabre@umontreal.ca
+  - Responsable sport:
+      - nom: Émeric Laberge
+        id:
+        courriel: emeric.laberge@umontreal.ca
+  - Responsable compétition:
+      - nom: Mattéo Delabre
+        id:
+        courriel: matteo.delabre@umontreal.ca
+  - Responsables des soirées:
+      - nom: Laurier Lavoie-Giasson
+        id:
+        courriel: laurier.lavoie-giasson@umontreal.ca
+      - nom: Élie Leblanc
+        id:
+        courriel: elie.leblanc@umontreal.ca
+  - Responsable influenceuse:
+      - nom: Rawane Abdel All
+        id:
+        courriel: rawane.abdel.all@umontreal.ca
+  - Responsable MiDiro:
+      - nom: Mattéo Delabre
+        id:
+        courriel: matteo.delabre@umontreal.ca
+  - Null pointer exception:
+      - nom: Émulie Chhor
+        id:
+        courriel: emulie.chhor@umontreal.ca
+  - Responsables du café Math-Info:
+      - nom: Colin Parent
+        id:
+        courriel: colin.parent.1@umontreal.ca
+      - nom: Laurent Charlebois
+        id:
+        courriel: laurent.charlebois@umontreal.ca
+      - nom: Simon Guy
+        id:
+        courriel: simon.guy5264@gmail.com
+  - Membre de conscience:
+      - nom: Francis Roy-Chouinard
+        id:
+        courriel: francis.roy-chouinard@umontreal.ca
