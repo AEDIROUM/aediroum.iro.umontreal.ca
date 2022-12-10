@@ -56,13 +56,13 @@ la date utilisée dans le fichier YAML, dans [`data/proces/`](data/proces).
 
 ### Déploiement
 
-Pour déployer le site web, vous n'avez qu'à exécuter le script
-[`deploy.sh`](deploy.sh) sur votre ordinateur.
+Le site web est maintenant hébergé sur GitHub Pages.
+Chaque commit poussé sur la branche `master` déclenche automatiquement le
+flux [`.github/workflows/pages.yml`](.github/workflows/pages.yml), qui
+compile le site avec Hugo et publie le résultat.
 
-Vous pouvez aussi le déployer en vous connectant sur le compte de l'AÉDIROUM,
-dans un des ordinateurs du DIRO.
-
-Le site web est maintenant situé dans le dossier `/home/www-labs/aediroum/public_html` sur le serveur
+Précédemment, le site web était hébergé sur le compte de l’AÉDIROUM sur les serveurs du DIRO.
+Le site web était situé dans le dossier `/home/www-labs/aediroum/public_html` sur le serveur.
 
 ## License
 
