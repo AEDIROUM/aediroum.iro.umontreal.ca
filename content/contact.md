@@ -1,5 +1,5 @@
 ---
-title: Nous Contacter
+title: Nous contacter
 layout: contact
 menu: main
 weight: 7
