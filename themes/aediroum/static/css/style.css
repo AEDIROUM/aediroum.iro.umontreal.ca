@@ -36,6 +36,10 @@ html {
   min-height: 100%;
 }
 
+body {
+  padding: 4rem 0;
+}
+
 button {
   cursor: pointer;
 }
@@ -44,12 +48,26 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  margin: 2rem 0 1rem 0;
+}
+
+h4 {
+  margin: 2rem 0 1rem 0;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: -1px;
+  margin-right: .2rem;
+}
+
 /* Navigation */
 
 .navbar {
   background-color: var(--menu-background);
   border-radius: var(--bs-border-radius);
-  margin: 4rem 0 2rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .navbar-nav {
@@ -66,10 +84,4 @@ a {
   --bs-nav-pills-link-active-color: var(--menu-active);
   --bs-nav-pills-link-active-bg: var(--menu-background);
   --bs-nav-pills-border-radius: var(--bs-border-radius);
-}
-
-/* Corps de page */
-
-main {
-  padding: .5rem 0;
 }
