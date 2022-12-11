@@ -12,6 +12,13 @@ menu:
       Identifier: documents
       Weight: 5
 
+# Output formats
+outputs:
+  section:
+    - HTML
+    - RSS
+    - Calendar
+
 # Language
 defaultContentLanguage: fr
 languageCode: fr
@@ -27,4 +34,5 @@ disableHugoGeneratorInject: true
 # Miscellaneous
 metaDataFormat: yaml
 buildFuture: true
+enableGitInfo: true
 paginate: 5

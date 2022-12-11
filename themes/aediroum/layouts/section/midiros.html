@@ -3,12 +3,15 @@
 
   {{ .Content }}
 
-  {{ with .OutputFormats.Get "rss" -}}
+  {{ $formats := dict "rss" "Flux RSS" "calendar" "Calendrier iCal" }}
+  {{ $available := delimit .AlternativeOutputFormats " – " }}
   <p>
-    Ci-dessous les conférences à venir et les conférences passées.
-    <a href="{{ .Permalink }}">Suivez le flux RSS</a> pour être informé des prochaines conférences.
+    <strong>Abonnement via:</strong>
+    {{ range $key, $format := .AlternativeOutputFormats }}
+    {{ if ne $key 0 }}–{{ end }}
+    <a href="{{ .Permalink | safeURL }}">{{ index $formats .MediaType.SubType }}</a>
+    {{ end }}
   </p>
-  {{ end -}}
 
   {{ $page := .Paginator 5 }}
 
