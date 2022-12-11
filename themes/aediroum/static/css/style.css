@@ -1,84 +1,75 @@
 /* Général */
 
+:root {
+  --background: #FEFEFE;
+  --foreground: #1E1E1E;
+
+  --menu-background: #EAEAEA;
+  --menu-active: #1E1E1E;
+  --menu-inactive: #333333;
+
+  --bs-body-bg: var(--background);
+  --bs-body-color: var(--foreground);
+  --bs-link-color: #0D6EFD;
+  --bs-link-hover-color: #0A58CA;
+  --bs-border-radius: 0.2rem;
+  --bs-border-color: #DEE2E6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1E1E1E;
+    --foreground: #FAFAFA;
+
+    --menu-background: #323232;
+    --menu-active: #FAFAFA;
+    --menu-inactive: #C9C9C9;
+
+    --bs-link-color: #87B8FF;
+    --bs-link-hover-color: #5395F5;
+    --bs-border-color: #3D4043;
+  }
+}
+
 html {
   position: relative;
   min-height: 100%;
-}
-
-body {
-  margin-bottom: 148px;
 }
 
 button {
   cursor: pointer;
 }
 
-/* Haut de page */
-
-header img {
-  max-height: 192px;
+a {
+  text-decoration: none;
 }
 
-.bg-dark {
-  background-color: #000 !important;
+/* Navigation */
+
+.navbar {
+  background-color: var(--menu-background);
+  border-radius: var(--bs-border-radius);
+  margin: 4rem 0 2rem 0;
 }
 
-.navbar-nav .nav-link, .dropdown-item {
-  color: rgba(255,255,255,.65);
+.navbar-nav {
+  --bs-nav-link-color: var(--menu-inactive);
+  --bs-navbar-hover-color: var(--menu-active);
 }
 
-.navbar a:hover {
-  color: #fff !important;
-}
-
-.navbar .dropdown-menu {
-  background-color: #000;
-}
-
-.navbar .dropdown-item:hover,
-.navbar .dropdown-item.active {
-  background-color: inherit;
-}
-
-.navbar .active {
-  color: #fff !important;
+.nav-item.active {
+  --bs-nav-link-color: var(--menu-active);
   font-weight: bold;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-color: var(--menu-active);
+  --bs-nav-pills-link-active-bg: var(--menu-background);
+  --bs-nav-pills-border-radius: var(--bs-border-radius);
 }
 
 /* Corps de page */
 
 main {
   padding: .5rem 0;
-}
-
-/* Pied de page */
-
-footer {
-  background-color: #000;
-  position: absolute !important;
-  bottom: 0;
-  width: 100%;
-}
-
-footer svg {
-  width: 32px;
-  height: 32px;
-  fill: white;
-}
-
-.card-inverse {
-  background-color: #000;
-  border-color: #000;
-}
-
-.card-text {
-  color: #fff !important;
-}
-
-.card-subtitle {
-  color: #fff;
-}
-
-.card-text a {
-  color: #fff;
 }
