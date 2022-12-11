@@ -1,16 +1,13 @@
 {{ define "main" }}
-  <div class="tabs">
-    <h3>Procès verbaux</h3>
+  <h3>Procès verbaux</h3>
 
-    <ul class="nav nav-pills nav-justified" role="tablist">
-      {{ range $index, $element := first 5 (sort .Site.Data.proces "annee" "desc") }}
-        <li class="nav-item">
-          <button class="nav-link{{ if eq $index 0 }} active{{ end }}" data-bs-toggle="tab" data-bs-target="#proces-{{ .annee }}" type="button" role="tab" aria-controls="{{ .annee }}">{{ .annee }}</button>
-        </li>
-      {{ end }}
-    </ul>
-
-    <div class="tab-content">
+  <div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3" role="tablist" aria-orientation="vertical">
+    {{ range $index, $element := first 5 (sort .Site.Data.proces "annee" "desc") }}
+      <button class="nav-link{{ if eq $index 0 }} active{{ end }}" data-bs-toggle="tab" data-bs-target="#proces-{{ .annee }}" type="button" role="tab" aria-controls="{{ .annee }}">{{ .annee }}</button>
+    {{ end }}
+    </div>
+    <div class="flex-grow-1 tab-content">
       {{ range $index, $element := first 5 (sort .Site.Data.proces "annee" "desc") }}
         <div class="tab-pane fade show{{ if eq $index 0 }} active{{ end }}" id="proces-{{ .annee }}" role="tabpanel">
           <table class="table table-hover">
