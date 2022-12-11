@@ -41,7 +41,7 @@
         <li class="page-item{{ if not $page.HasPrev }} disabled{{ end }}">
           <a class="page-link" href="{{ if $page.HasPrev }}{{ $page.Prev.URL }}{{ end }}" aria-label="Précédent"{{ if not $page.HasPrev }} tabindex="-1"{{ end }}>
             <span aria-hidden="true">&laquo;</span>
-            <span class="sr-only">Précédent</span>
+            <span class="visually-hidden">Précédent</span>
           </a>
         </li>
 
@@ -49,7 +49,7 @@
           <li class="page-item{{ if eq . $page }} active{{ end }}">
             <a class="page-link" href="{{ .URL }}">
               <span>{{ .PageNumber }}</span>
-              <span class="sr-only">(actuelle)</span>
+              <span class="visually-hidden">(actuelle)</span>
             </a>
           </li>
         {{ end }}
@@ -57,7 +57,7 @@
         <li class="page-item{{ if not $page.HasNext }} disabled{{ end }}">
           <a class="page-link" href="{{ if $page.HasNext }}{{ $page.Next.URL }}{{ end }}" aria-label="Suivant"{{ if not $page.HasNext }} tabindex="-1"{{ end }}>
             <span aria-hidden="true">&raquo;</span>
-            <span class="sr-only">Suivant</span>
+            <span class="visually-hidden">Suivant</span>
           </a>
         </li>
       </ul>
