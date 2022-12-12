@@ -60,6 +60,7 @@ h4 {
   display: inline-block;
   vertical-align: -1px;
   margin-right: .2rem;
+  fill: currentColor;
 }
 
 /* Navigation */
