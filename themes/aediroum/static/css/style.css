@@ -94,3 +94,23 @@ h4 {
   --bs-nav-pills-link-active-bg: var(--menu-background);
   --bs-nav-pills-border-radius: var(--bs-border-radius);
 }
+
+/* Pagination */
+
+.pagination {
+  --bs-pagination-bg: var(--menu-background);
+  --bs-pagination-border-color: var(--menu-background);
+
+  --bs-pagination-disabled-bg: var(--background);
+  --bs-pagination-disabled-border-color: var(--menu-background);
+
+  --bs-pagination-hover-bg: var(--menu-background-hover);
+  --bs-pagination-hover-border-color: var(--menu-background-hover);
+
+  --bs-pagination-active-bg: var(--bs-link-hover-color);
+  --bs-pagination-active-border-color: var(--bs-link-hover-color);
+
+  --bs-pagination-focus-bg: var(--bs-link-hover-color);
+  --bs-pagination-focus-color: var(--bs-pagination-active-color);
+  --bs-pagination-focus-border-color: var(--bs-link-hover-color);
+}
