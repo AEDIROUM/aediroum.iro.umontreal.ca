@@ -14,7 +14,7 @@
       </div>
 
       <form id="contact">
-        <div class="form-group row">
+        <div class="row mb-3">
           <label for="first-name" class="col-2 col-form-label">Prénom</label>
           <div class="col-4">
             <input class="form-control" type="text" id="first-name" name="first-name" placeholder="Prénom" required/>
@@ -26,22 +26,22 @@
           </div>
         </div>
 
-        <div class="form-group row">
+        <div class="row mb-3">
           <label for="email" class="col-2 col-form-label">Courriel</label>
-          <div class="col-6">
+          <div class="col-10">
             <input class="form-control" type="email" id="email" name="email" placeholder="Courriel" required/>
           </div>
         </div>
 
-        <div class="form-group row">
+        <div class="row mb-3">
           <label for="subject" class="col-2 col-form-label">Sujet</label>
-          <div class="col-6">
+          <div class="col-10">
             <input class="form-control" type="text" id="subject" name="_subject" placeholder="Sujet" required/>
           </div>
         </div>
 
-        <div class="form-group">
-          <label for="message">Message</label>
+        <div class="mb-3">
+          <label for="message" class="mb-2">Message</label>
           <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message" required></textarea>
         </div>
 
@@ -60,9 +60,11 @@
 
       <p>Il est possible de nous contacter de plusieurs autres façon :</p>
 
-      <button type="button" class="btn btn-dark btn-block" data-bs-toggle="modal" data-bs-target="#modalPerson">En personne</button>
-      <button type="button" class="btn btn-dark btn-block" data-bs-toggle="modal" data-bs-target="#modalEmail">Par courriel</button>
-      <button type="button" class="btn btn-dark btn-block" data-bs-toggle="modal" data-bs-target="#modalFacebook">Sur Facebook</button>
+      <div class="d-grid gap-2">
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalPerson">En personne</button>
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalEmail">Par courriel</button>
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalFacebook">Sur Facebook</button>
+      </div>
     </div>
   </div>
 
@@ -75,10 +77,13 @@
         </div>
 
         <div class="modal-body">
-          <p>Vous pouvez vous rendre directement au local <b>3190</b> du pavillon André-Ainsenstadt.</p>
+          <p>
+            Vous pouvez vous rendre directement au local&nbsp;<strong>3190</strong>
+            du pavillon&nbsp;André-Ainsenstadt.
+          </p>
 
           <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="https://google.com/maps/embed?pb=!1m14!1m8!1m3!1d2796.424005277161!2d-73.61872824736022!3d45.50154260368517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc919f308df50f9%3A0x1c5cdca60001c62e!2sUniversit%C3%A9+de+Montr%C3%A9al+-+Pavillon+Andr%C3%A9-Aisenstadt!5e0!3m2!1sen!2sus!4v1482804954194"></iframe>
+            <iframe class="embed-responsive-item" src="https://google.com/maps/embed?pb=!1m14!1m8!1m3!1d2796.424005277161!2d-73.61872824736022!3d45.50154260368517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc919f308df50f9%3A0x1c5cdca60001c62e!2sUniversit%C3%A9+de+Montr%C3%A9al+-+Pavillon+Andr%C3%A9-Aisenstadt!5e0!3m2!1sen!2sus!4v1482804954194" width="100%" height="300"></iframe>
           </div>
         </div>
 

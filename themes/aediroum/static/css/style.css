@@ -10,6 +10,11 @@
   --menu-active: #1E1E1E;
   --menu-inactive: #333333;
 
+  --button-background: #272727;
+  --button-background-hover: #373737;
+  --button-background-active: #474747;
+  --button-foreground: #FEFEFE;
+
   --bs-body-bg: var(--background);
   --bs-body-color: var(--foreground);
   --bs-link-color: #0D6EFD;
@@ -28,6 +33,11 @@
     --menu-background-hover: #424242;
     --menu-active: #FAFAFA;
     --menu-inactive: #C9C9C9;
+
+    --button-background: #E5E5E5;
+    --button-background-hover: #D5D5D5;
+    --button-background-active: #C5C5C5;
+    --button-foreground: #1E1E1E;
 
     --bs-link-color: #87B8FF;
     --bs-link-hover-color: #5395F5;
@@ -48,10 +58,6 @@ html {
 
 body {
   padding: 4rem 0;
-}
-
-button {
-  cursor: pointer;
 }
 
 a {
@@ -75,6 +81,35 @@ h4 {
   vertical-align: -1px;
   margin-right: .2rem;
   fill: currentColor;
+}
+
+/* Formulaires */
+
+button {
+  cursor: pointer;
+}
+
+.btn-dark {
+  --bs-btn-bg: var(--button-background);
+  --bs-btn-color: var(--button-foreground);
+  --bs-btn-border-color: var(--button-background);
+
+  --bs-btn-hover-color: var(--button-foreground);
+  --bs-btn-hover-bg: var(--button-background-hover);
+  --bs-btn-hover-border-color: var(--button-background-hover);
+
+  --bs-btn-active-bg: var(--button-background-active);
+  --bs-btn-active-color: var(--button-foreground);
+  --bs-btn-active-border-color: var(--button-background-active);
+}
+
+.btn-close {
+  background: var(--foreground);
+  --close-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+  -webkit-mask-image: var(--close-image);
+  mask-image: var(--close-image);
+  width: .4rem;
+  height: .4rem;
 }
 
 /* Navigation */
@@ -164,4 +199,16 @@ h4 {
 .article-item {
   padding-bottom: .5rem;
   margin-bottom: 1rem;
+}
+
+/* Modales */
+
+.modal {
+  --bs-modal-bg: var(--background);
+  --bs-modal-color: var(--foreground);
+  --bs-modal-border-color: var(--bs-border-color);
+}
+
+.modal .btn {
+  color: var(--foreground);
 }
