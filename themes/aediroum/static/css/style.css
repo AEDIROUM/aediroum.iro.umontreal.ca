@@ -105,6 +105,25 @@ h4 {
   font-weight: bold;
 }
 
+.dropdown-menu {
+  --bs-dropdown-bg: var(--menu-background);
+  --bs-dropdown-border-color: var(--bs-border-color);
+  --bs-dropdown-border-radius: var(--bs-border-radius);
+
+  --bs-dropdown-color: var(--menu-inactive);
+  --bs-dropdown-link-color: var(--menu-inactive);
+
+  --bs-dropdown-link-hover-color: var(--menu-active);
+  --bs-dropdown-link-hover-bg: transparent;
+
+  --bs-dropdown-link-active-color: var(--menu-active);
+  --bs-dropdown-link-active-bg: transparent;
+}
+
+.dropdown-item.active {
+  font-weight: bold;
+}
+
 .nav-pills {
   --bs-nav-pills-link-active-color: var(--menu-active);
   --bs-nav-pills-link-active-bg: var(--menu-background);
