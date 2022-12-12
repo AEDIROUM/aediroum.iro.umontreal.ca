@@ -85,6 +85,16 @@ h4 {
   margin: 0 0 2rem 0;
 }
 
+.navbar-toggler {
+  --bs-navbar-toggler-border-color: var(--foreground-muted);
+}
+
+.navbar-toggler-icon {
+  background: var(--foreground);
+  -webkit-mask-image: var(--bs-navbar-toggler-icon-bg);
+  mask-image: var(--bs-navbar-toggler-icon-bg);
+}
+
 .navbar-nav {
   --bs-nav-link-color: var(--menu-inactive);
   --bs-navbar-hover-color: var(--menu-active);
