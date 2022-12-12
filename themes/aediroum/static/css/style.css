@@ -98,6 +98,7 @@ h4 {
 .navbar-nav {
   --bs-nav-link-color: var(--menu-inactive);
   --bs-navbar-hover-color: var(--menu-active);
+  --bs-navbar-nav-link-padding-x: .75rem;
 }
 
 .nav-item.active {
