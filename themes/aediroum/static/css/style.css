@@ -3,8 +3,10 @@
 :root {
   --background: #FEFEFE;
   --foreground: #1E1E1E;
+  --foreground-muted: #8A8A8A;
 
   --menu-background: #EAEAEA;
+  --menu-background-hover: #DADADA;
   --menu-active: #1E1E1E;
   --menu-inactive: #333333;
 
@@ -20,8 +22,10 @@
   :root {
     --background: #1E1E1E;
     --foreground: #FAFAFA;
+    --foreground-muted: #A0A0A0;
 
     --menu-background: #323232;
+    --menu-background-hover: #424242;
     --menu-active: #FAFAFA;
     --menu-inactive: #C9C9C9;
 
@@ -46,6 +50,10 @@ button {
 
 a {
   text-decoration: none;
+}
+
+.text-muted {
+  color: var(--foreground-muted) !important;
 }
 
 h3 {
