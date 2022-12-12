@@ -15,10 +15,10 @@
 
   {{ $page := .Paginator 5 }}
 
-  <ul class="list-unstyled">
+  <ul class="list-unstyled article-list">
     {{ range $page.Pages }}
-      <li class="media">
-        <div class="media-body">
+      <li class="article-item">
+        <div class="article-body">
           <h4 class="mt-0 mb-1"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
           <p class="text-muted mb-0">{{ .Params.speaker }} — {{ .Params.room }}</p>
           <p class="text-muted">{{ dateFormat "02/01/2006" .Date }}</p>
@@ -30,8 +30,6 @@
           {{ end }}
         </div>
       </li>
-
-      <hr/>
     {{ end }}
   </ul>
 
