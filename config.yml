@@ -24,8 +24,10 @@ defaultContentLanguage: fr
 languageCode: fr
 
 # Markdown
-blackfriday:
-  angledQuotes: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 # Crawling
 enableRobotsTXT: true
