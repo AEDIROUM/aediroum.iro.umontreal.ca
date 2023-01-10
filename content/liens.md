@@ -14,7 +14,7 @@ sitemap:
 * [Soutien technique DIRO](//support.iro.umontreal.ca)
 * [Fédération des associations étudiantes du campus de l'Université de Montréal](//faecum.qc.ca)
 * [Wiki de l'AEDIROUM](https://wiki.aediroum.ca/index.php?title=Accueil)
-* [Conseiller Pédagogique](https://www-ens.iro.umontreal.ca/~miloszro/conseiller_pedagogique/planner/117510.html)
+* [Planificateur Académique](https://www-ens.iro.umontreal.ca/~miloszro/conseiller_pedagogique/planner/117510.html)
 
 **Clubs de l'UdeM**
 
