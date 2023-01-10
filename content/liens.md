@@ -15,6 +15,7 @@ sitemap:
 * [Fédération des associations étudiantes du campus de l'Université de Montréal](//faecum.qc.ca)
 * [Wiki de l'AEDIROUM](https://wiki.aediroum.ca/index.php?title=Accueil)
 * [Planificateur Académique](https://www-ens.iro.umontreal.ca/~miloszro/conseiller_pedagogique/planner/117510.html)
+* Plans du pavillon André-Aisenstadt: [1ᵉʳ étage](https://www.iro.umontreal.ca/~robitail/1e-etage.html), [2ᵉ étage](https://www.iro.umontreal.ca/~robitail/2e-etage.html), [3ᵉ étage](https://www.iro.umontreal.ca/~robitail/3e-etage.html)
 
 #### Clubs de l'UdeM
 
