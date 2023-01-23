@@ -25,7 +25,7 @@ L'horaire des clubs se trouve devant le local 3192 au Pavillon André-Aisenstadt
 * [Club de Programmation Compétitive (Calculum)](https://calculum.ca/)
 * [Club de Robotique (Dirobots)](https://dirobots.github.io/)
 * Club de Recherche Opérationelle (Crodirodiroum)
-* Club de Machine Learning (prochainement)
+* [Club de Machine Learning (UdeM AI)](https://udemai.github.io/)
 
 <!--* [DIRO Bash](//dirobash.tolarian.com)-->
 <!--* [Site web de stages](//stages.dgtic.umontreal.ca/etudiants) -->
