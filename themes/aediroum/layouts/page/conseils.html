@@ -3,12 +3,12 @@
 
   <div class="d-flex align-items-start">
     <div class="nav flex-column nav-pills me-3" role="tablist" aria-orientation="vertical">
-      {{ range $index, $element := first 5 (sort .Site.Data.conseils "annee" "desc") }}
+      {{ range $index, $element := sort .Site.Data.conseils "annee" "desc" }}
         <button class="nav-link{{ if eq $index 0 }} active{{ end }}" data-bs-toggle="tab" data-bs-target="#conseil-{{ .annee }}" type="button" role="tab" aria-controls="{{ .annee }}" aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}">{{ .annee }}</a>
       {{ end }}
     </div>
     <div class="flex-grow-1 tab-content">
-      {{ range $index, $element := first 5 (sort .Site.Data.conseils "annee" "desc") }}
+      {{ range $index, $element := sort .Site.Data.conseils "annee" "desc" }}
         <div class="tab-pane fade show{{ if eq $index 0 }} active{{ end }}" id="conseil-{{ .annee }}" role="tabpanel">
           <table class="table">
             {{ range $index, $postes := .conseil }}
@@ -23,22 +23,22 @@
                   </th>
                   <td class="text-end">
                     {{ range $index, $element := $titulaires }}
-                      {{ if .id }}
+                      {{- if .id -}}
                         <a href="http://www-ens.iro.umontreal.ca/~{{ .id }}" target="_blank">{{ .nom }}</a>
-                      {{ else }}
-                        {{ if .courriel }}
-                        <a href="mailto:{{ .courriel }}">{{ .nom }}</a>
-                        {{ else }}
-                          {{ if .nom }}
-                            {{ .nom }}
-                          {{ else }}
+                      {{- else -}}
+                        {{- if .courriel -}}
+                          <a href="mailto:{{ .courriel }}">{{ .nom }}</a>
+                        {{- else -}}
+                          {{- if .nom -}}
+                            {{- .nom -}}
+                          {{- else -}}
                             Vacant
-                          {{ end }}
-                        {{ end }}
-                      {{ end }}
-                      {{ if gt (len $titulaires) 1 }}
-                        {{ if eq $index 0 }}, {{ end }}
-                      {{ end }}
+                          {{- end -}}
+                        {{- end -}}
+                      {{- end -}}
+                      {{- if gt (len $titulaires) 1 -}}
+                        {{- if lt (add $index 1) (len $titulaires) -}}, {{ end }}
+                      {{- end -}}
                     {{ end }}
                   </td>
                 </tr>

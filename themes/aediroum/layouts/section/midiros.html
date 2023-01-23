@@ -21,7 +21,7 @@
         <div class="article-body">
           <h4 class="mt-0 mb-1"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
           <p class="text-muted mb-0">{{ .Params.speaker }} — {{ .Params.room }}</p>
-          <p class="text-muted">{{ dateFormat "02/01/2006" .Date }}</p>
+          <p class="text-muted">{{ dateFormat "02/01/2006 à 15h04" .Date }}</p>
 
           {{ .Summary }}
 

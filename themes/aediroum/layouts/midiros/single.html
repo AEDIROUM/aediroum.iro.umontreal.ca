@@ -2,7 +2,7 @@
   <h3>{{ .Title }}</h3>
   <p class="text-muted mb-0">{{ .Params.speaker }} — {{ .Params.room }}</p>
   {{ if not .Date.IsZero }}
-    <p class="text-muted">{{ dateFormat "02/01/2006" .Date }}</p>
+    <p class="text-muted">{{ dateFormat "02/01/2006 à 15h04" .Date }}</p>
   {{ end }}
 
   {{ .Content }}

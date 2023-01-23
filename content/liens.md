@@ -8,15 +8,16 @@ sitemap:
 ---
 
 
-**Renseignements Utiles**
+#### Renseignements Utiles
 
 * [Département d'informatique et de recherche opérationelle](//diro.umontreal.ca)
 * [Soutien technique DIRO](//support.iro.umontreal.ca)
 * [Fédération des associations étudiantes du campus de l'Université de Montréal](//faecum.qc.ca)
 * [Wiki de l'AEDIROUM](https://wiki.aediroum.ca/index.php?title=Accueil)
-* [Conseiller Pédagogique](https://www-ens.iro.umontreal.ca/~miloszro/conseiller_pedagogique/planner/117510.html)
+* [Planificateur Académique](https://www-ens.iro.umontreal.ca/~miloszro/conseiller_pedagogique/planner/117510.html)
+* Plans du pavillon André-Aisenstadt: [1ᵉʳ étage](https://www.iro.umontreal.ca/~robitail/1e-etage.html), [2ᵉ étage](https://www.iro.umontreal.ca/~robitail/2e-etage.html), [3ᵉ étage](https://www.iro.umontreal.ca/~robitail/3e-etage.html)
 
-**Clubs de l'UdeM**
+#### Clubs de l'UdeM
 
 L'horaire des clubs se trouve devant le local 3192 au Pavillon André-Aisenstadt
 
@@ -30,7 +31,7 @@ L'horaire des clubs se trouve devant le local 3192 au Pavillon André-Aisenstadt
 <!--* [DIRO Bash](//dirobash.tolarian.com)-->
 <!--* [Site web de stages](//stages.dgtic.umontreal.ca/etudiants) -->
 
-**Réseaux Sociaux**
+#### Réseaux Sociaux
 
 * [Groupe Facebook de l'association](//fb.com/groups/2354091571)
 * [Page Facebook de l'association](//fb.com/aediroum)
