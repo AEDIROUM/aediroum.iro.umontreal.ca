@@ -11,19 +11,19 @@ conseil:
         courriel: laurier.lavoie-giasson@umontreal.ca
   - Vice-président interne:
       - nom: Laurier Lavoie-Giasson
-        id: 
+        id:
         courriel: laurier.lavoie-giasson@umontreal.ca
   - Adjoint-Vice-président interne:
       - nom: Maxime Davidson-Longpré
-        id: 
+        id:
         courriel: maxime.davidson-longpre@umontral.ca
   - Vice-président externe:
       - nom: Samy Rasmy
-        id: 
+        id:
         courriel: samy.rasmy@umontreal.ca
   - Adjoint-Vice-président externe:
       - nom: Justin Veilleux
-        id: 
+        id:
         courriel: justin.veilleux@umontral.ca
   - Secrétaire:
       - nom: Juan Duran
@@ -100,6 +100,10 @@ conseil:
       - nom: Rawane Abdel All
         id:
         courriel: rawane.abdel.all@umontreal.ca
+  - Responsable serveur:
+      - nom: Samy Rasmy
+        id:
+        courriel: samy.rasmy@umontreal.ca
   - Responsable MiDiro:
       - nom: Mattéo Delabre
         id:
