@@ -20,6 +20,9 @@ sitemap:
 [Règlement de la vie étudiante](coussin.pdf)
 : Le règlement de la vie étudiante définit les activités du COUSSIN dans son rôle de support essentiel du CVE de l'AÉDIROUM.
 
+[Règlement sur l’affiliation à la FAÉCUM](faecum.pdf)
+: Annexe à la charte qui a pour objectif de baliser et clarifier les relations de l’AÉDIROUM à la FAÉCUM.
+
 <!--
 
 [Cahier de positions temporaires]()
