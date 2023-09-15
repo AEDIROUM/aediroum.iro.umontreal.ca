@@ -35,8 +35,8 @@ contenu.
 
 ### Données
 
-Le répertoire [`data`](data) regroupe les listes de conseils d'administration
-et de procès verbaux par année scolaire. Ce sont des fichiers dans le format
+Le répertoire [`data`](data) regroupe les listes des comités de représentation
+et des procès verbaux par année scolaire. Ce sont des fichiers dans le format
 [YAML](//yaml.org).
 
 Il est à noter que les **id** dans les fichiers de conseils sont les noms

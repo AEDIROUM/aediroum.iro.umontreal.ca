@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <h3>Conseils d'administration</h3>
+  <h3>Comités de représentation</h3>
 
   <div class="d-flex align-items-start">
     <div class="nav flex-column nav-pills me-3" role="tablist" aria-orientation="vertical">
@@ -32,7 +32,7 @@
                           {{- if .nom -}}
                             {{- .nom -}}
                           {{- else -}}
-                            Vacant
+                            <em>Vacant</em>
                           {{- end -}}
                         {{- end -}}
                       {{- end -}}

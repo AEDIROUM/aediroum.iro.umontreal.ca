@@ -1,5 +1,5 @@
 ---
-title: Conseils d'administration
+title: Comités de représentation
 layout: conseils
 menu: main
 weight: 2

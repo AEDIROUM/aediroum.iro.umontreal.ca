@@ -1,0 +1,128 @@
+---
+annee: 2023-2024
+conseil:
+  - Présidence:
+      - nom: Maxim Bernard
+        id:
+        courriel: maxim.bernard@umontreal.ca
+  - Adjoint à la présidence:
+      - nom: Youssef Briki
+        id:
+        courriel: youssef.briki@umontreal.ca
+  - Vice-présidence aux communications:
+      - nom: Laurier Lavoie-Giasson
+        id:
+        courriel: laurier.lavoie-giasson@umontreal.ca
+  - Adjoint à la vice-présidence aux communications:
+      - nom: Simo Hakim
+        id:
+        courriel:
+  - Vice-présidence externe:
+      - nom: Jean Laprés-Chartrand
+        id:
+        courriel: jean.lapres-chartrand@umontreal.ca
+  - Adjoint à la vice-présidence externe:
+      - nom: Mattéo Delabre
+        id:
+        courriel: matteo.delabre@umontreal.ca
+  - Secrétariat:
+      - nom: Mathieu Morin
+        id:
+        courriel: mathieu.morin.4@umontreal.ca
+  - Adjoint au secrétariat:
+      - nom:
+        id:
+        courriel:
+  - Trésorerie:
+      - nom: Viviane Binet
+        id:
+        courriel: viviane.binet@umontreal.ca
+  - Adjoint à la trésorerie:
+      - nom: Chiril Reabitchi
+        id:
+        courriel: chiril.reabitchi@umontreal.ca
+  - Coordination à la vie étudiante:
+      - nom: Julien-Charles Cyr
+        id:
+        courriel: julien-charles.cyr@umontreal.ca
+  - Adjoint à la coordination à la vie étudiante:
+      - nom: Émanuel Rollin
+        id:
+        courriel: emanuel.rollin@umontreal.ca
+  - Responsable MiDiro:
+      - nom: Marie-Anne Prud’Homme
+        id:
+        courriel: marie-anne.prudhomme-maurice@umontreal.ca
+  - Responsable compétition:
+      - nom: Jaydan Aladro
+        id:
+        courriel: jaydan.aladro@umontreal.ca
+  - Responsables des soirées:
+      - nom: Arpad Botond Rigo
+        id:
+        courriel: arpad.botond.rigo@umontreal.ca
+      - nom: Émanuel Rollin
+        id:
+        courriel: emanuel.rollin@umontreal.ca
+  - Responsable sport:
+      - nom: Valérie Lefebvre
+        id:
+        courriel: valerie.lefebvre.9@umontreal.ca
+  - Responsable du carnaval:
+      - nom: Gabriel Bélanger
+        id:
+        courriel:
+  - Responsable de la promotion des événements:
+      - nom: Rawane Abdel All
+        id:
+        courriel: rawane.abdel.all@umontreal.ca
+  - Responsable du serveur:
+      - nom: Émeric Laberge
+        id:
+        courriel: emeric.laberge@umontreal.ca
+  - Représentation du café Tore et Fraction:
+      - nom: Marion Laurent
+        id:
+        courriel: marion.laurent@umontreal.ca
+      - nom: Simon Guy
+        id:
+        courriel: simon.guy5264@gmail.com
+      - nom: Maël Charpentier
+        id:
+        courriel: mael.charpentier@umontreal.ca
+  - Représentation de la première année:
+      - nom: Jérémie Dupuis
+        id:
+        courriel: jeremie.dupuis@umontreal.ca
+  - Représentation de la deuxième année:
+      - nom: Camille Divisia
+        id:
+        courriel: camille.divisia@umontreal.ca
+  - Représentation de la troisième année:
+      - nom: Simo Hakim
+        id:
+        courriel:
+  - Représentation de la majeure:
+      - nom:
+        id:
+        courriel:
+  - Représentation mathématiques et informatique:
+      - nom: Émulie Chhor
+        id:
+        courriel: emulie.chhor@umontreal.ca
+  - Représentation de la maîtrise:
+      - nom: Kevin Lessard
+        id:
+        courriel: kevin.lessard@umontreal.ca
+  - Représentation du doctorat:
+      - nom: Mattéo Delabre
+        id:
+        courriel: matteo.delabre@umontreal.ca
+  - Représentation des personnes étudiantes internationales:
+      - nom: Rawane Abdel All
+        id:
+        courriel: rawane.abdel.all@umontreal.ca
+  - Représentation des femmes:
+      - nom:
+        id:
+        courriel:
