@@ -16,7 +16,7 @@ conseil:
   - Adjoint à la vice-présidence aux communications:
       - nom: Simo Hakim
         id:
-        courriel:
+        courriel: simo.hakim@umontreal.ca
   - Vice-présidence externe:
       - nom: Jean Laprés-Chartrand
         id:
@@ -101,7 +101,7 @@ conseil:
   - Représentation de la troisième année:
       - nom: Simo Hakim
         id:
-        courriel:
+        courriel: simo.hakim@umontreal.ca
   - Représentation de la majeure:
       - nom:
         id:
