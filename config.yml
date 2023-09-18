@@ -5,12 +5,28 @@ theme: aediroum
 # Menu
 menu:
   main:
-    - Name: Événements
-      Identifier: evenements
-      Weight: 4
-    - Name: Documents
-      Identifier: documents
-      Weight: 5
+    - name: Événements
+      identifier: evenements
+      weight: 4
+    - name: Documents
+      identifier: documents
+      weight: 5
+    - name: Charte
+      url: /documents/charte
+      parent: documents
+      weight: 1
+    - name: Vie étudiante
+      url: /documents/coussin
+      parent: documents
+      weight: 2
+    - name: Affiliation à la FAÉCUM
+      url: /documents/faecum
+      parent: documents
+      weight: 3
+    - name: Cahier de positions
+      url: /documents/positions
+      parent: documents
+      weight: 4
 
 # Output formats
 outputs:

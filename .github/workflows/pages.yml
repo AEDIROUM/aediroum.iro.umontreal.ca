@@ -36,21 +36,37 @@ jobs:
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          submodules: true
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v2
-      - name: Build with Hugo
+        uses: actions/configure-pages@v3
+      - name: Setup TeX Live
+        uses: teatimeguest/setup-texlive-action@v2
+        with:
+          packages: >-
+            collection-basic
+            collection-binextra
+            collection-langfrench
+            collection-latex
+            collection-latexextra
+            collection-luatex
+            collection-plaingeneric
+            collection-xetex
+      - name: Build website
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          sudo apt-get install -y ghostscript
+          make build
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
 
