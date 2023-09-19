@@ -3,32 +3,11 @@ title: Autres documents
 menu:
   main:
     parent: documents
-    weight: 2
+    weight: 20
 sitemap:
   changefreq: yearly
   priority: 0.8
 ---
-
-#### Charte et règlements
-
-[Charte](charte.pdf)
-: La charte contient les règlements généraux de l'association.
-
-[Cahier de positions](positions.pdf)
-: Le cahier de positions sert à garder les lignes directrices de l'association ainsi que les positions concernant plusieurs sujets et enjeux.
-
-[Règlement de la vie étudiante](coussin.pdf)
-: Le règlement de la vie étudiante définit les activités du COUSSIN dans son rôle de support essentiel du CVE de l'AÉDIROUM.
-
-[Règlement sur l’affiliation à la FAÉCUM](faecum.pdf)
-: Annexe à la charte qui a pour objectif de baliser et clarifier les relations de l’AÉDIROUM à la FAÉCUM.
-
-<!--
-
-[Cahier de positions temporaires]()
-: Le cahier de positions temporaires contient les positions qui ne sont valides que pour un certain temps (par exemple les positions prises lors de grèves).
-
--->
 
 #### Guides
 
