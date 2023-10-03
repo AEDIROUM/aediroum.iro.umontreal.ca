@@ -23,7 +23,7 @@ sitemap:
 #### Formulaires
 
 [Formulaire de plainte](plainte.pdf)
-: Le formulaire de plainte vous permet de facilement donner les informations nécessaires et importantes si vous désirez déposer une plainte contre une personne, un cours ou autre relié à l'association.
+: Le formulaire de plainte vous permet de facilement donner les informations pertinentes pour déposer une plainte contre une personne membre du personnel enseignant, pour un cours d'un programme représenté par l'AÉDIROUM. Cela facillite nos communications avec la direction.
 
 [Formulaire de plainte linguistique](//secretariatgeneral.umontreal.ca/fileadmin/user_upload/secretariat/doc_officiels/reglements/administration/adm10-34_formulaire-linguistique.pdf)
 : Le formultaire de plainte linguistique est un formulaire de plainte plus précis qui est tenu par le secrétariat de l'université. Il vous permet de déposer des plaintes concernant un enseignant ou un démonstrateur qui ne maîtrise pas bien la langue d'enseignement ou ne fournit pas la documentation dans cette même langue.
