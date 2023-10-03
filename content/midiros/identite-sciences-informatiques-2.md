@@ -2,7 +2,7 @@
 date: 2023-10-11T12:30:00-05:00
 title: "Notre identité en sciences informatiques — ou “Quelle est la différence avec le génie logiciel?”"
 speaker: Robin Milosz (conseiller pédagogique, DIRO)
-room: 1409 André-Aisenstadt
+room: André-Aisenstadt 1409 
 draft: false
 ---
 
