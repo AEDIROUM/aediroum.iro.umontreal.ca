@@ -36,3 +36,11 @@ L'horaire des clubs se trouve devant le local 3192 au Pavillon André-Aisenstadt
 * [Groupe Facebook de l'association](//fb.com/groups/2354091571)
 * [Page Facebook de l'association](//fb.com/aediroum)
 * [Café Tore et Fraction](//cafemathinfo.iro.umontreal.ca)
+
+#### Ressources d'aide
+
+Pour tout problème avec une personne étudiante, enseignante ou autre membre de la communauté de l'Université, ces&nbsp;ressources sont disponibles:
+
+* [Bureau du respect de la personne](//respect.umontreal.ca/accueil)
+* [Bureau des droits étudiants de la FAÉCUM](//www.faecum.qc.ca/services/bureau-des-droits-etudiants-bde)
+* [Bureau de l'ombudsman](//ombudsman.umontreal.ca/accueil)
