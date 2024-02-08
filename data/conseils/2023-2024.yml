@@ -26,13 +26,13 @@ conseil:
         id:
         courriel: matteo.delabre@umontreal.ca
   - Secrétariat:
-      - nom: Mathieu Morin
+      - nom: Gabriel Aubin-Moreau
         id:
-        courriel: mathieu.morin.4@umontreal.ca
+        courriel: gabriel.aubin-moreau@umontreal.ca
   - Adjoint au secrétariat:
-      - nom:
+      - nom: Hoang Quan Tran
         id:
-        courriel:
+        courriel: hoang.quan.tran.1@umontreal.ca
   - Trésorerie:
       - nom: Viviane Binet
         id:
@@ -61,13 +61,13 @@ conseil:
       - nom: Arpad Botond Rigo
         id:
         courriel: arpad.botond.rigo@umontreal.ca
-      - nom: Émanuel Rollin
+      - nom: Francis Roy-Chouinard
         id:
-        courriel: emanuel.rollin@umontreal.ca
+        courriel: francis.roy-chouinard@umontreal.ca
   - Responsable sport:
-      - nom: Valérie Lefebvre
+      - nom: Laurent Mercier
         id:
-        courriel: valerie.lefebvre.9@umontreal.ca
+        courriel: laurent.mercier@umontreal.ca
   - Responsable du carnaval:
       - nom: Gabriel Bélanger
         id: 
@@ -123,6 +123,6 @@ conseil:
         id:
         courriel: rawane.abdel.all@umontreal.ca
   - Représentation des femmes:
-      - nom:
+      - nom: Anne Sophie Rozéfort
         id:
-        courriel:
+        courriel: anne.sophie.rozefort@umontreal.ca
