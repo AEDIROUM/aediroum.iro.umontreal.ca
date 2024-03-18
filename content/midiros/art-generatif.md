@@ -1,8 +1,8 @@
 ---
 date: 2024-03-19T12:30:00-05:00
 title: "Du code pour générer de l'art"
-speaker: Benoit Baudry (Professeur titulaire, DIRO)
-room: AA-1177
+speaker: Benoit Baudry (professeur titulaire, DIRO)
+room: André-Aisenstadt 1177
 draft: false
 ---
 
