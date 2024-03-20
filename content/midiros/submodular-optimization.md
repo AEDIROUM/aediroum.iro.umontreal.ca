@@ -2,7 +2,7 @@
 date: 2024-03-22T12:30:00-05:00
 title: "Generalized Submodular Optimization"
 speaker: Kimberly Yu (professeure adjointe, DIRO)
-room: André-Aisenstadt-1207
+room: André-Aisenstadt 1207
 draft: false
 ---
 
