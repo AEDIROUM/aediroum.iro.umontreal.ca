@@ -43,7 +43,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
       - name: Setup TeX Live
-        uses: teatimeguest/setup-texlive-action@v2
+        uses: teatimeguest/setup-texlive-action@v3
         with:
           packages: >-
             collection-basic
