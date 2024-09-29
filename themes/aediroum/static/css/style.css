@@ -257,7 +257,23 @@ button {
   margin: .5em .25em;
 }
 
-.fc-dayGridFourDay-view .fc-event-title {
-  padding: 0 .5em;
+.fc-dayGridFourDay-view .fc-daygrid-dot-event {
+  flex-flow: row wrap;
+}
+
+.fc-dayGridFourDay-view .fc-event::before {
+  order: 1;
+  content: "";
+  width: 100%;
+}
+
+.fc-dayGridFourDay-view .fc-event .fc-daygrid-event-dot,
+.fc-dayGridFourDay-view .fc-event .fc-event-time {
+  order: 1;
+}
+
+.fc-dayGridFourDay-view .fc-event .fc-event-title {
+  order: 2;
+  padding: 0 .25em;
   white-space: normal;
 }
