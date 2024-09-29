@@ -2,6 +2,7 @@
 
 :root {
   --background: #FEFEFE;
+  --background-highlight: #DEDEDE;
   --foreground: #1E1E1E;
   --foreground-muted: #8A8A8A;
 
@@ -26,6 +27,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #1E1E1E;
+    --background-highlight: #3E3E3E;
     --foreground: #FAFAFA;
     --foreground-muted: #A0A0A0;
 
@@ -211,4 +213,51 @@ button {
 
 .modal .btn {
   color: var(--foreground);
+}
+
+/* Calendrier */
+
+.fc .fc-toolbar-title {
+  font-size: 1.4em;
+}
+
+.fc .fc-toolbar-chunk:first-child {
+  min-width: 30%;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+  background-color: var(--button-background);
+  color: var(--button-foreground);
+}
+
+.fc .fc-button-primary:not(:disabled):active {
+  background-color: var(--button-background);
+  color: var(--button-foreground);
+}
+
+.fc .fc-button:not(:disabled) {
+  background-color: var(--button-background-active);
+  color: var(--button-foreground);
+}
+
+.fc .fc-button:disabled {
+  background-color: var(--button-background);
+  color: var(--button-foreground);
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: var(--background-highlight);
+}
+
+.fc-daygrid-dot-event {
+  align-items: start;
+}
+
+.fc-daygrid-event-dot {
+  margin: .5em .25em;
+}
+
+.fc-dayGridFourDay-view .fc-event-title {
+  padding: 0 .5em;
+  white-space: normal;
 }
