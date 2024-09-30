@@ -217,6 +217,10 @@ button {
 
 /* Calendrier */
 
+.fc {
+  --fc-border-color: var(--bs-border-color);
+}
+
 .fc:fullscreen {
   padding: 4em;
   background-color: var(--background);
@@ -228,6 +232,8 @@ button {
 
 .fc-scrollgrid {
   min-width: 696px;
+  border-radius: var(--bs-border-radius);
+  overflow: hidden;
 }
 
 /** En-tête **/
@@ -267,23 +273,31 @@ button {
   background-color: var(--background-highlight);
 }
 
-.fc-event .fc-event-time::before {
+.fc-dayGridMonth-view .fc-event .fc-event-title::before,
+.fc-dayGridNextDays-view .fc-event .fc-event-time::before {
   display: inline-block;
+  box-sizing: content-box;
   content: "";
+
   border: calc(var(--fc-daygrid-event-dot-width)/2) solid var(--fc-event-border-color);
   border-radius: calc(var(--fc-daygrid-event-dot-width)/2);
-  box-sizing: content-box;
-  height: 0px;
-  margin: 0px 4px;
-  width: 0px;
+  height: 0;
+  width: 0;
+
+  margin: 0 .5em 0 0;
 }
 
 /** Affichage par mois **/
+.fc-dayGridMonth-view .fc-event .fc-event-time,
 .fc-dayGridMonth-view .fc-event .fc-event-location {
   display: none;
 }
 
 /** Affichage par journées **/
+.fc-dayGridNextDays-view .fc-event .fc-event-time::before {
+  vertical-align: 7.5%;
+}
+
 .fc-dayGridNextDays-view .fc-daygrid-dot-event {
   flex-flow: row wrap;
   font-size: 1em;
@@ -298,6 +312,11 @@ button {
   width: 100%;
 }
 
+.fc-dayGridNextDays-view .fc-event .fc-event-title {
+  color: var(--foreground);
+}
+
 .fc-dayGridNextDays-view .fc-event .fc-event-location {
   font-style: italic;
+  color: var(--foreground-muted);
 }
