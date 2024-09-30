@@ -1,18 +1,13 @@
 {{ define "main" }}
+  <p style="float: right;">
+    <a class="btn btn-primary" href="webcal://bot.aediroum.ca/events.ics">S’abonner</a>
+    <button class="btn btn-dark" id="events-fullscreen">Plein écran</button>
+  </p>
   <h3>{{ .Title }}</h3>
 
   {{ .Content }}
 
-  <p>
-    <strong>Abonnement via</strong>
-    <a href="webcal://bot.aediroum.ca/events.ics">Calendrier iCal</a>
-  </p>
-
-  <p>
-    <button class="btn btn-dark" id="events-fullscreen">Passer en plein écran</button>
-  </p>
-
-  <div id="events-calendar"></div>
+  <div id="events-calendar" style="clear: both;"></div>
 {{ end }}
 
 {{ define "scripts" }}
@@ -22,8 +17,10 @@
   <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.15/locales-all.global.min.js" integrity="sha256-lzem0W8FCaLegnCNhEQnF4bMnpq9Du4IiUDonSOXCA8=" crossorigin="anonymous"></script>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
+      const locale = "fr";
       const calendarEl = document.getElementById("events-calendar");
       const fullscreenEl = document.getElementById("events-fullscreen");
+      const formatter = new Intl.DateTimeFormat(locale, { timeStyle: "short" });
 
       fullscreenEl.addEventListener("click", () => {
         calendarEl.requestFullscreen();
@@ -31,7 +28,7 @@
 
       const calendar = new FullCalendar.Calendar(calendarEl, {
         /* Paramètres de langue. */
-        locale: "fr",
+        locale,
         firstDay: 0,
 
         /* Configuration des vues de calendrier. */
@@ -64,7 +61,21 @@
         eventContent: function(info, createElement) {
           const time = document.createElement("div");
           time.className = "fc-event-time";
-          time.textContent = info.timeText;
+
+          const startTime = document.createElement("time");
+          startTime.textContent = formatter.format(info.event.start);
+          startTime.datetime = info.event.start.toISOString();
+          startTime.setAttribute("datetime", info.event.start.toISOString());
+
+          const timeSeparator = document.createTextNode(" à ");
+
+          const endTime = document.createElement("time");
+          endTime.textContent = formatter.format(info.event.end);
+          endTime.setAttribute("datetime", info.event.end.toISOString());
+
+          time.appendChild(startTime);
+          time.appendChild(timeSeparator);
+          time.appendChild(endTime);
 
           const title = document.createElement("div");
           title.className = "fc-event-title";
