@@ -5,39 +5,3 @@
 {{ define "main" }}
   {{ .Content }}
 {{ end }}
-
-{{ define "scripts" }}
-<script src="https://cdn.jsdelivr.net/npm/ical.js@1.5.0/build/ical.min.js" integrity="sha256-uotVKltUv5neKsIlZxrxUccba0PaptusFj6p+w8Sons=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js" integrity="sha256-ZztCtsADLKbUFK/X6nOYnJr0eelmV2X3dhLDB/JK6fM=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.1.15/index.global.min.js" integrity="sha256-4zHPHslCgpks0gXVzHuFcF3aL1y674HH8L9s3vQiJK4=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.15/locales-all.global.min.js" integrity="sha256-lzem0W8FCaLegnCNhEQnF4bMnpq9Du4IiUDonSOXCA8=" crossorigin="anonymous"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const calendarEl = document.getElementById("events-calendar");
-    const calendar = new FullCalendar.Calendar(calendarEl, {
-      initialView: "dayGridFourDay",
-      headerToolbar: {
-        center: "dayGridFourDay,dayGridMonth",
-      },
-      locale: "fr",
-      contentHeight: 400,
-      events: {
-        url: "https://bot.aediroum.ca/events.ics",
-        format: "ics",
-      },
-      views: {
-        dayGridFourDay: {
-          type: "dayGrid",
-          duration: { days: 4 },
-          buttonText: "À venir"
-        },
-      },
-      navLinks: true,
-      navLinkDayClick: function(date, jsEvent) {
-        calendar.changeView("dayGridFourDay", date);
-      },
-    });
-    calendar.render();
-  });
-</script>
-{{ end }}

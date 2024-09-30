@@ -1,0 +1,83 @@
+{{ define "main" }}
+  <h3>{{ .Title }}</h3>
+
+  {{ .Content }}
+
+  <p>
+    <strong>Abonnement via</strong>
+    <a href="webcal://bot.aediroum.ca/events.ics">Calendrier iCal</a>
+  </p>
+
+  <p>
+    <button class="btn btn-dark" id="events-fullscreen">Passer en plein écran</button>
+  </p>
+
+  <div id="events-calendar"></div>
+{{ end }}
+
+{{ define "scripts" }}
+  <script src="https://cdn.jsdelivr.net/npm/ical.js@1.5.0/build/ical.min.js" integrity="sha256-uotVKltUv5neKsIlZxrxUccba0PaptusFj6p+w8Sons=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js" integrity="sha256-ZztCtsADLKbUFK/X6nOYnJr0eelmV2X3dhLDB/JK6fM=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.1.15/index.global.min.js" integrity="sha256-4zHPHslCgpks0gXVzHuFcF3aL1y674HH8L9s3vQiJK4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.15/locales-all.global.min.js" integrity="sha256-lzem0W8FCaLegnCNhEQnF4bMnpq9Du4IiUDonSOXCA8=" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const calendarEl = document.getElementById("events-calendar");
+      const fullscreenEl = document.getElementById("events-fullscreen");
+
+      fullscreenEl.addEventListener("click", () => {
+        calendarEl.requestFullscreen();
+      });
+
+      const calendar = new FullCalendar.Calendar(calendarEl, {
+        /* Paramètres de langue. */
+        locale: "fr",
+        firstDay: 0,
+
+        /* Configuration des vues de calendrier. */
+        contentHeight: 500,
+        initialView: "dayGridNextDays",
+        headerToolbar: {
+          center: "dayGridNextDays,dayGridMonth",
+        },
+        views: {
+          dayGridNextDays: {
+            type: "dayGrid",
+            duration: { days: 4 },
+            buttonText: "À venir"
+          },
+        },
+
+        /* Charge le contenu depuis le flux ICS externe. */
+        events: {
+          url: "https://bot.aediroum.ca/events.ics",
+          format: "ics",
+        },
+
+        /* Navigue vers la vue par journée lors du clic sur une date du mois. */
+        navLinks: true,
+        navLinkDayClick: function(date, jsEvent) {
+          calendar.changeView("dayGridNextDays", date);
+        },
+
+        /* Change le rendu des événements pour ajouter la localisation. */
+        eventContent: function(info, createElement) {
+          const time = document.createElement("div");
+          time.className = "fc-event-time";
+          time.textContent = info.timeText;
+
+          const title = document.createElement("div");
+          title.className = "fc-event-title";
+          title.textContent = info.event.title;
+
+          const location = document.createElement("div");
+          location.className = "fc-event-location";
+          location.textContent = info.event.extendedProps.location;
+
+          return {domNodes: [time, title, location]};
+        },
+      });
+      calendar.render();
+    });
+</script>
+{{ end }}
