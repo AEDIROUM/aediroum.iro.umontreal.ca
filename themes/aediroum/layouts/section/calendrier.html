@@ -66,16 +66,18 @@
           startTime.textContent = formatter.format(info.event.start);
           startTime.datetime = info.event.start.toISOString();
           startTime.setAttribute("datetime", info.event.start.toISOString());
-
-          const timeSeparator = document.createTextNode(" à ");
-
-          const endTime = document.createElement("time");
-          endTime.textContent = formatter.format(info.event.end);
-          endTime.setAttribute("datetime", info.event.end.toISOString());
-
           time.appendChild(startTime);
-          time.appendChild(timeSeparator);
-          time.appendChild(endTime);
+
+          if (info.event.end) { 
+            const timeSeparator = document.createTextNode(" à ");
+
+            const endTime = document.createElement("time");
+            endTime.textContent = formatter.format(info.event.end);
+            endTime.setAttribute("datetime", info.event.end.toISOString());
+
+            time.appendChild(timeSeparator);
+            time.appendChild(endTime);
+          }
 
           const title = document.createElement("div");
           title.className = "fc-event-title";
