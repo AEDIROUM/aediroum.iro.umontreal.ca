@@ -1,5 +1,5 @@
 ---
-title: Comités de représentation
+title: Élu.e.s
 layout: conseils
 menu: main
 weight: 2
