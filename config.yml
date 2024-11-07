@@ -27,6 +27,10 @@ menu:
       url: /documents/positions
       parent: documents
       weight: 4
+    - name: Code de vie
+      url: /documents/codedevie
+      parent: documents
+      weight: 5
 
 # Output formats
 outputs:

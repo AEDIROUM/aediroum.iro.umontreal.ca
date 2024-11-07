@@ -12,4 +12,6 @@ build:
 		politiques/build/faecum.pdf \
 		politiques/build/positions \
 		politiques/build/positions.pdf \
+		politiques/build/codedevie \
+		politiques/build/codedevie.pdf \
 		static/documents
