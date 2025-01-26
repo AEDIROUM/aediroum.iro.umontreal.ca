@@ -14,9 +14,9 @@ conseil:
         id:
         courriel: julien-charles.cyr@umontreal.ca
   - Adjoint à la vice-présidence aux communications:
-      - nom:
+      - nom: Daniella Abbas
         id:
-        courriel:
+        courriel: daniellaabbas99@hotmail.com
   - Vice-présidence externe:
       - nom: Angélique Mah
         id:
@@ -26,13 +26,13 @@ conseil:
         id:
         courriel: karl.desjardins.1@umontreal.ca
   - Secrétariat:
-      - nom: Maxim Bernard
-        id:
-        courriel: maxim.bernard@umontreal.ca
-  - Adjoint au secrétariat:
       - nom: Théodore Le Roy
         id:
         courriel: theodore.le.roy@umontreal.ca
+  - Adjoint au secrétariat:
+      - nom: Samuel Maltais
+        id:
+        courriel: samuel.maltais@umontreal.ca
   - Trésorerie:
       - nom: Viviane Binet
         id:
@@ -42,9 +42,9 @@ conseil:
         id:
         courriel: ilyes.salhi@umontreal.ca
   - Adjoint à la coordination à la vie étudiante (soirées):
-      - nom: Émanuel Rollin
+      - nom: Mazigh Kartout
         id:
-        courriel: emanuel.rollin@umontreal.ca
+        courriel: mazigh.kartout@umontreal.ca
   - Adjoint à la coordination à la vie étudiante (activités socioculturelles):
       - nom: Océane Hays
         id:
@@ -62,17 +62,17 @@ conseil:
         id:
         courriel: tarik.benakezouh@umontreal.ca
   - Responsable du carnaval:
-      - nom:
-        id: 
-        courriel:
+      - nom: Cal Gutiérrez
+        id:
+        courriel: cal.gutierrez@umontreal.ca
   - Responsable des jeux:
       - nom: Félix Beaudoin
         id:
         courriel: felix.beaudoin.1@umontreal.ca
   - Responsable des locaux:
-      - nom: Émanuel Rollin
+      - nom: Chiril Reabitchi
         id:
-        courriel: emanuel.rollin@umontreal.ca
+        courriel: chiril.reabitchi@umontreal.ca
   - Représentation du café Tore et Fraction:
       - nom: Simon Guy
         id:
@@ -90,9 +90,9 @@ conseil:
         id:
         courriel: cassandre.hamel.1@umontreal.ca
   - Représentation de la majeure:
-      - nom:
+      - nom: Cal Gutiérrez
         id:
-        courriel:
+        courriel: cal.gutierrez@umontreal.ca
   - Représentation mathématiques et informatique:
       - nom: Nathan Acheampong
         id:
