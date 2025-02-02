@@ -46,7 +46,7 @@ conseil:
         id:
         courriel: mazigh.kartout@umontreal.ca
   - Adjoint à la coordination à la vie étudiante (activités socioculturelles):
-      - nom: Océane Hays
+      - nom: Oceane Hays
         id:
         courriel: oceane.hays@umontreal.ca
   - Responsable MiDiro:
@@ -78,7 +78,7 @@ conseil:
         id:
         courriel: simon.guy5264@gmail.com
   - Représentation de la première année:
-      - nom: Daniela Abbas
+      - nom: Daniella Abbas
         id:
         courriel: daniellaabbas99@hotmail.com
   - Représentation de la deuxième année:
@@ -113,3 +113,7 @@ conseil:
       - nom: Anne Sophie Rozéfort
         id:
         courriel: anne.sophie.rozefort@umontreal.ca
+  - Représentation Mila:
+      - nom: Kevin Lessard
+        id:
+        courriel: kevin.lessard@umontreal.ca
