@@ -49,10 +49,6 @@ conseil:
       - nom: Oceane Hays
         id:
         courriel: oceane.hays@umontreal.ca
-  - Représentation du café Tore et Fraction:
-      - nom: Simon Guy
-        id:
-        courriel: simon.guy5264@gmail.com
   - Représentation de première année au baccalauréat en informatique:
       - nom: Daniella Abbas
         id:
@@ -81,6 +77,10 @@ conseil:
       - nom: Rodrigue de Schaetzen
         id:
         courriel: rodrigue.de.schaetzen@umontreal.ca
+  - Représentation du café Tore et Fraction:
+      - nom: Simon Guy
+        id:
+        courriel: simon.guy5264@gmail.com
   - Représentation des personnes étudiantes internationales:
       - nom: Pablo Hidalgo
         id:
