@@ -13,10 +13,10 @@ conseil:
       - nom: Julien-Charles Cyr
         id:
         courriel: julien-charles.cyr@umontreal.ca
-  - Adjoint à la vice-présidence aux communications:
-      - nom:
+  - Adjointe à la vice-présidence aux communications:
+      - nom: Daniella Abbas
         id:
-        courriel:
+        courriel: daniellaabbas99@hotmail.com
   - Vice-présidence externe:
       - nom: Angélique Mah
         id:
@@ -26,13 +26,13 @@ conseil:
         id:
         courriel: karl.desjardins.1@umontreal.ca
   - Secrétariat:
-      - nom: Maxim Bernard
-        id:
-        courriel: maxim.bernard@umontreal.ca
-  - Adjoint au secrétariat:
       - nom: Théodore Le Roy
         id:
         courriel: theodore.le.roy@umontreal.ca
+  - Adjoint au secrétariat:
+      - nom: Samuel Maltais
+        id:
+        courriel: samuel.maltais@umontreal.ca
   - Trésorerie:
       - nom: Viviane Binet
         id:
@@ -42,18 +42,62 @@ conseil:
         id:
         courriel: ilyes.salhi@umontreal.ca
   - Adjoint à la coordination à la vie étudiante (soirées):
-      - nom: Émanuel Rollin
+      - nom: Mazigh Kartout
         id:
-        courriel: emanuel.rollin@umontreal.ca
+        courriel: mazigh.kartout@umontreal.ca
   - Adjoint à la coordination à la vie étudiante (activités socioculturelles):
-      - nom: Océane Hays
+      - nom: Oceane Hays
         id:
         courriel: oceane.hays@umontreal.ca
-  - Responsable MiDiro:
+  - Représentation de première année au baccalauréat en informatique:
+      - nom: Daniella Abbas
+        id:
+        courriel: daniellaabbas99@hotmail.com
+  - Représentation de deuxième année au baccalauréat en informatique:
+      - nom: Laurent Mercier
+        id:
+        courriel: laurent.mercier@umontreal.ca
+  - Représentation de troisième année au baccalauréat en informatique:
+      - nom: Cassandre Hamel
+        id:
+        courriel: cassandre.hamel.1@umontreal.ca
+  - Représentation de la majeure en informatique:
+      - nom: Cal Gutiérrez
+        id:
+        courriel: cal.gutierrez@umontreal.ca
+  - Représentation du baccalauréat bidisciplinaire en mathématiques et informatique:
+      - nom: Nathan Acheampong
+        id:
+        courriel: nathan.acheampong@umontreal.ca
+  - Représentation de la maîtrise en informatique:
+      - nom: Rabbi Binda Mvitu
+        id:
+        courriel: rabbi.binda.mvitu@umontreal.ca
+  - Représentation du doctorat en informatique:
+      - nom: Rodrigue de Schaetzen
+        id:
+        courriel: rodrigue.de.schaetzen@umontreal.ca
+  - Représentation du café Tore et Fraction:
+      - nom: Simon Guy
+        id:
+        courriel: simon.guy5264@gmail.com
+  - Représentation des personnes étudiantes internationales:
+      - nom: Pablo Hidalgo
+        id:
+        courriel: pablo.hidalgo.etienne@umontreal.ca
+  - Représentation du Regroupement de Femmes en Informatique:
+      - nom: Anne Sophie Rozéfort
+        id:
+        courriel: anne.sophie.rozefort@umontreal.ca
+  - Représentation des personnes étudiantes de Mila:
+      - nom: Kevin Lessard
+        id:
+        courriel: kevin.lessard@umontreal.ca
+  - Responsable des MiDiro:
       - nom: Marie-Anne Prud’Homme-Maurice
         id:
         courriel: marie-anne.prudhomme-maurice@umontreal.ca
-  - Responsable compétition:
+  - Responsable des compétitions:
       - nom: Jaydan Aladro
         id:
         courriel: jaydan.aladro@umontreal.ca
@@ -61,55 +105,19 @@ conseil:
       - nom: Tarik Benakezouh
         id:
         courriel: tarik.benakezouh@umontreal.ca
-  - Responsable du carnaval:
-      - nom:
-        id: 
-        courriel:
+  - Responsable du Carnaval:
+      - nom: Cal Gutiérrez
+        id:
+        courriel: cal.gutierrez@umontreal.ca
   - Responsable des jeux:
       - nom: Félix Beaudoin
         id:
         courriel: felix.beaudoin.1@umontreal.ca
   - Responsable des locaux:
-      - nom: Émanuel Rollin
+      - nom: Chiril Reabitchi
         id:
-        courriel: emanuel.rollin@umontreal.ca
-  - Représentation du café Tore et Fraction:
+        courriel: chiril.reabitchi@umontreal.ca
+  - Responsable de la marchandise:
       - nom: Simon Guy
         id:
         courriel: simon.guy5264@gmail.com
-  - Représentation de la première année:
-      - nom: Daniela Abbas
-        id:
-        courriel: daniellaabbas99@hotmail.com
-  - Représentation de la deuxième année:
-      - nom: Laurent Mercier
-        id:
-        courriel: laurent.mercier@umontreal.ca
-  - Représentation de la troisième année:
-      - nom: Cassandre Hamel
-        id:
-        courriel: cassandre.hamel.1@umontreal.ca
-  - Représentation de la majeure:
-      - nom:
-        id:
-        courriel:
-  - Représentation mathématiques et informatique:
-      - nom: Nathan Acheampong
-        id:
-        courriel: nathan.acheampong@umontreal.ca
-  - Représentation de la maîtrise:
-      - nom: Rabbi Binda Mvitu
-        id:
-        courriel: rabbi.binda.mvitu@umontreal.ca
-  - Représentation du doctorat:
-      - nom: Rodrigue de Schaetzen
-        id:
-        courriel: rodrigue.de.schaetzen@umontreal.ca
-  - Représentation des personnes étudiantes internationales:
-      - nom: Pablo Hidalgo
-        id:
-        courriel: pablo.hidalgo.etienne@umontreal.ca
-  - Représentation des femmes:
-      - nom: Anne Sophie Rozéfort
-        id:
-        courriel: anne.sophie.rozefort@umontreal.ca
