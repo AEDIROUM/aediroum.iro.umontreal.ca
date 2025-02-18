@@ -49,11 +49,11 @@ conseil:
       - nom: Oceane Hays
         id:
         courriel: oceane.hays@umontreal.ca
-  - Responsable MiDiro:
+  - Responsable des MiDiro:
       - nom: Marie-Anne Prud’Homme-Maurice
         id:
         courriel: marie-anne.prudhomme-maurice@umontreal.ca
-  - Responsable compétition:
+  - Responsable des compétitions:
       - nom: Jaydan Aladro
         id:
         courriel: jaydan.aladro@umontreal.ca
@@ -61,7 +61,7 @@ conseil:
       - nom: Tarik Benakezouh
         id:
         courriel: tarik.benakezouh@umontreal.ca
-  - Responsable du carnaval:
+  - Responsable du Carnaval:
       - nom: Cal Gutiérrez
         id:
         courriel: cal.gutierrez@umontreal.ca
@@ -77,31 +77,31 @@ conseil:
       - nom: Simon Guy
         id:
         courriel: simon.guy5264@gmail.com
-  - Représentation de la première année:
+  - Représentation de première année au baccalauréat en informatique:
       - nom: Daniella Abbas
         id:
         courriel: daniellaabbas99@hotmail.com
-  - Représentation de la deuxième année:
+  - Représentation de deuxième année au baccalauréat en informatique:
       - nom: Laurent Mercier
         id:
         courriel: laurent.mercier@umontreal.ca
-  - Représentation de la troisième année:
+  - Représentation de troisième année au baccalauréat en informatique:
       - nom: Cassandre Hamel
         id:
         courriel: cassandre.hamel.1@umontreal.ca
-  - Représentation de la majeure:
+  - Représentation de la majeure en informatique:
       - nom: Cal Gutiérrez
         id:
         courriel: cal.gutierrez@umontreal.ca
-  - Représentation mathématiques et informatique:
+  - Représentation du baccalauréat bidisciplinaire en mathématiques et informatique:
       - nom: Nathan Acheampong
         id:
         courriel: nathan.acheampong@umontreal.ca
-  - Représentation de la maîtrise:
+  - Représentation de la maîtrise en informatique:
       - nom: Rabbi Binda Mvitu
         id:
         courriel: rabbi.binda.mvitu@umontreal.ca
-  - Représentation du doctorat:
+  - Représentation du doctorat en informatique:
       - nom: Rodrigue de Schaetzen
         id:
         courriel: rodrigue.de.schaetzen@umontreal.ca
@@ -109,15 +109,15 @@ conseil:
       - nom: Pablo Hidalgo
         id:
         courriel: pablo.hidalgo.etienne@umontreal.ca
-  - Représentation des femmes:
+  - Représentation du Regroupement de Femmes en Informatique:
       - nom: Anne Sophie Rozéfort
         id:
         courriel: anne.sophie.rozefort@umontreal.ca
-  - Représentation Mila:
+  - Représentation des personnes étudiantes de Mila:
       - nom: Kevin Lessard
         id:
         courriel: kevin.lessard@umontreal.ca
-  - Représentation de la Merch:
+  - Responsable de la marchandise:
       - nom: Simon Guy
         id:
         courriel: simon.guy5264@gmail.com
