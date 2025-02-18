@@ -3,5 +3,7 @@ annee: 2023-2024
 proces:
   - evenement: Assemblée générale
     date: 2023-09-14
-    adoption: 2024-02-14
-
+    adoption: 2024-02-07
+  - evenement: Assemblée générale
+    date: 2024-02-07
+    adoption: 2024-09-16
