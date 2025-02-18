@@ -13,7 +13,7 @@ conseil:
       - nom: Julien-Charles Cyr
         id:
         courriel: julien-charles.cyr@umontreal.ca
-  - Adjoint à la vice-présidence aux communications:
+  - Adjointe à la vice-présidence aux communications:
       - nom: Daniella Abbas
         id:
         courriel: daniellaabbas99@hotmail.com
@@ -49,30 +49,6 @@ conseil:
       - nom: Oceane Hays
         id:
         courriel: oceane.hays@umontreal.ca
-  - Responsable des MiDiro:
-      - nom: Marie-Anne Prud’Homme-Maurice
-        id:
-        courriel: marie-anne.prudhomme-maurice@umontreal.ca
-  - Responsable des compétitions:
-      - nom: Jaydan Aladro
-        id:
-        courriel: jaydan.aladro@umontreal.ca
-  - Responsable des sports:
-      - nom: Tarik Benakezouh
-        id:
-        courriel: tarik.benakezouh@umontreal.ca
-  - Responsable du Carnaval:
-      - nom: Cal Gutiérrez
-        id:
-        courriel: cal.gutierrez@umontreal.ca
-  - Responsable des jeux:
-      - nom: Félix Beaudoin
-        id:
-        courriel: felix.beaudoin.1@umontreal.ca
-  - Responsable des locaux:
-      - nom: Chiril Reabitchi
-        id:
-        courriel: chiril.reabitchi@umontreal.ca
   - Représentation du café Tore et Fraction:
       - nom: Simon Guy
         id:
@@ -117,6 +93,30 @@ conseil:
       - nom: Kevin Lessard
         id:
         courriel: kevin.lessard@umontreal.ca
+  - Responsable des MiDiro:
+      - nom: Marie-Anne Prud’Homme-Maurice
+        id:
+        courriel: marie-anne.prudhomme-maurice@umontreal.ca
+  - Responsable des compétitions:
+      - nom: Jaydan Aladro
+        id:
+        courriel: jaydan.aladro@umontreal.ca
+  - Responsable des sports:
+      - nom: Tarik Benakezouh
+        id:
+        courriel: tarik.benakezouh@umontreal.ca
+  - Responsable du Carnaval:
+      - nom: Cal Gutiérrez
+        id:
+        courriel: cal.gutierrez@umontreal.ca
+  - Responsable des jeux:
+      - nom: Félix Beaudoin
+        id:
+        courriel: felix.beaudoin.1@umontreal.ca
+  - Responsable des locaux:
+      - nom: Chiril Reabitchi
+        id:
+        courriel: chiril.reabitchi@umontreal.ca
   - Responsable de la marchandise:
       - nom: Simon Guy
         id:
